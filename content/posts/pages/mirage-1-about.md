@@ -3,7 +3,9 @@ description: Lighthearted, minimalistic, rules-light game for people who love st
 ---
 
 <!-- <img className="post-header" src="/img/valley-cropped.png"/> -->
+<!--
 <img className="post-header-image" src="/page/mirage/storytellers.jpg"/>
+-->
 
 # Mirage
 Mirage is a game for people who love storytelling, improvisation, and freeform roleplay.

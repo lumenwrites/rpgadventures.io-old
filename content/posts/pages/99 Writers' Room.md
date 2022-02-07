@@ -2,7 +2,9 @@
 description: We are a group of GMs who meet in the discord voice chat, and challenge ourselves to improvise a one-shot adventure in 2 hours.
 ---
 
+<!--
 <img className="post-header-image" src="/page/writers-room/storytellers.jpg"/>
+-->
 
 # Adventure Writers' Room
 We are a group of GMs who meet in the discord voice chat, and challenge ourselves to improvise a one-shot adventure in 2 hours. Our goal is to brainstorm fun ideas and improvise stories together in a chill, lighthearted, no-pressure environment.

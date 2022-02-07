@@ -4,7 +4,7 @@
         <title>RPG Adventures</title>
         <link>https://rpgadventures.io</link>
         <description>Awesome Adventures for Tabletop Roleplaying Games.</description>
-        <lastBuildDate>Mon, 07 Feb 2022 14:45:16 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 07 Feb 2022 17:27:21 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -1670,6 +1670,35 @@ The center of the hive-mind (the vast underground sentient lake) resides underne
 <hr>
 <p>This adventure was made by the <a href="https://rpgadventures.io/writers-room">Adventure Writer's Room</a> community. We are a group of GMs who meet in the discord voice chat, and challenge ourselves to improvise a one-shot adventure in 2 hours. Our goal is to brainstorm fun ideas and improvise stories together in a chill, lighthearted, no-pressure environment. It works, it really helps with the writing, and it is super fun.</p>
 <p>We're looking for some friendly and creative people to join us!</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[4 ways to come up with fun character ideas]]></title>
+            <link>https://rpgadventures.io/post/come-up-with-character-ideas</link>
+            <guid>https://rpgadventures.io/post/come-up-with-character-ideas</guid>
+            <pubDate>Wed, 01 Jan 2020 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>If you're struggling to come up with an idea for a character -</p>
+<h3 id="take-and-tweak-ideas-from-your-favorite-stories"><a aria-hidden="true" tabindex="-1" href="#take-and-tweak-ideas-from-your-favorite-stories"><span class="icon icon-link"></span></a>Take and tweak ideas from your favorite stories</h3>
+<p>Take your favorite characters from the movies, books, or games you love, and change them in some way:
+Adapt them to the genre you're playing in (take your favorite Sci Fi character, and adapt them to fantasy).
+Change one of their key personality traits (take a cool villain and create a good version of them, take a shy and humble character and play an exccentric and outgoing version of them, take a high status character and play them as low status).
+Reverse their physical characteristics (gender, age, appearance, etc).
+Combine characteristics of two different characters into one.
+You can google the lists of the top TV/Movie characters, and see which ones you can change in interesting ways, which ones have interesting aspects that you like could combine to create your own character.</p>
+<blockquote>
+<p>Examples:</p>
+</blockquote>
+<ul>
+<li>Iron Man but in a fantasy universe - a brilliant aristocrat inventing steampunk machines in his spare time.</li>
+<li>Low-status Gandalf - an ancient wizard shyly mumbling something about the powerful artifact that would be nice to destroy, if that's not too much of an inconvenience to you.</li>
+<li>Female Yoda - an old goblin witch people always come to for wisdom and advice.</li>
+</ul>
+<h3 id="start-by-choosing-your-appearance"><a aria-hidden="true" tabindex="-1" href="#start-by-choosing-your-appearance"><span class="icon icon-link"></span></a>Start by choosing your appearance</h3>
+<p>Find an image you find inspiring, and use it as a foundation of your character idea.</p>
+<p>To find great images - search websites like ArtStation, and Pinterest for things like "Fantasy Character Design", "Paladin", "Ranger", etc. Or view the top posts on /r/ImaginaryCharacters.</p>
+<h3 id="start-with-a-superpower"><a aria-hidden="true" tabindex="-1" href="#start-with-a-superpower"><span class="icon icon-link"></span></a>Start with a superpower</h3>
+<p>Finally, you can start with a cool occupation, fantasy race, or a superpower you'd like to have, and build a character around that.</p>
+<h3 id="be-yourself"><a aria-hidden="true" tabindex="-1" href="#be-yourself"><span class="icon icon-link"></span></a>Be yourself</h3>
+<p>If all else fails - you can always just play as a fantasy version of yourself.</p>]]></content:encoded>
         </item>
     </channel>
 </rss>

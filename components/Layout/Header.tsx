@@ -22,9 +22,9 @@ export default function Header({ className }) {
           <Link href={`/`} className="btn btn-nav">
             Adventures
           </Link>
-          <Link href={`/blog`} className="btn btn-nav">
+          {/* <Link href={`/blog`} className="btn btn-nav">
             Blog
-          </Link>
+          </Link> */}
           <DropdownMenu />
           {/* <a className="btn btn-nav btn-cta" onClick={() => toggleModal(`subscribe`)}>
             Subscribe
