@@ -6,7 +6,8 @@
     margin-top: 20px;
   }
 }
-.subscribe-box {
+// subscribe-box gets blocked by adblock, that's why the class is called mailing-list
+.mailing-list {
   max-width: var(--wrapper-width);
   margin: auto;
 

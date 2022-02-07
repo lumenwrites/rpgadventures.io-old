@@ -33,7 +33,7 @@ export default function Subscribe() {
   }
 
   return (
-    <div className={`subscribe-box`}>
+    <div className={`mailing-list`}>
       {config.subscribeCTA}
       <form className="form" onSubmit={submitEmail}>
         <input
