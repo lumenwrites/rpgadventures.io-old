@@ -4,10 +4,73 @@
         <title>RPG Adventures</title>
         <link>https://rpgadventures.io</link>
         <description>Awesome Adventures for Tabletop Roleplaying Games.</description>
-        <lastBuildDate>Mon, 07 Feb 2022 23:11:38 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 07 Feb 2022 23:20:54 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[How to create exciting combat encounters]]></title>
+            <link>https://rpgadventures.io/post/create-engaging-combat-encounters</link>
+            <guid>https://rpgadventures.io/post/create-engaging-combat-encounters</guid>
+            <pubDate>Mon, 07 Feb 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[This is my collection of tips on creating exciting and engaging combat encounters.]]></description>
+            <content:encoded><![CDATA[<p>This is my collection of tips on making combat encounters exciting and engaging, instead of tedious and boring.</p>
+<h1 id="make-combat-short"><a aria-hidden="true" tabindex="-1" href="#make-combat-short"><span class="icon icon-link"></span></a>Make Combat Short</h1>
+<ul>
+<li>Make combat lethal by increasing damage and reducing HP (for players and enemies). It will also encourage players to plan ahead and actually care about getting hit.</li>
+<li>When the players gain significant advantage - enemies can run away, beg for mercy, try to negotiate, offer to betray their master, etc.</li>
+<li>Allow instant kills. When players come up with a brilliant idea or a super exciting move - let them have their moment, don't make them roll for damage, let them defeat the enemy in one awesome move.</li>
+<li>If you notice players getting bored or running out of cool ideas to try, then fudge the numbers and get it over with.</li>
+<li>Use a timer. Give players 1 minute to decide and describe what they do for their move. This adds tension, and encourages players to plan their move while the others are taking their turn, maintaining engagement.</li>
+</ul>
+<h1 id="set-up-exciting-situations"><a aria-hidden="true" tabindex="-1" href="#set-up-exciting-situations"><span class="icon icon-link"></span></a>Set up Exciting Situations</h1>
+<p>Make action scenes interesting the same way writers/screenwriters do:</p>
+<ul>
+<li>Make it dramatic, meaningful to the characters and to the story, create high stakes and important consequences (Luke fighting his own father, Frodo vs Gollum in the Mount Doom).</li>
+<li>Create cool set pieces that put characters in unique/interesting situations (fighting on the roof of a moving train, collapsing buildings, on top of a blimp, Jack Sparrow fighting on top of the mast, Inception Hallway fight, Mad Max, etc.)</li>
+<li>Make vivid and cinematic (but concise) descriptions. Read screenplays for great examples. If you're not using a map - make it clear where everyone is in relation to each other.</li>
+<li>Take inspiration from books and movies, just copy great action scenes.</li>
+<li>Don't do unmotivated random encounters with generic monsters - it's boring and meaningless. Have fewer but more powerful and interesting enemies instead of a bunch of identical repetitive ones.</li>
+</ul>
+<h1 id="make-interesting-interactive-environment"><a aria-hidden="true" tabindex="-1" href="#make-interesting-interactive-environment"><span class="icon icon-link"></span></a>Make Interesting Interactive Environment</h1>
+<p>Make the environment interesting the same way level designers do:</p>
+<ul>
+<li>
+<p>Create environmental obstacles/hazards (traps, lava pits, rockslides, stampedes, storms).</p>
+</li>
+<li>
+<p>Give players opportunities to creatively use their environment (drop a chandelier onto their enemies, set loose wild animals, create a barricade, Jack Sparrow vs Will Turner fight).</p>
+</li>
+<li>
+<p>Use Terrain with Elevation (cliff, waterfall, ravine, raging river), difficult terrain (mud, slopes, swamp) and Cover (columns, tall grass, boulders).</p>
+</li>
+<li>
+<p>Add Interactable Objects (stalactites, chandeliers, wagons, oil lanterns, curtains, explosive barrels, catapult, single use hand grenade).</p>
+</li>
+<li>
+<p>Make setpiece matter, add environment-related events during combat that demand a response (a wave hitting players and washing them off the ship so they need to climb back on, boulder falls into the river of molten lava causing it to splash over the battlemap).</p>
+</li>
+</ul>
+<h1 id="encourage-players-to-keep-roleplaying-during-combat"><a aria-hidden="true" tabindex="-1" href="#encourage-players-to-keep-roleplaying-during-combat"><span class="icon icon-link"></span></a>Encourage Players to keep Roleplaying During Combat</h1>
+<ul>
+<li>Prompt players to describe their actions. Ask "What your attack looks like?", or more specific questions - “How do you want to engage this creature?” or “How are you planning to get to your ally who is surrounded?”</li>
+<li>Encourage banter between players and NPCs during the fight. Give the enemies personalities and desires, make them relatable and interesting to talk to.</li>
+<li>Let players contribute their own ideas, add to the environment. When player asks "Is there a tree somewhere? Or any solid vertical plane?" "Is the cave floor smooth or rugged?" it means that they are thinking of ways to interact with the environment. Whenever a player asks "do I see X?" to almost always say yes. If a player comes up with a cool idea - encourage it, let it happen.</li>
+<li>Give players or enemies an objective that does not involve direct violence(get  the injured NPC out of the dungeon, end the combat quickly, run away, avoid injuring innocents, steal an item and escape before more guards show up, do it stealthily to avoid attracting more guards, disable an alarm. The enemy might only want to complete the ritual or take an item from the players, the monster might only want to protect it's eggs).</li>
+</ul>
+<h1 id="other"><a aria-hidden="true" tabindex="-1" href="#other"><span class="icon icon-link"></span></a>Other</h1>
+<ul>
+<li>If you’re the GM and you want to encourage more narrative creativity - start with yourself, get creative with the combat narration as it happens.</li>
+<li>Try to offer interesting/creative/difficult choices every turn. That's what makes it engaging. Create consequences for the choices to make them feel meaningful.</li>
+</ul>
+<hr>
+<p>Most of these ideas are taken from these threads: <a href="https://old.reddit.com/r/RPGdesign/comments/h8tvyj/the_reason_combat_sucks_and_the_most_obvious/">1</a>, <a href="https://old.reddit.com/r/DnD/comments/h8tw4w/the_reason_combat_sucks_and_the_most_obvious/">2</a>, <a href="https://old.reddit.com/r/DnD/comments/h8q31m/what_are_some_of_the_coolest_combataction_scenes/">3</a>, <a href="https://old.reddit.com/r/DMAcademy/comments/h8q2ks/what_are_some_of_the_coolest_combataction_scenes/">4</a>, and a few articles and youtube videos, the credit goes to the original authors, I have just summarized them and shared my notes.</p>
+<hr>
+<p>Check out <a href="https://rpgadventures.io/course/adventure-academy">Adventure Academy</a> - a course where I share everything I have learned about creating adventures for roleplaying games, and guide you through a straightforward, easy to follow, step-by-step writing process. By the end of the course you will have created your own one-shot adventure similar to the ones you can see <a href="https://rpgadventures.io">here</a>.</p>
+<p>Join <a href="https://rpgadventures.io/writers-room">Adventure Writer's Room</a> - we are a group of people who love creating adventures for tabletop roleplaying games, we help each other to brainstorm ideas and create stories for our players to enjoy.</p>
+<p>Use the <a href="https://perchance.org/adventure-prompts">writing prompts app</a> - A large collection of prompts that will help you to come up with an unlimited number of ideas for plots, settings, characters, encounters - everything you need to create a cool adventure.</p>
+<p>https://old.reddit.com/r/DMAcademy/comments/h9d4w8/how_to_make_combat_awesome_a_list_of_tips_i_have/</p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Run through the adventure in your mind]]></title>
             <link>https://rpgadventures.io/post/run-through-the-adventure-in-your-mind</link>
@@ -491,6 +554,20 @@ Objective - steal it from the Pirate Lord who's currently using it to control th
 <p>The next step is to make a list of 5-10 ideas, pick your favorite one, and develop it into a story. To do that, you can use the <a href="https://rpgadventures.io/brainstorming-template">brainstorming template</a> - it will guide you through the process of turning your idea into a story.</p>
 <p>I also wrote an adventure writing course, which is available for free <a href="https://rpgadventures.io/course/adventure-academy">here</a>. In this course I share everything I know about creating adventures, and guide you through a straightforward step-by-step process to creating your own one-shot adventure. If you've enjoyed this post - you will really love the course.</p>
 <p>I hope you found this guide useful. If you have any questions, feedback on how I can make it better, or your own tips on creating adventure ideas - please leave them in the comments.</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Create Endless Adventure Ideas]]></title>
+            <link>https://rpgadventures.io/post/create-endless-adventure-ideas</link>
+            <guid>https://rpgadventures.io/post/create-endless-adventure-ideas</guid>
+            <pubDate>Sat, 15 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[How to create an endless amount of exciting adventure ideas that you and your players can't wait to play with.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Create Endless Adventure Ideas]]></title>
+            <link>https://rpgadventures.io/post/create-endless-adventure-ideas</link>
+            <guid>https://rpgadventures.io/post/create-endless-adventure-ideas</guid>
+            <pubDate>Sat, 15 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[How to create an endless amount of exciting adventure ideas that you and your players can't wait to play with.]]></description>
         </item>
         <item>
             <title><![CDATA[Sink or Soar]]></title>
@@ -1670,6 +1747,47 @@ The center of the hive-mind (the vast underground sentient lake) resides underne
 <hr>
 <p>This adventure was made by the <a href="https://rpgadventures.io/writers-room">Adventure Writer's Room</a> community. We are a group of GMs who meet in the discord voice chat, and challenge ourselves to improvise a one-shot adventure in 2 hours. Our goal is to brainstorm fun ideas and improvise stories together in a chill, lighthearted, no-pressure environment. It works, it really helps with the writing, and it is super fun.</p>
 <p>We're looking for some friendly and creative people to join us!</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Roleplaying Guidelines]]></title>
+            <link>https://rpgadventures.io/post/roleplaying-guidelines</link>
+            <guid>https://rpgadventures.io/post/roleplaying-guidelines</guid>
+            <pubDate>Wed, 01 Jan 2020 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>Roleplaying Guidelines - a list of tips to give your players to help them get the most out of your games.</p>
+<p>I'm playing one-shots over the discord and it's very helpful to be able to show the new players a list of tips they can follow to help everyone have a great experience. I think it will be good for offline games and campaigns as well. Many tips are inspired by what I have learned from improv, and I think they will help people to tell better stories, and avoid common player problems.</p>
+<p>I hope they will be useful to you. If you can think of anything I should add or improve - please let me know!</p>
+<h1 id="roleplaying-guidelines"><a aria-hidden="true" tabindex="-1" href="#roleplaying-guidelines"><span class="icon icon-link"></span></a>Roleplaying Guidelines</h1>
+<p>Follow these guidelines to get the most out of our games. If you’re new - don’t get too overwhelmed by all these tips. Practice them one at a time - pick one principle you’d like to get better at, and focus on that one thing for the duration of the game.</p>
+<h3 id="play-to-find-out-what-happens"><a aria-hidden="true" tabindex="-1" href="#play-to-find-out-what-happens"><span class="icon icon-link"></span></a>Play to find out what happens</h3>
+<p>Do things that result in a good story, optimize for fun instead of “winning”. Go with the flow, don't try to force preplanned ideas or specific outcomes.</p>
+<h3 id="yes-and"><a aria-hidden="true" tabindex="-1" href="#yes-and"><span class="icon icon-link"></span></a>Yes, and</h3>
+<p>Embrace other players’ ideas and build on top of them. Don’t shut down ideas. Actively help others to have cool moments and achieve their goals, create opportunities for the other characters to shine.</p>
+<h3 id="share-the-spotlight"><a aria-hidden="true" tabindex="-1" href="#share-the-spotlight"><span class="icon icon-link"></span></a>Share the Spotlight</h3>
+<p>Avoid talking over other players and dominating the conversation. Help the quieter players to feel included - ask their opinion or what they would like to do next. If you notice someone being interrupted - ask them what they were about to say.</p>
+<h3 id="actively-contribute-ideas-to-the-story"><a aria-hidden="true" tabindex="-1" href="#actively-contribute-ideas-to-the-story"><span class="icon icon-link"></span></a>Actively contribute ideas to the story</h3>
+<p>Don’t be afraid to add information to the story. Try to describe things vividly, point out interesting details in the world around you. Answer unsolved questions, come up with explanations for things that seems inconsistent, fill in the the missing information, help to create a story that makes sense.</p>
+<h3 id="advance-the-plot"><a aria-hidden="true" tabindex="-1" href="#advance-the-plot"><span class="icon icon-link"></span></a>Advance the Plot</h3>
+<p>Help the GM to move the story along. If you notice that players are stuck talking to each other and going nowhere - make a decision, conclude this scene, and move on to the next one.</p>
+<h3 id="be-an-active-player"><a aria-hidden="true" tabindex="-1" href="#be-an-active-player"><span class="icon icon-link"></span></a>Be an active player</h3>
+<p>Don't wait for others to entertain you, assume the responsibility for making the story more fun for yourself and others. Positive energy and enthusiasm are always welcome.</p>
+<h3 id="stay-in-character"><a aria-hidden="true" tabindex="-1" href="#stay-in-character"><span class="icon icon-link"></span></a>Stay in character</h3>
+<p>Try to immerse yourself in playing your character, like an actor. Try playing characters with real feelings and believable motivations. Try to make other people love and care about your character. Think about your character’s distinctive features, quirks, unique speech patterns. Don’t be shy to act it out, do a silly voice.</p>
+<h3 id="develop-your-character"><a aria-hidden="true" tabindex="-1" href="#develop-your-character"><span class="icon icon-link"></span></a>Develop your Character</h3>
+<p>What are their values and ideals? What do they fear? What flaws/weaknesses do they need to overcome? What is their backstory, significant events that shaped them? What is their deep dark secret? Do they have a strong opinion about what’s going on? What’s going through their head at this moment?</p>
+<h3 id="goals-and-motivations"><a aria-hidden="true" tabindex="-1" href="#goals-and-motivations"><span class="icon icon-link"></span></a>Goals and Motivations</h3>
+<p>Figure out what your character wants, form your own goals, pursue them, creatively overcome obstacles on your way. What does your character want from life? What is their current goal? What do they want from this quest?</p>
+<h3 id="explore-the-relationships"><a aria-hidden="true" tabindex="-1" href="#explore-the-relationships"><span class="icon icon-link"></span></a>Explore the Relationships</h3>
+<p>How does your character feel about the other party members? Establish a connection. How do you know each other? What do you think about them?</p>
+<p>Create interesting tension, conflict dynamics between the characters in the party (while still collaborating as players). What does your character need from another PC? Why do they refuse to give it to you? Could your goals be at odds with each other? As the story goes on, how can your characters resolve the conflict?</p>
+<h3 id="allow-yourself-to-feel"><a aria-hidden="true" tabindex="-1" href="#allow-yourself-to-feel"><span class="icon icon-link"></span></a>Allow yourself to feel</h3>
+<p>This game can get really amazing when you allow yourself to really feel what your character feels in the moment. When you feel safe to express emotions around your friends, and really care about your character and theirs, you will have some amazing and unforgettable moments.</p>
+<h3 id="make-friends"><a aria-hidden="true" tabindex="-1" href="#make-friends"><span class="icon icon-link"></span></a>Make Friends</h3>
+<p>Get to know people outside the games. Leave some time for a bit of socializing before or after the games, chat between the games in the text channel.</p>
+<hr>
+<p>Check out <a href="https://rpgadventures.io/course/adventure-academy">Adventure Academy</a> - a course where I share everything I have learned about creating adventures for roleplaying games, and guide you through a straightforward, easy to follow, step-by-step writing process. By the end of the course you will have created your own one-shot adventure similar to the ones you can see <a href="https://rpgadventures.io">here</a>.</p>
+<p>Join <a href="https://rpgadventures.io/writers-room">Adventure Writer's Room</a> - we are a group of people who love creating adventures for tabletop roleplaying games, we help each other to brainstorm ideas and create stories for our players to enjoy.</p>
+<p>Use the <a href="https://perchance.org/adventure-prompts">writing prompts app</a> - A large collection of prompts that will help you to come up with an unlimited number of ideas for plots, settings, characters, encounters - everything you need to create a cool adventure.</p>
+<p>https://old.reddit.com/r/DMAcademy/comments/nsryp7/roleplaying_guidelines_a_list_of_tips_to_give/</p>]]></content:encoded>
         </item>
     </channel>
 </rss>

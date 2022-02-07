@@ -1,4 +1,4 @@
-3---
+---
 description: Lighthearted, minimalistic, rules-light game for people who love storytelling, improvisation, and freeform roleplay.
 ---
 
