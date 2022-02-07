@@ -1,0 +1,123 @@
+// https://dev.to/ananyaneogi/create-a-dark-light-mode-switch-with-css-variables-34l8
+:root {
+  // Typography
+  --base-font-size: 14px;
+  --main-font: 'Open Sans';
+  --main-font: 'Open Sans';
+  --logo-font: 'RobotoSlab';
+  --headings-font: 'RobotoSlab';
+  --text: #3c4257;
+  --text-heading: #3c4257;
+  --text-subheading: #4e576a;
+  --text-placeholder: #464c61; // for inputs
+  --text-dim: #697386; // for tags
+  --text-link: var(--text); // blue: #5469D4;
+
+  // Big Elements
+  --wrapper-width: 750px;
+  --wrapper-sidebar-width: 1000px; // 700 for content, 300 for sidebar
+  --modal-width: 700px;
+  --main-bg: #faf4e9; // tan // #f1f2f5; // facebook neutral
+  --decoration-line: 2px solid #ff6600;
+  --header-bg: white;
+  --subnav-bg: #fafaf9;
+  --sidebar-bg: white;
+  --active-bg: #fafafa;
+  --quote-bg: #fcf2ef; // #fafafa;
+  --quote-border: #ff6600;
+  --panel-bg: #e0e6ef;
+  --code-bg: #EEECEF; //mix(var(--quote-bg), var(--panel-bg), 50%); // #f5f5f5;
+  --post-bg: white;
+  --post-footer-bg: #fafafa;
+  --modal-bg: white;
+  --footer-bg: #1f324d;
+
+  // Small Elements
+  --btn-bg: white;
+  --btn-bg-hover: #eee;
+  --btn-cta: #ff6600; //#DA552F;// #1977f2; //Facebook Blue
+  --border: #e3e8ee; //#464c61;
+  --border-dim: #f6f7f8;
+  --border-radius: 5px;
+  --input-bg: white; //#262c3b; // lighter in header
+  --input-border: var(--border);
+  --input-bg-subnav: white;
+  --input-border-subnav: var(--border);
+  --scrollbar-thumb: rgba(110, 110, 110, 0.2);
+  // Colors
+  --orange: #da552f;
+  --blue: #478dc0;
+  --box-shadow: 0 0 2px 0px rgb(0 0 0 / 20%);
+}
+
+[data-theme='dark'] {
+  // Typography
+  --base-font-size: 14px;
+  --main-font: 'Muli';
+  --headings-font: 'Muli';
+  --logo-font: 'Open Sans';
+  --text: white;
+  --text-heading: white;
+  --text-subheading: white;
+  --text-placeholder: #444d6d; // for inputs
+  --text-dim: #667399; // for tags
+  --text-link: #478dc0;
+
+  // Big Elements
+  --wrapper-width: 750px;
+  --wrapper-sidebar-width: 1000px; // 700 for content, 300 for sidebar
+  --modal-width: 700px;
+  --main-bg: #202631;
+  --modal-bg: #262d3b;
+  --decoration-line: none;
+  --header-bg: #333b4f;
+  --subnav-bg: #333b4f;
+  --sidebar-bg: #262d3b;
+  --active-bg: #384260; // active sidebar element
+  --panel-bg: #333b4f;
+  --footer-bg: #1a202a;
+  --post-bg: #262d3b;
+  --post-footer-bg: #262d3b;
+  --quote-bg: #353d4d;
+  --quote-border: #ff572f;
+
+  // Small Elements
+  --btn-bg: #333b4f;
+  --btn-bg-hover: #384260;
+  --btn-cta: #404f74;
+  --panel-bg: #343c4e;
+  --code-bg: #1f2532;
+  --border: #667399;
+  --border-dim: #66739949;
+  --border-width: 1px;
+  --border-radius: 5px;
+  --input-bg: #181d29;
+  --input-bg-subnav: #262c3b; 
+  --input-border-subnav: #6673995b;
+  --input-border: var(--input-bg);
+  --scrollbar-thumb: #383d4c;
+  --scrollbar-track: var(--main-bg);
+  --footer-bg: #181d29;
+
+  --box-shadow: 0 0 2px 0px rgb(0 0 0 / 20%);
+}
+
+.btn {
+  display: inline-block; // so i can put it inside a div, float right, and they stay horizontal
+  border: 1px solid var(--border); // border same color as bg, so it's invisible, but I can set its color in CT)A
+  padding: 0 8px;
+}
+
+@import './_fonts.scss';
+@import './_reset.scss';
+@import './_helpers.scss';
+@import './_global.scss';
+@import './_typography.scss';
+@import './_elements.scss';
+@import './_code.scss';
+@import './_layout.scss';
+@import './_browse.scss';
+@import './_post.scss';
+
+@import './_ctas.scss';
+@import './courses';

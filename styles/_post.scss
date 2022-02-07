@@ -1,0 +1,333 @@
+.post {
+  @extend .card;
+  margin-top: 10px;
+  overflow: hidden; // hide rounded footer corners
+  // For footer
+  position: relative;
+  padding-bottom: 50px;
+  .post-footer {
+    padding: 0 40px;
+  }
+}
+
+.related-posts {
+  margin-top: 10px;
+  .post-card {
+    margin-top: 5px;
+  }
+  h2 {
+    margin: 0;
+    padding: 0 10px;
+  }
+  h2 {
+    text-align: left;
+    font-size: 1em;
+  }
+}
+.theme-default {
+  .post-header-text {
+    padding: 30px 60px;
+    margin: -20px -40px 20px -40px;
+    border: none;
+    border-radius: 0;
+    // Orange
+    color: white;
+    h1 {
+      margin: 0;
+      color: white;
+    }
+    h2 {
+      font-weight: normal;
+      color: white;
+      font-size: 1em;
+    }
+    background-image: linear-gradient(45deg, #d31f4d, #fab41e);
+
+    &.orange-pattern {
+      background: url('/img/orange-triangles.jpg'), linear-gradient(45deg, #d31f4d, #fab41e);
+      background-size: cover;
+      color: white;
+    }
+    &.blue {
+      background: #23284b;
+      background-color: #4158d0;
+      background-image: linear-gradient(184deg, rgba(39, 103, 187, 1) 10.4%, rgba(16, 72, 144, 1) 87.7%);
+      color: white;
+    }
+    &.red {
+      background: #ba2b27;
+      background: linear-gradient(15deg, #93291e, #ba2b27);
+      color: white;
+    }
+    &.purple {
+      background-image: linear-gradient(-165deg, rgba(201, 37, 107, 1) 15.4%, rgba(116, 16, 124, 1) 74.7%);
+      color: white;
+    }
+    &.indie-hackers {
+      background-image: linear-gradient(-45deg, #e052a0, #f15c41);
+      color: white;
+    }
+  }
+}
+.theme-adventure {
+  background: #ede5cd;
+  background-image: url(/img/paper-bg2.jpg);
+  font-family: 'Bookmania';
+  color: #140907;
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: 'Mr Eaves';
+    color: #58190d;
+  }
+  h3 {
+    border-bottom: 2px solid #c9ad6a;
+  }
+  a {
+    color: #58190d;
+  }
+  hr {
+    border-top: 1px solid #58190d;
+  }
+  .download-project-files {
+    box-shadow: var(--box-shadow);
+    border: 2px solid #58190d;
+    color: #58190d;
+    font-family: 'RobotoSlab';
+    background: #f9f7e6;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 10px;
+    display: block;
+  }
+  .downloads-modal {
+    background: #f9f7e6;
+    color: #58190d;
+    .files {
+      .file {
+        border: 1px solid #58190d;
+        border: none;
+        border-bottom: 1px solid #58190d57; //#58190D;
+        .download {
+          border: 1px solid #58190d57; //#58190D;
+          color: #58190d;
+          font-family: 'RobotoSlab';
+          background: white;
+          font-weight: bold;
+          svg {
+            color: #58190d;
+          }
+        }
+      }
+    }
+  }
+
+  blockquote {
+    background: #f9f7e7;
+    // border-left: 4px solid #3B3533;
+    // border-right: 4px solid #3B3533;
+    border-style: solid;
+    border-width: 7px;
+    border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAA8CAMAAADG+c2+AAAAM1BMVEUAAAAAAAAAAAAkAAA1GwA0GgA5GgA5GwA4HgA7HgA5HgA7HgA7HwA7HgA8HgA7HgA8HwDn6RpAAAAAEHRSTlMAAQcHMDExQ1ZW1dXY3t7+02zZCAAAAKNJREFUWMPt2LEOwyAMBNCkSXGpKfb/f20G3AGUiWOJdNlueYrt6di2J3xHrmZF9mVCdnd3T/NgCO+ItUWdB0P4RrQWfR4chOVggUcu/cgCH0X6o+ynuivg3QjIAm8FggQJEiRIkCBBggQJEoTApO56An15EFIrVgJ4vaAtlnlwEKKbGrLATlgOxg9XeORfv9IMH+Xzb7tSzGo+gL7chNcjXpUulIwXVrjWS+0AAAAASUVORK5CYII=)
+      12 stretch;
+    border-image-outset: 4px;
+    box-shadow: 0 0 6px #faf7ea;
+    font-family: 'ScalySans';
+    h3 {
+      color: #3b3533;
+      font-weight: bold;
+      font-family: 'ScalySansSmallCaps';
+      font-size: 1.2em;
+      text-align: left;
+      border: none;
+    }
+  }
+  .character-box {
+    display: flex;
+    background-color: #fef1da;
+    border-top: 4px solid #e69928;
+    padding: 10px;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    h2 {
+      font-size: 1.2em;
+      text-align: left;
+      margin: 0;
+    }
+    .character-description {
+      // padding: 0 20px;
+    }
+    .token {
+      width: 100px;
+      height: 100px;
+      min-width: 100px;
+      min-height: 100px;
+      margin: 0;
+      margin-right: 20px;
+      border-radius: 50%;
+      background-size: cover;
+    }
+    .frame {
+      border: 3px solid #ff6600;
+    }
+  }
+  // Images
+  .frame {
+    border: 2px solid #c9ad6a;
+    border-radius: 10px;
+  }
+  .medium {
+    max-width: 400px;
+    max-height: 400px;
+  }
+  .small {
+    max-width: 200px;
+    max-height: 200px;
+  }
+  // For old adventures
+  .token {
+    width: 150px;
+    margin: auto;
+    margin-top: 10px;
+    display: block;
+  }
+  @media (max-width: 640px) {
+    .character-box {
+      flex-direction: column;
+      align-items: center;
+      .token {
+        margin: 0;
+      }
+      h2 {
+        text-align: center;
+        margin-top: 10px;
+      }
+    }
+  }
+  .course-cta {
+    border-radius: var(--border-radius);
+    h3 {
+      border-bottom: none;
+      margin: 0;
+    }
+    padding: 10px 15px;
+    background: #f9f7e6;
+    border: 2px solid #e79828;
+    margin-top: 10px;
+  }
+  .post-footer {
+    background: none; //#f9f7e7;
+    border-top: 1px solid #d2b17d;
+    .tag {
+      color: #58190d;
+      border: 1px solid #58190d;
+      background: #f9f7e7;
+    }
+  }
+  .social-image-footer {
+    background: none;
+    border-top: 1px solid #d2b17d;
+    color: #58190d;
+  }
+}
+
+// Image Capturing
+.social-image-footer {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  padding: 5px 40px;
+  color: #697386;
+  font-weight: bold;
+  background: var(--post-footer-bg);
+  border-top: 1px solid var(--border-dim);
+
+  display: none;
+  .website,
+  .twitter {
+    display: flex;
+    align-items: center;
+    svg {
+      margin-right: 2px;
+    }
+  }
+  .website {
+    svg {
+      margin-top: 1px;
+      margin-right: 4px;
+    }
+  }
+  .twitter {
+    svg {
+      margin-top: 2px;
+    }
+  }
+}
+
+.capture-buttons {
+  margin-top: 10px;
+  float: right;
+  .stat {
+    float: left;
+    line-height: 32px;
+    margin-left: 5px;
+  }
+  .btn {
+    margin-left: 5px;
+    float: left;
+  }
+}
+.position-image {
+  // margin-top: 10px;
+  &.capturing,
+  &.capturing-cropped {
+    // When capturing, twitter image needs to add extra padding, for that it needs extra width
+    width: 870px;
+    margin-left: -60px;
+    // Keep the image in center, so it looks like everything stays in the same place
+    outline: 1px solid red; //var(--border);
+    .post {
+      margin-top: 0;
+    }
+    .post-footer {
+      display: none;
+    }
+    .render-image {
+      // Add padding, remove tags input, add twitter image footer
+      padding: 10px 60px;
+      background: var(--main-bg);
+      .editor {
+        margin: 0;
+      }
+      .tags-input {
+        display: none;
+      }
+      .social-image-footer {
+        display: flex;
+      }
+      // outline: 1px solid white;
+    }
+  }
+  &.capturing-cropped {
+    .cropped-image {
+      width: 870px;
+      height: 455px;
+      overflow: hidden;
+      .render-image {
+        width: 870px;
+        height: 455px;
+        overflow: hidden;
+      }
+    }
+  }
+}

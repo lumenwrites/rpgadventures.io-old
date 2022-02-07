@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url("./fonts/OpenSans/OpenSans-Regular.ttf");
+    // For the "Ensure text remains visible during webfont load" Google PageInsights Suggestion
+    font-display: swap;
+}
+@font-face {
+    font-family: "Open Sans";
+    src: url("./fonts/OpenSans/OpenSans-Light.ttf");
+    font-weight: 100;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Open Sans";
+    src: url("./fonts/OpenSans/OpenSans-Bold.ttf");
+    font-weight: bold;
+    font-display: swap;
+}
+
+// Roboto Slab
+@font-face {
+    font-family: "RobotoSlab";
+    src: url("./fonts/RobotoSlab/RobotoSlab-Black.ttf");
+    font-display: swap;
+}
+@font-face {
+    font-family: "RobotoSlab";
+    src: url("./fonts/RobotoSlab/RobotoSlab-Light.ttf");
+    font-weight: 100;
+    font-display: swap;
+}
+@font-face {
+    font-family: "RobotoSlab";
+    src: url("./fonts/RobotoSlab/RobotoSlab-Bold.ttf");
+    font-weight: bold;
+    font-display: swap;
+}
+
+// Bookmania
+@font-face {
+    font-family: "Bookmania";
+    src: url("./fonts/Bookmania/Bookmania Regular.ttf");
+    font-weight: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Bookmania";
+    src: url("./fonts/Bookmania/Bookmania Bold.ttf");
+    font-weight: bold;
+    font-display: swap;
+}
+// Dnd Fonts
+// Headers
+@font-face {
+	font-family: "Mr Eaves";
+	src: url('./fonts/DnD Fonts/Mr Eaves Small Caps.woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+// Blockquotes
+@font-face {
+	font-family: "ScalySansSmallCaps";
+	src: url('./fonts/DnD Fonts/Scaly Sans Caps.woff2');
+	font-weight: normal;
+	font-style: normal;
+    font-display: swap;
+}
+@font-face {
+	font-family: "ScalySans";
+	src: url('./fonts/DnD Fonts/Scaly Sans.woff2');
+	font-weight: normal;
+	font-style: normal;
+}

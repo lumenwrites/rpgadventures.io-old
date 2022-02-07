@@ -1,0 +1,159 @@
+.post-grid {
+  display: grid;
+  grid-gap: 10px;
+  margin-top: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  min-height: 130px;
+  @media (max-width: 640px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.post-footer {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 29px; // 1px border makes a difference for some reason
+  padding: 0 10px;
+  font-size: 11px;
+  color: #384260;
+  background: var(--post-footer-bg);
+  border-top: 1px solid var(--border-dim);
+
+  .tags {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    .tag {
+      display: flex;
+      align-items: center;
+      float: left;
+      background: var(--panel-bg);
+      color: var(--text-dim);
+      font-size: 12px;
+      border-radius: 2px;
+      margin-right: 5px;
+      height: 20px;
+      padding: 0px 8px;
+      // Undo <a> styling
+      font-weight: 100;
+      text-decoration: none;
+      // for twitter icon before comments
+      svg {
+        margin-right: 4px;
+      }
+    }
+    .right {
+      float: right;
+      .tag {
+        margin-right: 0;
+        margin-left: 2px;
+      }
+    }
+  }
+  .upvote {
+    margin-top: 0;
+    &.upvoted {
+      color: var(--btn-cta);
+    }
+  }
+}
+
+.no-results {
+  position: relative; // for flex-center to work
+  height: 200px;
+}
+
+.post-card {
+  @extend .card;
+  position: relative;
+  overflow: hidden;
+  padding-bottom: calc(28px + 2px); // footer height plus some extra padding
+  display: flex;
+  margin-top: 10px;
+  .description {
+    padding: 10px;
+    padding-bottom: 5px;
+    .title {
+      margin: 0;
+      font-size: 1.2em;
+      font-weight: bold;
+      color: var(--text);
+      display: inline-block;
+      text-align: left;
+    }
+    .summary {
+      font-size: 14px;
+      color: var(--text-dim);
+    }
+  }
+  position: relative; // for post footer
+}
+
+.post-card-box {
+  @extend .card;
+  position: relative;
+  overflow: hidden;
+  padding-bottom: calc(28px + 2px); // footer height plus some extra padding
+  &.no-tags {
+    padding-bottom: 2px;
+  }
+  .thumbnail {
+    // https://github.com/vercel/next.js/issues/18637
+    img {
+      object-fit: cover !important;
+      cursor: pointer;
+    }
+  }
+  .description {
+    padding: 2px 10px 2px 10px;
+    color: var(--text);
+    .title {
+      font-weight: bold;
+      color: var(--text);
+      display: inline-block;
+    }
+    .summary {
+      font-size: 14px;
+      color: var(--text-dim);
+    }
+  }
+}
+
+.pagination {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .page-num {
+    text-align: center;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    padding: 4px 8px;
+    margin: 0 2px;
+    background: var(--btn-bg);
+    border: 1px solid var(--btn-bg);
+    height: 30px;
+    width: 35px;
+    svg {
+      color: var(--text-dim);
+    }
+    &.active,
+    &:hover {
+      border: 1px solid var(--border);
+      background: var(--btn-bg-hover);
+    }
+    &.disabled {
+      cursor: initial;
+      color: var(--text-dim);
+      opacity: 50%;
+      &:hover {
+        border: 1px solid var(--panel-bg);
+        background: var(--panel-bg);
+      }
+    }
+  }
+}

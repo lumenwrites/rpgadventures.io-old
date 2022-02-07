@@ -1,0 +1,305 @@
+header {
+  background: var(--header-bg);
+  box-shadow: var(--box-shadow);
+  z-index: 10;
+  position: relative; // so that box shadow stays on top
+  padding: 8px 0; // 12px + 36px logo + 12px = total height of 56px
+  border-top: var(--decoration-line);
+  box-sizing: border-box;
+  .wrapper {
+    max-width: var(--wrapper-width);
+    margin: auto;
+    padding: 0;
+    min-width: 300px;
+    // When screen size reaches the edges of content, I want some space between screen edges and elements in the header
+    // TODO: for some reason using var(--wrapper-width) doesn't work here??
+    @media (max-width: 750px) {
+      padding: 0 10px;
+    }
+  }
+  &.header-sidebar .wrapper {
+    max-width: var(--wrapper-sidebar-width);
+    @media (max-width: var(--wrapper-sidebar-width)) {
+      padding: 0 20px;
+    }
+  }
+  .logo {
+    line-height: 32px;
+    font-weight: lighter;
+    width: 200px;
+    display: block;
+    float: left;
+    font-family: var(--logo-font);
+    font-size: 22px;
+    color: var(--text);
+    // text-transform: uppercase;
+    .logo-bold {
+      letter-spacing: -1px;
+      font-weight: bold;
+    }
+    .logo-image,
+    .logo-image img {
+      width: 32px;
+      height: 32px;
+      float: left;
+      margin-right: 5px;
+      border-radius: 50%;
+    }
+  }
+
+  nav {
+    float: right;
+    height: 32px;
+    .sorting {
+      .menu,
+      .menu-handle {
+        width: 70px;
+      }
+    }
+    .btn-nav {
+      display: block;
+      float: left;
+    }
+    .avatar {
+      float: left;
+      margin-left: 10px;
+      // border: 1px solid var(--border);
+      // border-radius: var(--border-radius);
+      width: 32px;
+      height: 32px;
+    }
+    .notifications {
+      color: var(--text);
+      font-size: 20px;
+      width: 32px;
+      height: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      float: left;
+      margin-left: 10px;
+      border: 1px solid var(--border);
+      border-radius: var(--border-radius);
+    }
+    @media (max-width: 500px) {
+      // display: none; // for now just hiding it
+      float: left;
+      width: 100%;
+      margin-top: 5px;
+      .btn-nav {
+        float: left;
+        margin-left: 0;
+        margin-right: 5px;
+      }
+      .dropdown {
+        float: left;
+      }
+    }
+  }
+}
+.tag-header {
+  background: #fafafa;
+  padding: 20px;
+  background-image: linear-gradient(45deg, #d31f4d, #fab41e);
+  .wrapper {
+    max-width: var(--wrapper-width);
+    margin: auto;
+    // display: flex;
+    // align-items: center;
+    // justify-content: space-between;
+  }
+  h1 {
+    // text-align: left;
+    // float: left;
+    margin: 0;
+    color: white;
+  }
+  .btn {
+    margin: 0;
+    margin-left: 10px;
+    background: none;
+    color: white;
+    border: 1px solid white;
+  }
+}
+.subnav-wrapper {
+  max-width: var(--wrapper-width);
+  margin: auto;
+  margin-top: 0px;
+  @media (max-width: 750px) {
+    padding: 0 10px;
+  }
+}
+.subnav {
+  padding: 4px 0;
+  background: var(--subnav-bg);
+  box-shadow: var(--box-shadow);
+  .sorting,
+  .period {
+    .btn-nav {
+      margin: 0;
+      margin-right: 5px;
+    }
+    .menu,
+    .menu-handle {
+      width: 90px;
+      .item {
+        margin: 0;
+      }
+    }
+  }
+  .period {
+    .menu,
+    .menu-handle {
+      width: 80px;
+    }
+  }
+  .btn {
+    margin-right: 5px;
+    float: left;
+    &.active {
+      background: #697485;
+      color: white;
+      svg {
+        color: white;
+      }
+    }
+  }
+  .separator {
+    border-right: 1px solid var(--border);
+    height: 100%;
+    width: 0;
+    margin: 4px 5px 4px 0;
+    float: left;
+    height: 24px;
+  }
+  .select-tag {
+    width: 140px;
+    margin-right: 5px;
+    .menu {
+      width: 100%;
+    }
+    @media (max-width: 500px) {
+      width: calc(100% - 95px); // minus the sorting dropdown with and 5px margin.
+      margin-right: 0px;
+    }
+    .btn-nav {
+      margin: 0;
+    }
+    input {
+      margin-top: 0;
+      background: var(--subnav-bg);
+      border: 1px solid var(--input-border-subnav);
+      &:focus {
+        background: var(--input-bg-subnav);
+        outline: none;
+      }
+    }
+  }
+  .search-wrapper {
+    width: 200px;
+    float: right;
+    position: relative;
+    @media (max-width: 500px) {
+      float: left;
+      margin-top: 5px;
+      width: 100%;
+    }
+    input {
+      margin-top: 0;
+      background: var(--subnav-bg);
+      border: 1px solid var(--input-border-subnav);
+      &:focus {
+        background: var(--input-bg-subnav);
+        outline: none;
+      }
+    }
+    .search-button {
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      right: 10px;
+      width: 24px;
+      height: 24px;
+      top: calc(50% - 12px);
+      color: var(--text-placeholder);
+      opacity: 0.5;
+      border-radius: 50%;
+      &:hover {
+        color: var(--text-dim);
+        background: var(--panel-bg);
+        opacity: 1;
+      }
+    }
+  }
+}
+.layout {
+  // height: calc(100% - 50px); // minus header height
+  .content {
+    margin: auto;
+    max-width: var(--wrapper-width);
+    // height: 100%;
+    @media (max-width: 750px) {
+      padding: 0 10px;
+    }
+  }
+}
+
+// In  Regular Header
+header .toggle-sidebar-button {
+  display: none;
+}
+
+.course-header .toggle-sidebar-button {
+  float: left;
+  margin-right: 10px; // same as between the logo and title
+  cursor: pointer;
+  color: var(--text-dim);
+  font-size: 24px;
+  width: 24px; // icons are different widths
+  text-align: center;
+  line-height: 32px;
+  display: none;
+  @media (max-width: 800px) {
+    display: block;
+  }
+}
+// Under sidebar
+.dark-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 5; // above most things but below header
+  display: none;
+  &.open {
+    display: block;
+  }
+}
+
+footer {
+  background: #181d25;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  color: var(--text-dim);
+}
+
+.error-page {
+  background: var(--post-bg);
+  padding: 40px;
+  text-align: center;
+}
+
+@media print {
+  header,
+  .post-footer,
+  .mailing-list,
+  .related-posts,
+  .capture-buttons {
+    display: none;
+  }
+}

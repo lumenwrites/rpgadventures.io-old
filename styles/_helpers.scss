@@ -1,0 +1,35 @@
+/* Helpers */
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+.left { float: left; }
+.right { float: right; }
+.pointer { cursor: pointer; }
+.centered { margin: auto; }
+.center-text { text-align: center; }
+.no-decoration { text-decoration: none; }
+.hidden { display: none; }
+.bold { font-weight: bold; }
+.italic { font-style: italic; }
+.underline { text-decoration: underline; }
+.pointer { cursor: pointer; }
+.full-width { width: 100%; }
+.paddings-20 { padding:20px; }
+.paddings-8 { padding:8px; }
+.small-text { font-size: 12px; }
+.dim { color: var(--text-dim);}
+.nobreak { -webkit-column-break-inside: avoid; } /* don't break column */
+.center-content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.fill-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}

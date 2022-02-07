@@ -1,0 +1,220 @@
+.text {
+  font-size: 16px;
+  padding: 20px 40px;
+  @media (max-width: 640px) {
+    padding: 20px 10px 40px 10px; // 30px footer + 20px
+  }
+  text-align: justify;
+  @media (max-width: 640px) {
+    text-align: unset;
+  }
+  .post-header-image {
+    margin: -40px -60px 0 -60px;
+    max-width: calc(100% + 120px);
+    width: calc(100% + 120px); // if the image is smaller than width
+    max-height: none;
+    @media (max-width: 640px) {
+      margin: -20px -20px 0 -20px;
+      width: calc(100% + 40px) !important; // important because I want to override react player's defaults
+      max-width: calc(100% + 40px); // for images
+    }
+  }
+  :first-child {
+    // margin-top: 0; ???
+  }
+
+  a {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  a.btn {
+    font-weight: normal;
+    text-decoration: none;
+  }
+  iframe {
+    width: 100%;
+  }
+  img {
+    display: block;
+    max-width: 100%;
+    max-height: 500px; // for tall narrow images
+    margin: auto;
+  }
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin-top: 10px;
+  color: var(--text-heading);
+  &:first-child {
+    margin-top: 10px;
+  }
+  & + p,
+  & + ul,
+  & + img,
+  & + blockquote,
+  & + * {
+    // first pagagraph after the header
+    margin-top: 0px;
+  }
+}
+h1,
+h2 {
+  text-align: center;
+}
+h1,
+h2,
+h3 {
+  font-family: var(--headings-font);
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 1.75em;
+}
+h2 {
+  font-size: 1.5em;
+}
+h3 {
+  font-size: 1.2em;
+  // border-bottom: 1px solid var(--border);
+  // color: var(--text-subheading);
+  color: #d95650; //#DE544A;
+  font-weight: bold;
+}
+h4 {
+  font-size: 1em;
+  font-weight: bold;
+}
+h5 {
+  font-size: 1em;
+}
+// Header links
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  position: relative;
+  a {
+    color: red !important;
+    font-weight: normal;
+    text-decoration: none;
+    margin-right: 10px;
+    // visibility: hidden;
+    cursor: pointer;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: left;
+    height: 32px;
+  }
+  a::after {
+    content: ' ';
+    font-weight: bold;
+  }
+  &:hover {
+    .header-link {
+      visibility: visible;
+    }
+  }
+}
+
+p {
+  margin-top: 10px;
+  line-height: 1.35em;
+}
+a {
+  cursor: pointer;
+  color: var(--text-link);
+  &:hover,
+  &:active,
+  &:focus {
+    color: var(--text-link);
+  }
+  // svg path {
+  //   fill: var(--text-link);
+  // }
+}
+
+.post a {
+  font-weight: bold;
+  text-decoration: underline;
+  color: var(--text);
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+i,
+em {
+  font-style: italic;
+}
+ul {
+  padding: 0;
+  margin-top: 1em;
+  margin-left: 1em;
+}
+
+ol {
+  margin-top: 0.5em;
+}
+ol li {
+  margin-top: 0.2em;
+  margin-left: 1em;
+}
+// Magic that makes ordered list numbers left-aligned
+// https://stackoverflow.com/questions/33219983/left-align-ol-numbers-with-the-heading-in-the-same-column
+// ol {
+//   list-style: none;
+//   padding: 0;
+// }
+// ol li {
+//   counter-increment: step-counter;
+// }
+// ol li:before {
+//   content: counter(step-counter)". ";
+// }
+
+li p {
+  margin-top: 0; // Sometimes it creates <p> inside of the li elements for some reason
+}
+
+hr {
+  border: none;
+  margin: 4px 0 4px 0;
+  border-top: 1px solid var(--border);
+}
+
+blockquote {
+  border-left: 3px solid var(--quote-border);
+  background: var(--quote-bg);
+  margin-top: 1em;
+  padding: 10px;
+
+  :first-child {
+    margin-top: 0;
+  }
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+table,
+th,
+td {
+  border: 1px solid var(--border);
+  padding: 10px;
+}
+thead {
+  background: #f1f8ff;
+}
+tbody tr:nth-child(even) {
+  background: #f6f8fa;
+}

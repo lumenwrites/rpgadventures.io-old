@@ -1,0 +1,16 @@
+// Inline code
+code {
+  background: var(--code-bg);
+  padding: 0px 4px;
+  border-radius: var(--border-radius);
+}
+
+pre code {
+  display: block;
+  padding: 10px;
+  border-radius: var(--border-radius);
+  background: #1f2532;
+  background: var(--code-bg);
+  overflow: scroll;
+  // color: white;
+}

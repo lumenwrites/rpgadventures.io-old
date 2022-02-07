@@ -1,0 +1,35 @@
+html,
+body {
+  color: var(--text);
+  background: var(--main-bg);
+  font-family: var(--main-font);
+  font-size: var(--base-font-size);
+  font-weight: 100;
+  overflow-x: hidden;
+  overflow-y: overlay;
+  height: 100%;
+}
+#__next {
+  height: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  cursor: -webkit-grabbing;
+}
+
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-corner {
+  background-color: var(--scrollbar-track);
+}
+
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbar-thumb);
+  border: 2px solid transparent !important;
+  border-radius: 4px;
+  background-clip: content-box;
+}
