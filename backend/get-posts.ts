@@ -15,6 +15,11 @@ export function getPosts({ category, tagSlug, searchString, sort, skip, take }) 
   }
   const postCount = posts.length
   posts = paginate(posts, skip, take)
+  posts.forEach(post => {
+    delete post['markdown'];
+    delete post['html'];
+    delete post['body'];
+  });
   return { posts, postCount }
 }
 
@@ -58,7 +63,6 @@ function sortByDate(posts) {
   sortedPosts.sort((a, b) => {
     let adate = a.date || '2001-01-01'
     let bdate = b.date || '2001-01-01'
-
     return moment(bdate).diff(moment(adate))
   })
   return sortedPosts

@@ -51,7 +51,7 @@ export async function getPosts(postsdir, category) {
       relatedPosts: frontmatter.relatedPosts || null,
       markdown: content, // for search
       html: await markdownToHtml(content), // for RSS feed
-      body: await renderMDX(content), // await markdownToHtml(content),
+      body: await renderMDX(content),
       date: frontmatter.date || null,
       score: frontmatter.score || 0,
       wordCount: content.split(' ').length,

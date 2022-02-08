@@ -1,4 +1,15 @@
-Roleplaying Guidelines - a list of tips to give your players to help them get the most out of your games.
+---
+title: Roleplaying Guidelines
+slug: roleplaying-guidelines
+description: A list of tips to give your players to help them get the most out of your games.
+tags: ["GM Advice", "Roleplaying", "Improv"]
+relatedPosts: []
+comments: 
+date: 2022-02-08
+score: 10
+---
+
+A list of tips to give your players to help them get the most out of your games.
 
 I'm playing one-shots over the discord and it's very helpful to be able to show the new players a list of tips they can follow to help everyone have a great experience. I think it will be good for offline games and campaigns as well. Many tips are inspired by what I have learned from improv, and I think they will help people to tell better stories, and avoid common player problems.
 

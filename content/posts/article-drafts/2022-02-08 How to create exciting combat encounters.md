@@ -5,8 +5,8 @@ description: This is my collection of tips on creating exciting and engaging com
 tags: ["Adventure Writing", "GM Advice"]
 relatedPosts: []
 comments: 
-date: 2022-02-07
-score: 10
+date: 2022-02-08
+score: 8
 ---
 
 This is my collection of tips on making combat encounters exciting and engaging, instead of tedious and boring.

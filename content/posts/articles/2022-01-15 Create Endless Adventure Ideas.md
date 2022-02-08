@@ -6,7 +6,7 @@ tags: ["Adventure Writing", "Ideas"]
 relatedPosts: ["come-up-with-character-ideas"]
 comments: 
 date: 2022-01-15
-score: 10
+score: 15
 ---
 
 This is my in-depth step-by-step guide to coming up with endless amount of exciting adventure ideas that you and your players can't wait to play with.

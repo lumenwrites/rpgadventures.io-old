@@ -7,9 +7,9 @@ export default function TwitterFooter() {
         <FontAwesomeIcon icon={['fas', 'globe-americas']} />
         rpgadventures.io
       </div>
-      <div className="twitter">
+      {/* <div className="twitter">
         <FontAwesomeIcon icon={['fab', 'twitter']} />@MikeLumos
-      </div>
+      </div> */}
     </div>
   )
 }
