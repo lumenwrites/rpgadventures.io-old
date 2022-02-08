@@ -4,7 +4,7 @@ description: Learn to easily come up with interesting character ideas.
 tags: ["Ideas", "Roleplaying"]
 relatedPosts: ["endless-adventure-ideas"]
 date: 2022-02-08
-draft: true
+draft: false
 ---
 
 If you're struggling to come up with interesting character ideas, follow these strategies and you'll have a cool idea for a fun character to roleplay as in no time.
