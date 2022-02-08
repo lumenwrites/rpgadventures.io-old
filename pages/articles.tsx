@@ -4,6 +4,11 @@ import SubscribeBox from 'components/CTAs/SubscribeBox'
 import AdBoxes from 'components/CTAs/AdBoxes'
 import Subnav from 'components/Layout/Subnav'
 import Pagination from 'components/Posts/Pagination'
+import Head from 'next/head'
+
+const TITLE = 'Storytelling and Improv for Game Masters'
+const DESCRIPTION = 'Storytelling, improvisation, and roleplay advice for Game Masters.'
+const THUMBNAIL = 'https://rpgadventures.io/img/articles-social.png'
 
 export default function browse({ posts, postCount, tags }) {
   return (
@@ -12,7 +17,17 @@ export default function browse({ posts, postCount, tags }) {
       <Pagination postCount={postCount}/>
       <SubscribeBox />
       <AdBoxes/>
-      <br/>
+      <br />
+      <Head>
+        <title>{TITLE}</title>
+        <meta name="description" content={DESCRIPTION} />
+        <meta property="og:title" content={TITLE} key="ogtitle" />
+        <meta property="og:description" content={DESCRIPTION} key="ogdesc" />
+        <meta name="twitter:title" content={TITLE} key="ogtitle" />
+        <meta name="twitter:description" content={DESCRIPTION} />
+        <meta property="og:image" content={THUMBNAIL} key="ogimage" />
+        <meta name="twitter:image" content={THUMBNAIL} />
+      </Head>
     </Layout>
   )
 }
