@@ -1,6 +1,17 @@
 ## DnD Subreddits
-
+r/DMAcademy
+r/DnDBehindTheScreen
+r/rpg
+r/RPGDesign
+r/DnDAdventureWriter
+r/Improv
+r/PCAcademy
+r/Worldbuilding
 ## DM Youtube Channels
+Unprocessed collection
+https://www.reddit.com/r/DMAcademy/comments/bfqggt/ive_compiled_some_of_the_youtube_channels_that/
+https://www.reddit.com/r/dndnext/comments/6bhfu3/favorite_ddrelated_youtube_channels/
+
 [Sly Flourish](https://www.youtube.com/c/SlyFlourish/videos?view=0&sort=p&flow=grid) - 33k, Lazy Gm
 [Matthew Colville](https://www.youtube.com/user/mcolville/videos?view=0&sort=p&flow=grid)- best DM advice
 [Web DM](https://www.youtube.com/c/WebDM/videos?view=0&sort=p&flow=grid) - another big channel
@@ -13,13 +24,24 @@
 [Master the Dungeon](https://www.youtube.com/channel/UCrPmuq5_AJ_DvZ9OXQrFEFw/videos?view=0&sort=p&flow=grid) - 3k, but good videos about storytelling
 [Play your role](https://www.youtube.com/c/PlayYourRole/videos?view=0&sort=p&flow=grid) - 25k - actual roleplaying tips, how to play smart characters
 [Jim Murphy](https://www.youtube.com/channel/UCdMl19aDv5e_2l_AeJRXp2g/videos?view=0&sort=p&flow=grid) - 13k
+
+
+Very interesting
 [Zipperon Disney](https://www.youtube.com/c/ZipperonDisney/videos?view=0&sort=p&flow=grid) - 11k, advanced gm tips
 
 
+
+
+[DungeonMasterpiece](https://www.youtube.com/c/DungeonMasterpiece/videos?view=0&sort=p&flow=grid) - small but good
+[Mr. Welch]()
+[Talking 20](https://www.youtube.com/c/Taking20/videos?view=0&sort=p&flow=grid)
+[Fistful of dice](https://www.youtube.com/c/aFistfulofDice/videos?view=0&sort=p&flow=grid)
+[Nerdarchy](https://www.youtube.com/c/Nerdarchy/videos?view=0&sort=p&flow=grid)
+[Nerd immersion](https://www.youtube.com/c/NerdImmersion1/videos?view=0&sort=p&flow=grid)
 Books: - Dungeon Master's Guide, Wizards of the Coast - Your Best Game Ever, Monte Cook Games - Return of the Lazy Dungeon Master, Sly Flourish - Kobold's Guide to Gamemastering, Kobold Press - Kobold's Guide to Worldbuilding, Kobold Press
 
 YouTube series: 
-- GM Tips, Geek & Sundry 
+- [GM Tips, Geek & Sundry ](https://www.youtube.com/watch?v=6XikjjQok5Y&list=PL7atuZxmT9570U87GhK_20NcbxM43vkom)
 - D&D With Dael Kingsmill, Monarchs Factory 
 - Running the Game, MCDM 
 - Web DM's whole YouTube channel 
@@ -100,8 +122,15 @@ EDIT: Nerdarchy [https://www.youtube.com/c/Nerdarchy](https://www.youtube.com/c/
 
 ## Improv YouTube Channels
 [Made Up Theatre](https://www.youtube.com/c/MadeUpTheatre/videos?view=0&sort=p&flow=grid) - At the moment of writing, the MUT tips series has up to 120 videos that are usually up to 10 minutes long. So there is A LOT of content, and a good chance something there suits your needs.
+[Improv FAQ](https://www.youtube.com/c/ImprovFAQ)
+[PV Improv](https://www.youtube.com/channel/UCarUQxbetwstImqcN0Kzi1g).
 ## DM Blogs
 [The Alexandrian](http://thealexandrian.net/)
+
+## Twitter Accounts
+[@dmdavidblog](https://twitter.com/dmdavidblog) - 4k
+[@SlyFlourish](https://twitter.com/SlyFlourish) - 43k
+[@MattColville](https://twitter.com/MattColville) - 110k
 ## Improv Youtube Channels
 
 ## Fiction Writing Youtube Channels
@@ -175,6 +204,9 @@ Genres
 ## Movie Recaps Channels
 Very interestig mythology recaps
 https://m.youtube.com/c/OverlySarcasticProductionsChannel/videos
+Video game lore
+https://www.youtube.com/c/MrRhexx/videos?view=0&sort=p&flow=grid
+
 (perfect for homebrew)
 movies in minutes 65.4K
 https://www.youtube.com/c/MoviesinMinutes/videos?view=0&sort=p&flow=grid

@@ -15,18 +15,13 @@ export default function Page({ post }) {
         <MDXRemote {...post.body} components={MDXComponents} />
         {/* <div dangerouslySetInnerHTML={{ __html: post.body }} /> */}
         <Head>
-          <title>
-            {post.title} | {config.title}
-          </title>
-          <meta property="og:title" content={`${post.title} | ${config.title}`} key="ogtitle" />
+          <title>{post.title}</title>
+          <meta property="og:title" content={`${post.title}`} key="ogtitle" />
+          <meta name="twitter:title" content={`${post.title}`} key="ogtitle" />
           <meta property="og:description" content={post.description} key="ogdesc" />
           <meta name="twitter:description" content={post.description} />
-          {post.thumbnail && (
-            <>
-              <meta property="og:image" content={`${config.domain}${post.thumbnail}`} key="ogimage" />
-              <meta name="twitter:image" content={`${config.domain}${post.thumbnail}`} />
-            </>
-          )}
+          {post.social && <meta property="og:image" content={`${config.domain}${post.social}`} key="ogimage" />}
+          {post.social && <meta name="twitter:image" content={`${config.domain}${post.social}`} />}
         </Head>
       </div>
       {/* <AdBoxes /> */}

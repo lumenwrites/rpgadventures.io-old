@@ -24,6 +24,21 @@ Hey guys! We're a community of GMs who create adventures together (and share the
 I also share storytelling/roleplaying/improv tips and advice, and exciting ideas you can use in your games.
 ```
 
+Hey guys!
+
+I help Game Masters get better at creating and running awesome adventures, and I share advice that helps you get better at storytelling, improvisation, and roleplay.
+
+I also post exciting ideas you can use in your games and free adventures we create in our community.
+
+Hey guys!
+
+I help Game Masters get better at storytelling, improvisation, roleplay, creating and running awesome adventures.
+
+I also post exciting ideas you can use in your games and free adventures we create in our community.
+
+My best #ttrpg projects are in my pinned tweet.
+
+
 ```
 I'm working on Mirage - a rules-light game for people who love storytelling, improvisation, and freeform roleplay.
 

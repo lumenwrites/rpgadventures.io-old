@@ -1,5 +1,6 @@
 ---
 description: We are a group of GMs who meet in the discord voice chat, and challenge ourselves to improvise a one-shot adventure in 2 hours.
+social: /page/writers-room/adventure-writers-room-social.png
 ---
 
 <img className="post-header-image" src="/page/writers-room/storytellers.jpg"/>

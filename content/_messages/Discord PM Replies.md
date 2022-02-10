@@ -23,6 +23,15 @@ Keep an eye on `#session-announcements` channel for notifications about upcoming
 Let me know if you have any questions!
 ```
 
+## Out of spots for brainstorm
+Hey, thanks for reaching out!
+
+I think we're already out of spots, but if someone doesn't show up - you're welcome to join.
+
+You can also join one of our future sessions. I am trying to run these sessions twice per week, on Wednesdays and Saturdays.  Come join our server and keep an eye on #session-announcements, and you'll be able to join the next one:
+
+https://discord.gg/UVNxeQE
+
 ## One Shot
 ```
 Hey, thanks for reaching out! Do you want to participate in the one shot?

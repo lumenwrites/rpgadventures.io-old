@@ -23,7 +23,7 @@ function App({ Component, pageProps }) {
       document.body.scrollTo(0, 0);
     });
     // Dark theme
-    // document.querySelector('html').dataset.theme = 'dark'
+    document.querySelector('html').dataset.theme = 'dark1'
   }, [])
 
   return (

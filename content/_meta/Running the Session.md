@@ -33,6 +33,19 @@ If we really like the story we have created, and have about 40 minutes of time l
 ### Session guide role
 My job as a session guide is to do my best to make sure that we successfully create a good adventure within a reasonable amount of time. So I will be trying to guide the brainstorming process, keep our conversation on track, and keep us going forward at a good pace.
 
+### Screencastig
+
+I like to screencast our sessions and upload them to youtube. It's useful for people and helps me grow our community.
+
+But we don't have to do this if anyone doesn't feel comfortable with that. If at the end of the session anyone isn't comfortable with uploading the video, I'll delete it.
+
+### New approach
+1. Pick a primary objective, the thing our olayers will try to accomplish during this adventure
+2. Pick a secondary objective from another category. The thing we need to do to accomplish the primary objective.
+3. Pick a difficulty from one of 3 categories. Deal with a constraint, villain does something, or we need to solve a mystery.
+4. Do it 3 times, and pick the goal we like the most.
+
+
 ### Using the adventure prompts tool
 First will use the adventure prompts tool, to help us come up with the initial premise for our adventure. We will take turns pitching the ideas based on prompts. We'll talk about them, build on top of them, recombine them, and pick our favorite one.
 
@@ -42,6 +55,9 @@ I'll start, just to give you an example. Here are the prompts I have. Now Ill tr
 
 
 # Outro
+### Feedback
+Anything I could do better?
+
 ### Invite people to run sessions
 I really want our server to have an active community and regular brainstorming sessions, but my time is very limited. I want to encourage everyone to.
 
