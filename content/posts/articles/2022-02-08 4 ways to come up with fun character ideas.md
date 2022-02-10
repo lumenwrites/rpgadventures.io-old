@@ -2,7 +2,7 @@
 slug: come-up-with-fun-character-ideas
 description: Learn to easily come up with interesting character ideas.
 tags: ["Ideas", "Roleplaying"]
-relatedPosts: ["endless-adventure-ideas"]
+relatedPosts: ["create-endless-adventure-ideas"]
 date: 2022-02-08
 draft: false
 ---

@@ -36,6 +36,15 @@ https://rpgadventures.io/writers-room
 ```
 Hey guys!
 
+I share advice that helps Game Masters get better at storytelling, improvisation, roleplay, creating and running awesome adventures.
+
+I have recently made an in-depth guide on inventing an endless amount of exciting adventure ideas you and your players can't wait to play with:
+https://rpgadventures.io/post/create-endless-adventure-ideas
+```
+
+```
+Hey guys!
+
 I help Game Masters get better at storytelling, improvisation, roleplay, creating and running awesome adventures.
 
 I also post exciting ideas you can use in your games and free adventures we create in our community.

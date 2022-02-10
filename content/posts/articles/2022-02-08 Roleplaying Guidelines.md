@@ -1,25 +1,28 @@
 ---
 title: Roleplaying Guidelines
 slug: roleplaying-guidelines
-description: A list of tips to give your players to help them get the most out of your games.
+description: Show your players this list of tips they can follow to get the most out of your games and help everyone have a great experience. It helped me to make our games much more fun, and it will help you and your players as well!
 tags: ["GM Advice", "Roleplaying", "Improv"]
 relatedPosts: []
 comments: 
-date: 2022-02-08
+date: 2021-02-05
 score: 10
 ---
 
-A list of tips to give your players to help them get the most out of your games.
+Show your players this list of tips they can follow to get the most out of your games and help everyone have a great experience.
 
-I'm playing one-shots over the discord and it's very helpful to be able to show the new players a list of tips they can follow to help everyone have a great experience. I think it will be good for offline games and campaigns as well. Many tips are inspired by what I have learned from improv, and I think they will help people to tell better stories, and avoid common player problems.
+It helped me to make our games much more fun, and it will help you and your players as well!
 
-I hope they will be useful to you. If you can think of anything I should add or improve - please let me know!
-
-# Roleplaying Guidelines
+## Roleplaying Guidelines
 Follow these guidelines to get the most out of our games. If you’re new - don’t get too overwhelmed by all these tips. Practice them one at a time - pick one principle you’d like to get better at, and focus on that one thing for the duration of the game.
 
+<br/>
+
+<div className="columns">
+<div className="col">
+
 ### Play to find out what happens
-Do things that result in a good story, optimize for fun instead of “winning”. Go with the flow, don't try to force preplanned ideas or specific outcomes.
+Do things that result in a good story, optimize for fun instead of “winning”.
 
 ### Yes, and
 Embrace other players’ ideas and build on top of them. Don’t shut down ideas. Actively help others to have cool moments and achieve their goals, create opportunities for the other characters to shine.  
@@ -34,7 +37,15 @@ Don’t be afraid to add information to the story. Try to describe things vividl
 Help the GM to move the story along. If you notice that players are stuck talking to each other and going nowhere - make a decision, conclude this scene, and move on to the next one.
 
 ### Be an active player
-Don't wait for others to entertain you, assume the responsibility for making the story more fun for yourself and others. Positive energy and enthusiasm are always welcome.
+Don't wait for others to entertain you, assume the responsibility for making the story more fun for yourself and others. 
+
+Positive energy and enthusiasm are always welcome.
+
+### Engage Quiet Players
+If you notice that someone hasn't spoken up in awhile - start an in-character conversation with them, for example ask them what they think about the current situation.
+
+</div>
+<div className="col">
 
 ### Stay in character
 Try to immerse yourself in playing your character, like an actor. Try playing characters with real feelings and believable motivations. Try to make other people love and care about your character. Think about your character’s distinctive features, quirks, unique speech patterns. Don’t be shy to act it out, do a silly voice.
@@ -56,12 +67,5 @@ This game can get really amazing when you allow yourself to really feel what you
 ### Make Friends
 Get to know people outside the games. Leave some time for a bit of socializing before or after the games, chat between the games in the text channel.
 
----
-
-Check out [Adventure Academy](https://rpgadventures.io/course/adventure-academy) - a course where I share everything I have learned about creating adventures for roleplaying games, and guide you through a straightforward, easy to follow, step-by-step writing process. By the end of the course you will have created your own one-shot adventure similar to the ones you can see [here](https://rpgadventures.io).
-
-Join [Adventure Writer's Room](https://rpgadventures.io/writers-room) - we are a group of people who love creating adventures for tabletop roleplaying games, we help each other to brainstorm ideas and create stories for our players to enjoy.
-
-Use the [writing prompts app](https://perchance.org/adventure-prompts) - A large collection of prompts that will help you to come up with an unlimited number of ideas for plots, settings, characters, encounters - everything you need to create a cool adventure.
-
-https://old.reddit.com/r/DMAcademy/comments/nsryp7/roleplaying_guidelines_a_list_of_tips_to_give/
+</div>
+</div>

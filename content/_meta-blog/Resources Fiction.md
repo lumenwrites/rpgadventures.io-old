@@ -25,6 +25,8 @@ https://www.reddit.com/r/dndnext/comments/6bhfu3/favorite_ddrelated_youtube_chan
 [Play your role](https://www.youtube.com/c/PlayYourRole/videos?view=0&sort=p&flow=grid) - 25k - actual roleplaying tips, how to play smart characters
 [Jim Murphy](https://www.youtube.com/channel/UCdMl19aDv5e_2l_AeJRXp2g/videos?view=0&sort=p&flow=grid) - 13k
 
+[Jorphdan](https://www.youtube.com/c/Jorphdan/videos)
+- lore
 
 Very interesting
 [Zipperon Disney](https://www.youtube.com/c/ZipperonDisney/videos?view=0&sort=p&flow=grid) - 11k, advanced gm tips
