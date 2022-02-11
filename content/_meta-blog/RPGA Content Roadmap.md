@@ -1,28 +1,32 @@
-
-
-
 ## Next Up
 
+## Pillar / Slow Burn
+- Exciting combat. My old how to make combat awesome post.
+	- [Run awesome Combat](https://www.youtube.com/watch?v=Ul1YjYDIuFo)
+	- [Make combat awesome](https://www.youtube.com/watch?v=t51cK9a_JEg)
+	- [Fun combat](https://www.youtube.com/watch?v=KFUyg_3-xmk)
+	- [Exciting combats cenes](https://www.youtube.com/watch?v=gxfenhHVLFM)
+	- [Running combat](https://www.youtube.com/watch?v=VKx1QG86wbo)
+	- [Speed up combat](https://www.youtube.com/watch?v=Z2Az_XqeZ24)
+	- [Exciting combat](https://www.youtube.com/watch?v=em7jb-Onq9E)
+	- https://www.youtube.com/watch?v=z2d1gceeAPw
+	- [The 3 Axes of Combat Encounters](https://www.youtube.com/watch?v=yXmM60NlIb4 "The 3 Axes of Combat Encounters")
+	- [3 Great Combat Tools You're Not Using (Yet!)](https://www.youtube.com/watch?v=TEJvtAjeXFk "3 Great Combat Tools You're Not Using (Yet!)")
 
 ## Game Master Advice
 - Open loops to engage players (mystery)
 	- https://www.youtube.com/watch?v=AyaaX0gLv0c
 	- Get players to chase information rather than pushing infodumps on them
 - [10 principles for gms](https://www.youtube.com/watch?v=6tKFv0NolHw)
-- Exciting combat. My old how to make combat awesome post. [Run awesome Combat](https://www.youtube.com/watch?v=Ul1YjYDIuFo). [Make combat awesome](https://www.youtube.com/watch?v=t51cK9a_JEg) [Fun combat](https://www.youtube.com/watch?v=KFUyg_3-xmk)  [Exciting combats cenes](https://www.youtube.com/watch?v=gxfenhHVLFM) [Running combat](https://www.youtube.com/watch?v=VKx1QG86wbo)
-	- [Speed up combat](https://www.youtube.com/watch?v=Z2Az_XqeZ24)
-	- [Exciting combat](https://www.youtube.com/watch?v=em7jb-Onq9E)
-	- https://www.youtube.com/watch?v=z2d1gceeAPw
-	- [The 3 Axes of Combat Encounters](https://www.youtube.com/watch?v=yXmM60NlIb4 "The 3 Axes of Combat Encounters")
-	- [3 Great Combat Tools You're Not Using (Yet!)](https://www.youtube.com/watch?v=TEJvtAjeXFk "3 Great Combat Tools You're Not Using (Yet!)")
-- 
+	- [Be a good GM](https://www.youtube.com/watch?v=rwx6avbdgeA)
 - Engaging players, helping them get into roleplay
 - 10 places to find players for your game.
 - How to run heavily improvised adventures.
 - [Steps to preparing for the game](https://www.youtube.com/watch?v=NzAyjrUCHao).
 	- [Prep](https://www.youtube.com/watch?v=0-ngv6-Pr1c)
 	- [Time saving prep tips](https://www.youtube.com/watch?v=khDfJwMapKQ)
-- [Using Obsidian/Notion as a GM](https://www.youtube.com/watch?v=8AfbMNAsyr4). [Organized](https://www.youtube.com/watch?v=qFC4KIS07ws)
+- [Using Obsidian/Notion as a GM](https://www.youtube.com/watch?v=8AfbMNAsyr4)
+	- [Organized](https://www.youtube.com/watch?v=qFC4KIS07ws)
 - [Take great notes as a game master](https://www.youtube.com/watch?v=9wNCTu-M0Ko)
 - [Pacing](https://www.youtube.com/watch?v=l-jZpx958HQ)
 	- [Pacing 2](https://www.youtube.com/watch?v=tquo1wsrb14)
@@ -38,13 +42,15 @@
 - [Single page DnD campaign guide](https://www.youtube.com/watch?v=thwe8XG9pUI)
 - [Create suspense](https://www.youtube.com/watch?v=gOY3ff8emFc)
 	- [Write fear and suspense](https://www.youtube.com/watch?v=HekBq_4qZZM)
-- [How to avoid railroading](https://www.youtube.com/watch?v=KqIZytzzFKU)[2](https://www.youtube.com/watch?v=fzI_9WHlUJY).
+- [How to avoid railroading](https://www.youtube.com/watch?v=KqIZytzzFKU)
+	- [2](https://www.youtube.com/watch?v=fzI_9WHlUJY).
 - [Engaging the players](https://www.youtube.com/watch?v=_iWeZ-i19dk).
 - Run your first adventure, get started, 101 [First game](https://www.youtube.com/watch?v=aBOH8YLUPjE). [GMing 101](https://www.youtube.com/watch?v=pgoW1at9bBg)
 - [Let one player plays as an antagonist](https://www.youtube.com/watch?v=I-nfsi6B8d4).
 - [Deal with problem players](https://www.youtube.com/watch?v=X36G9xYrH60)
-- [Top 5 novice GM mistakes](https://www.youtube.com/watch?v=cPAmUibg_48). [Things I wish I knew](https://www.youtube.com/watch?v=f0LJnGBOP8w) [GM Mistakes](https://www.youtube.com/watch?v=eYRoKoSxVgE) [Deadly sins](https://www.youtube.com/watch?v=NLB8GjRNMFE) [Sins 2](https://www.youtube.com/watch?v=pn29aUjo6k0) [Mistakes](https://www.youtube.com/watch?v=D0UczaINLf0) [terrible dms](https://www.youtube.com/watch?v=wfcEN5Jd-94)
+- [Top 5 novice GM mistakes](https://www.youtube.com/watch?v=cPAmUibg_48). [Things I wish I knew](https://www.youtube.com/watch?v=f0LJnGBOP8w) [GM Mistakes](https://www.youtube.com/watch?v=eYRoKoSxVgE) [Deadly sins](https://www.youtube.com/watch?v=NLB8GjRNMFE) [Sins 2](https://www.youtube.com/watch?v=pn29aUjo6k0) [Mistakes](https://www.youtube.com/watch?v=D0UczaINLf0) [terrible dms](https://www.youtube.com/watch?v=wfcEN5Jd-94) [3](https://www.youtube.com/watch?v=G_3DUcIAAzc)
 - [Roleplaying mistakes](https://www.youtube.com/watch?v=eYRoKoSxVgE)
+- [Roleplaying is not voice acting.](https://old.reddit.com/r/rpg/comments/ih97hd/roleplaying_is_not_voice_acting/) (let your players just describe how they talk instead of delivering a speech).
 - [3 triggers to become a great game master](https://www.youtube.com/watch?v=cv1tBf7EJu8)
 - [Avoid boring adventures](https://www.youtube.com/watch?v=tDmGWRokNFo&t=183s)
 - [The only 7 NPCs you need](https://www.youtube.com/watch?v=PDwOlY4ot8s)
@@ -76,14 +82,20 @@
 - [Make Random Encounters Matter || DnD Narrative Tools](https://www.youtube.com/watch?v=j-pimuOFvts "Make Random Encounters Matter || DnD Narrative Tools")
 - [Get Players to HATE Your D&D Villains (But not the DM!)](https://www.youtube.com/watch?v=__wJo6l_P3M "Get Players to HATE Your D&D Villains (But not the DM!)")
 - [How to use Simulationism || GNS theory in D&D worldbuilding](https://www.youtube.com/watch?v=vqr0epFxjiw "How to use Simulationism || GNS theory in D&D worldbuilding")
+- [Deal with problem players](https://www.youtube.com/watch?v=BIip5ZNys8I)
+- [Fix Dm burnout](https://www.youtube.com/watch?v=bqpYH8OyiFU)
 ### Get players to roleplay more
 - [Get more role play in your RPG’s](https://www.youtube.com/watch?v=i8YB2zbNCWA)
 - [These "Role Play" Tips Are WRONG!](https://www.youtube.com/watch?v=WuGwbgG2EIw "These "Role Play" Tips Are WRONG!")
+- Sandbox Games
+- What is OSR/KSR
+	- https://www.youtube.com/watch?v=Qx8IxvnuCyI
 ## Roleplaying/Improv, PC advice
 - Improvising cool descriptions
 - Acting tips
-
+- [Use spells creatively](https://www.youtube.com/watch?v=WsOaemV8dKc)
 ### Roleplaying/Improv advice
+- [Guide to roleplaying](https://www.youtube.com/watch?v=FCZh2AvSxh0)
 - How to be funnier
 	- [How to Write Humor](https://www.youtube.com/watch?v=H38srE9w9jo)
 	- [How to Play a Comedic Character WITHOUT Making Them Feel One Note](https://www.youtube.com/watch?v=A0fqSn5M5m4)
@@ -104,6 +116,7 @@
 	- Word choice and mannerisms, not just accents.
 ### Good player
 - [Better player](https://www.youtube.com/watch?v=zjLsTHvonrs)
+- [Better player tips](https://www.youtube.com/watch?v=XcLqbR-fHDY)
 - [5 tips for being a better roleplayer](https://www.youtube.com/watch?v=FGHYdsbZlN4)
 - [Less selfish roleplayer](https://www.youtube.com/watch?v=DsnQfXdLgyI)
 - [Top player mistakes](https://www.youtube.com/watch?v=zNAGw8xAmIQ) [Sabotage their own fun](https://www.youtube.com/watch?v=8zmhA26bKco)
@@ -121,6 +134,7 @@
 	- [Character development](https://www.youtube.com/watch?v=8GvhGIBX2F4)
 	- [How to Develop Characters](https://www.youtube.com/watch?v=PqKxLx3As28)
 - [Character backstory](https://www.youtube.com/watch?v=0j43ukEIFUM)
+	- [Backstory](https://www.youtube.com/watch?v=babL01bz5L0)
 - [Character personality](https://www.youtube.com/watch?v=pHPa7HwLkws)
 - [Character flaw](https://www.youtube.com/watch?v=lrtvEYVmA9E)
 	- [3 types of flaws](https://www.youtube.com/watch?v=4xiwWbV4KcU)
@@ -198,6 +212,7 @@
 	- [Villain](https://www.youtube.com/watch?v=z8kWRfndsn8)
 	- [2](https://www.youtube.com/watch?v=VDw_BBhG9DI)
 	- [How to Write a Great Antagonist](https://www.youtube.com/watch?v=IXPAwShfb0I)
+	- [Villains](https://www.youtube.com/watch?v=m0djNOqy9_M)
 - [Create great NPCs](https://www.youtube.com/watch?v=DF8lM9ZCEW4)
 - [Make people care about characters](https://www.youtube.com/watch?v=nTUXlvOzgfg)
 - [Qualities protagonists should have](https://www.youtube.com/watch?v=7JZxasBPVTs)
@@ -208,6 +223,7 @@
 - [5 room dungeon](https://www.youtube.com/watch?v=L0xYZZoxVY0)
 - [Creating a plot for the campaign](https://www.youtube.com/watch?v=ZFPVjvpdtbw)
 	- [Creating a campaign](https://www.youtube.com/watch?v=VaPDove54mw)
+	- [Writing a campaign](https://www.youtube.com/watch?v=1bVI8AxR0Pg)
 	- [Plot a campaign](https://www.youtube.com/watch?v=S0IVrHLhkZ4)
 - [Plot twist](https://www.youtube.com/watch?v=xpNTX2O9xa0)
 	- [Plot twist ideas](https://www.youtube.com/watch?v=QwZKD1AWIYM)
@@ -231,6 +247,7 @@
 	- [Illusion traps](https://www.youtube.com/watch?v=-gMtGTITaco)
 ### Worldbuilding
 - [How to Write Setting Effectively](https://www.youtube.com/watch?v=ORKI1h1xWLM)
+	- [Setting sucks](https://www.youtube.com/watch?v=UVSKnPSKyJQ)
 - [Worldbuilding 101](https://www.youtube.com/watch?v=I6DPZiFIvlo)
 	- [Basic Tips for World Building](https://www.youtube.com/watch?v=ja3IgxY7dbU)
 	- [Worldbuilding- How to Build a Fictional World](https://www.youtube.com/watch?v=v88dw02ea88)

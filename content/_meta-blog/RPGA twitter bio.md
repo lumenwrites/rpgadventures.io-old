@@ -17,13 +17,6 @@
 We meet in the discord voice chat, and challenge ourselves to improvise a one-shot adventure in 2 hours.
 
 ## ttrpgrising messages
-
-```
-Hey guys! We're a community of GMs who create adventures together (and share them with everyone for free). We're looking for some friendly and creative people to join us!
-
-I also share storytelling/roleplaying/improv tips and advice, and exciting ideas you can use in your games.
-```
-
 ```
 Hey guys!
 
@@ -38,8 +31,24 @@ Hey guys!
 
 I share advice that helps Game Masters get better at storytelling, improvisation, roleplay, creating and running awesome adventures.
 
-I have recently made an in-depth guide on inventing an endless amount of exciting adventure ideas you and your players can't wait to play with:
+Check out my guide on inventing an endless amount of exciting adventure ideas:
 https://rpgadventures.io/post/create-endless-adventure-ideas
+```
+
+```
+I'm working on Mirage - a rules-light game for people who love storytelling, improvisation, and freeform roleplay.
+
+My goal is to get the rules out of your way, so that you can focus on roleplaying and getting better at storytelling and improv.
+
+https://rpgadventures.io/mirage
+```
+
+--- 
+
+```
+Hey guys! We're a community of GMs who create adventures together (and share them with everyone for free). We're looking for some friendly and creative people to join us!
+
+I also share storytelling/roleplaying/improv tips and advice, and exciting ideas you can use in your games.
 ```
 
 ```
@@ -53,13 +62,6 @@ My best #ttrpg projects are in my pinned tweet.
 ```
 
 
-```
-I'm working on Mirage - a rules-light game for people who love storytelling, improvisation, and freeform roleplay.
-
-My goal is to get the rules out of your way, so that you can focus on roleplaying and getting better at storytelling and improv.
-
-https://rpgadventures.io/mirage
-```
 
 ```
 We may be small but we are mighty! Let’s support our fellow small creators! 

@@ -31,6 +31,7 @@ https://www.reddit.com/r/dndnext/comments/6bhfu3/favorite_ddrelated_youtube_chan
 Very interesting
 [Zipperon Disney](https://www.youtube.com/c/ZipperonDisney/videos?view=0&sort=p&flow=grid) - 11k, advanced gm tips
 
+https://www.youtube.com/user/repsesper/videos?view=0&sort=p&flow=grid
 
 
 
