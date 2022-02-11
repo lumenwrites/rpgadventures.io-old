@@ -1,4 +1,26 @@
 ## Next Up
+- [Improve your narration](https://www.youtube.com/watch?v=oA5DSjzvtek)
+-  Keep players engaged.
+	- [Keep players engaged](https://www.youtube.com/watch?v=QEnN8aQmtWA)
+		- Put the players at the center of the story. Make the story about PCs, not about the plot.
+		- Let them drive the adventure, not be driven by the plot. Make it about their characters. 
+		- Player agency. Make sure players are making the decisions, not the GM. Put them into situations where they have to make choices.  let them make all the decisions. Don't have NPCs drive them through the story. Don't just tell a story the players simply tag along on.
+		- Having a battle thrust upon you is boring. Having you cause the battle, or trying to reach an objective that's in the middle of the battle (and is at risk of being destroyed by the battle) is fun. Because they WANTED to go there in the first place, build the story around what the players WANT to do.
+		- Balance success and failure. Don't just let them keep succeeding all the time - it's boring. Allow them to fail, make it clear that it's a setback, not a dead end. Don't let your players get to the point where they have no idea what they should be doing because everything they have tried has failed
+		- Don't make the decisions for players, make it their story.
+	- [Engaged](https://www.youtube.com/watch?v=ZEDwQ00NPxw)
+	- 
+	- [Engaging the players](https://www.youtube.com/watch?v=_iWeZ-i19dk)
+		- 
+- [How to avoid railroading](https://www.youtube.com/watch?v=KqIZytzzFKU)
+	- [2](https://www.youtube.com/watch?v=fzI_9WHlUJY)
+- Adventure hook
+	- [Creating a strong start](https://www.youtube.com/watch?v=LOLeMasU7mU)
+	- [Exciting way to start an adventure](https://www.youtube.com/watch?v=i9fTMczJTlg).
+	- [Start a campaign](https://www.youtube.com/watch?v=uYUzOdHTfVI)
+	- [How to Write the Inciting Incident | Novel Writing Advice](https://www.youtube.com/watch?v=1OMDq_WKNuc)
+	- [Inciting Incidents | Writing Tips](https://www.youtube.com/watch?v=iwKkN5G7IuU)
+	- [Start campaign](https://www.youtube.com/watch?v=Ok73mIvljrQ)
 
 ## Pillar / Slow Burn
 - Exciting combat. My old how to make combat awesome post.
@@ -14,6 +36,8 @@
 	- [3 Great Combat Tools You're Not Using (Yet!)](https://www.youtube.com/watch?v=TEJvtAjeXFk "3 Great Combat Tools You're Not Using (Yet!)")
 
 ## Game Master Advice
+- How to be an improv-heavy GM. How to run heavily improvised adventures.
+- [Avoid over-planning](https://www.youtube.com/watch?v=hKEeTusSOIw)
 - Open loops to engage players (mystery)
 	- https://www.youtube.com/watch?v=AyaaX0gLv0c
 	- Get players to chase information rather than pushing infodumps on them
@@ -21,50 +45,46 @@
 	- [Be a good GM](https://www.youtube.com/watch?v=rwx6avbdgeA)
 - Engaging players, helping them get into roleplay
 - 10 places to find players for your game.
-- How to run heavily improvised adventures.
-- [Steps to preparing for the game](https://www.youtube.com/watch?v=NzAyjrUCHao).
-	- [Prep](https://www.youtube.com/watch?v=0-ngv6-Pr1c)
-	- [Time saving prep tips](https://www.youtube.com/watch?v=khDfJwMapKQ)
 - [Using Obsidian/Notion as a GM](https://www.youtube.com/watch?v=8AfbMNAsyr4)
 	- [Organized](https://www.youtube.com/watch?v=qFC4KIS07ws)
-- [Take great notes as a game master](https://www.youtube.com/watch?v=9wNCTu-M0Ko)
+	- [Take great notes as a game master](https://www.youtube.com/watch?v=9wNCTu-M0Ko)
 - [Pacing](https://www.youtube.com/watch?v=l-jZpx958HQ)
 	- [Pacing 2](https://www.youtube.com/watch?v=tquo1wsrb14)
 	- [How to Achieve Good Story Pacing](https://www.youtube.com/watch?v=OMyY6bDp67s)
-- Adventure hook
-	- [Creating a strong start](https://www.youtube.com/watch?v=LOLeMasU7mU)
-	- [Exciting way to start an adventure](https://www.youtube.com/watch?v=i9fTMczJTlg).
-	- [Start a campaign](https://www.youtube.com/watch?v=uYUzOdHTfVI)
-	- [How to Write the Inciting Incident | Novel Writing Advice](https://www.youtube.com/watch?v=1OMDq_WKNuc)
-	- [Inciting Incidents | Writing Tips](https://www.youtube.com/watch?v=iwKkN5G7IuU)
-	- [Start campaign](https://www.youtube.com/watch?v=Ok73mIvljrQ)
-- [15 minutes game prep](https://www.youtube.com/watch?v=yt66FTk3jX8)
 - [Single page DnD campaign guide](https://www.youtube.com/watch?v=thwe8XG9pUI)
 - [Create suspense](https://www.youtube.com/watch?v=gOY3ff8emFc)
 	- [Write fear and suspense](https://www.youtube.com/watch?v=HekBq_4qZZM)
-- [How to avoid railroading](https://www.youtube.com/watch?v=KqIZytzzFKU)
-	- [2](https://www.youtube.com/watch?v=fzI_9WHlUJY).
-- [Engaging the players](https://www.youtube.com/watch?v=_iWeZ-i19dk).
-- Run your first adventure, get started, 101 [First game](https://www.youtube.com/watch?v=aBOH8YLUPjE). [GMing 101](https://www.youtube.com/watch?v=pgoW1at9bBg)
-- [Let one player plays as an antagonist](https://www.youtube.com/watch?v=I-nfsi6B8d4).
+- Run your first adventure, get started, 101
+	- [First game](https://www.youtube.com/watch?v=aBOH8YLUPjE).
+	- [GMing 101](https://www.youtube.com/watch?v=pgoW1at9bBg)
+- [Let one player play as an antagonist](https://www.youtube.com/watch?v=I-nfsi6B8d4).
 - [Deal with problem players](https://www.youtube.com/watch?v=X36G9xYrH60)
-- [Top 5 novice GM mistakes](https://www.youtube.com/watch?v=cPAmUibg_48). [Things I wish I knew](https://www.youtube.com/watch?v=f0LJnGBOP8w) [GM Mistakes](https://www.youtube.com/watch?v=eYRoKoSxVgE) [Deadly sins](https://www.youtube.com/watch?v=NLB8GjRNMFE) [Sins 2](https://www.youtube.com/watch?v=pn29aUjo6k0) [Mistakes](https://www.youtube.com/watch?v=D0UczaINLf0) [terrible dms](https://www.youtube.com/watch?v=wfcEN5Jd-94) [3](https://www.youtube.com/watch?v=G_3DUcIAAzc)
+- [Top 5 novice GM mistakes](https://www.youtube.com/watch?v=cPAmUibg_48).
+	- [Things I wish I knew](https://www.youtube.com/watch?v=f0LJnGBOP8w)
+	- [GM Mistakes](https://www.youtube.com/watch?v=eYRoKoSxVgE)
+	- [Deadly sins](https://www.youtube.com/watch?v=NLB8GjRNMFE)
+	- [Sins 2](https://www.youtube.com/watch?v=pn29aUjo6k0)
+	- [Mistakes](https://www.youtube.com/watch?v=D0UczaINLf0)
+	- [terrible dms](https://www.youtube.com/watch?v=wfcEN5Jd-94)
+	- [3](https://www.youtube.com/watch?v=G_3DUcIAAzc)
 - [Roleplaying mistakes](https://www.youtube.com/watch?v=eYRoKoSxVgE)
 - [Roleplaying is not voice acting.](https://old.reddit.com/r/rpg/comments/ih97hd/roleplaying_is_not_voice_acting/) (let your players just describe how they talk instead of delivering a speech).
 - [3 triggers to become a great game master](https://www.youtube.com/watch?v=cv1tBf7EJu8)
 - [Avoid boring adventures](https://www.youtube.com/watch?v=tDmGWRokNFo&t=183s)
 - [The only 7 NPCs you need](https://www.youtube.com/watch?v=PDwOlY4ot8s)
 	- [3 types you need](https://www.youtube.com/watch?v=EJ5gHLVupQQ)
-- [How to prepare an adventure](https://www.youtube.com/watch?v=C-S3lTkmA2c&t=55s). [Prepping an adventure](https://www.youtube.com/watch?v=jXYORWtiLF0)
+- [How to prepare an adventure](https://www.youtube.com/watch?v=C-S3lTkmA2c&t=55s).
+	- [Prepping an adventure](https://www.youtube.com/watch?v=jXYORWtiLF0)
+	- [15 minutes game prep](https://www.youtube.com/watch?v=yt66FTk3jX8)
+	- [Steps to preparing for the game](https://www.youtube.com/watch?v=NzAyjrUCHao).
+	- [Prep](https://www.youtube.com/watch?v=0-ngv6-Pr1c)
+	- [Time saving prep tips](https://www.youtube.com/watch?v=khDfJwMapKQ)
 - [Illusion of the living world](https://www.youtube.com/watch?v=6JP-nkeCwYg)
-- [Avoid over-planning](https://www.youtube.com/watch?v=hKEeTusSOIw)
-- [Keep players engaged](https://www.youtube.com/watch?v=QEnN8aQmtWA)
 - [Make names that don't suck](https://www.youtube.com/watch?v=ZkluGoKS1-Q)
 	- [Name book characters](https://www.youtube.com/watch?v=-RXYx7unhPM)
 	- [Names](https://www.youtube.com/watch?v=RAS3OFuPIwo)
 	- [Name characters](https://www.youtube.com/watch?v=-sfEhXIhlX0)
 	- [How To Name Your Book Characters](https://www.youtube.com/watch?v=g7EzkQSOlpI)
-- [Improve your narration](https://www.youtube.com/watch?v=oA5DSjzvtek)
 - [Minimalist Game Master](https://www.youtube.com/watch?v=h05_W_KCGTU)
 	- [Minimalist](https://www.youtube.com/watch?v=BGCkwdfKLS8&t=2s)
 - [Learn a new rpg system](https://www.youtube.com/watch?v=mOwwICf-y_k)
@@ -148,7 +168,7 @@
 	- [Quick Tip: 4 Pillars of Great Characters](https://www.youtube.com/watch?v=iGvCWH5YnTw)
 	- [Interesting characters](https://www.youtube.com/watch?v=MozMgyppTjM)
 	- [How to Write Believable Characters](https://www.youtube.com/watch?v=cMPL8--CJrM)
-## Character types
+### Character types
 - [Play evil characters](https://www.youtube.com/watch?v=MRgTu6FTHgI) [Evil characters](https://www.youtube.com/watch?v=2Q7wgXFonfA) [Evil characters](https://www.youtube.com/watch?v=kVuF4fkRD2c)
 - [How to roleplay classes](https://www.youtube.com/playlist?list=PLNnRdBIGJX6xk-0aP8f_b_FB_jchH4ijB) 
 - [Play arrogant jerk](https://www.youtube.com/watch?v=HSkA_FskXN8)
