@@ -28,7 +28,7 @@ You can use questions to help players create vivid descriptions:
 - Describe to me, how do you [do the thing the player wants to roll for]?
 - How do you [help another player to give them advantage on a roll]?
 
-To prompt players to add details to the world around them:
+And to add details to the world around them:
 > 
 - What's an unusual detail that you notice about [this place, monster, item]?
 - Do you know anything about [the place or a creature you have encountered that the character might be familiar with]?
@@ -36,7 +36,7 @@ To prompt players to add details to the world around them:
 <!--  and contribute information to the game: -->
 <!-- ### Help them contribute to the story -->
 
-To encourage players to contribute to the story and drive the plot forward:
+Encourage players to contribute to the story and drive the plot forward:
 
 > 
 - What do you want to do next?
@@ -44,12 +44,12 @@ To encourage players to contribute to the story and drive the plot forward:
 
 <!-- ### Roleplay -->
 
-To help players to develop their characters and get into their role:
+Help players to develop their characters and get into their role:
 >
 - How do you feel about [the situation you're in]?
 - What’s going through your head as you do [some dramatic or dangerous thing, have a confrontation with another character]?
 
-Or to prompt them to interact with each other:
+Prompt them to interact with each other:
 >
 - How do you react [in response to another player's action, when you pick up on another player's emotions]? What do you say to them?
 - You notice [some important information, some detail other players can't see]. Do you share it with a party or keep it secret?
