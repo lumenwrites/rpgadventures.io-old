@@ -1,3 +1,18 @@
+## Headlines
+- 
+## Outline
+- 
+
+## Notes
+- 
+
+## Examples/Metaphors
+- 
+## Resources
+- 
+
+
+
 ## Questions
 - Who am I writing for?
 - What problem am I solving? What goal am I helping them achieve?

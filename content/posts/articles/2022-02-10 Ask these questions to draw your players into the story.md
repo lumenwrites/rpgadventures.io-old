@@ -63,8 +63,14 @@ If you notice your players struggling to answer the question - you can give them
 Can you think of more interesting questions to ask players to help them roleplay, describe things, to draw them into the story? Please leave them in the comments!
 
 
+>> Ask players questions in-character as an NPC. Questions with no yes or no answer.
+- Why did you leave town back then?
+- Why did you join the organization?
+- Whst do you miss about your life back then?
+- What are you gonna do next?
+- Get players to describe higs you both already know, in-character.
+- 
 
----
 They arrive in a town that's been plagued by bandit raids. How do I get this across, you think to yourself?
 
 "Fighter, as you approach the gates, what telltale sign of a recent bandit attack do you notice right away?"

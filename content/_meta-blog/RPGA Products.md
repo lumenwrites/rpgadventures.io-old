@@ -1,0 +1,7 @@
+- [Roleplaying tips products](https://www.roleplayingtips.com/gm-books/)
+	- [The Adventure Building Workshop](https://www.roleplayingtips.com/gm-books/adventure-building-workshop/)
+	- [Faster combat](https://www.roleplayingtips.com/join-faster-combat/)
+	- [Create 3 dimensional NPCs](https://www.roleplayingtips.com/gm-books/npc-essentials-book/)
+	- [App - campaign logger](https://www.roleplayingtips.com/campaign-logger/)
+- Improv for game masters
+- Any fiction book. descriptions, villains, character arcs, etc.

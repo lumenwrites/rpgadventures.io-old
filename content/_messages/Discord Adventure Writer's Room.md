@@ -17,6 +17,25 @@ If you aren't familiar with our process or haven't read the guidelines yet - ple
 ## Brainstorming in 10 minutes v2
 ```
 Hey, @mentions!
+Get ready, we begin our brainstorm in 30 minutes in the "Brainstorming Voice" channel!
+
+This is the google doc we’ll be filling with our ideas, please open it before we begin:
+[google docs link]
+
+Also open the endless adventure idea generator:
+https://rpgadventures.io/endless-adventure-idea-generator.pdf
+
+And our adventure prompts tool:
+https://perchance.org/adventure-prompts
+
+If you haven’t read our brainstorming guidelines yet - please check them out here:
+https://rpgadventures.io/writers-room
+
+> Also, today I want to screencast our brainstorming process and upload it to youtube. We don't need to do anything differently, I just want to be able to share our process with other people. If at the end of the session anyone isn't comfortable with uploading the video, I'll delete it.
+```
+
+```
+Hey, @mentions!
 Get ready, we begin our brainstorm in 10 minutes!
 
 This is the google doc we’ll be filling with our ideas, please open it before we begin:

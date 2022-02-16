@@ -120,7 +120,7 @@ Try to make sure you have prepared everything that would be hard to improvise on
 Listen to players and “yes and” their ideas. Let them take the story in their own direction, and build on top of their ideas. Play to find out what happens, don't try to force preplanned outcomes.
 
 ###  Keep the scenes short
-Shorter scenes are better than longer ones. Start scenes as close to the action as possible, end them as soon as the interesting part over.
+Shorter scenes are better than longer ones. Start scenes as close to the action as possible, end them as soon as the interesting part is over.
 
 ### Follow the rule of cool
 The more awesome, creative, or funny the player’s idea is, the more likely it is to work.  

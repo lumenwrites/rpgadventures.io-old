@@ -16,6 +16,14 @@
 
 We meet in the discord voice chat, and challenge ourselves to improvise a one-shot adventure in 2 hours.
 
+## Auto Plug
+```
+Like my posts? Follow me - @MikeLumos
+
+I share advice that helps Game Masters get better at storytelling, improvisation, roleplay, creating and running awesome adventures.
+
+I also post exciting ideas you can use in your games and free adventures we create: https://rpgadventures.io/writers-room
+```
 ## ttrpgrising messages
 ```
 Hey guys!

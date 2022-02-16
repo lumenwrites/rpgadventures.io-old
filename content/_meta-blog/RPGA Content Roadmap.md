@@ -1,17 +1,5 @@
 ## Next Up
 - [Improve your narration](https://www.youtube.com/watch?v=oA5DSjzvtek)
--  Keep players engaged.
-	- [Keep players engaged](https://www.youtube.com/watch?v=QEnN8aQmtWA)
-		- Put the players at the center of the story. Make the story about PCs, not about the plot.
-		- Let them drive the adventure, not be driven by the plot. Make it about their characters. 
-		- Player agency. Make sure players are making the decisions, not the GM. Put them into situations where they have to make choices.  let them make all the decisions. Don't have NPCs drive them through the story. Don't just tell a story the players simply tag along on.
-		- Having a battle thrust upon you is boring. Having you cause the battle, or trying to reach an objective that's in the middle of the battle (and is at risk of being destroyed by the battle) is fun. Because they WANTED to go there in the first place, build the story around what the players WANT to do.
-		- Balance success and failure. Don't just let them keep succeeding all the time - it's boring. Allow them to fail, make it clear that it's a setback, not a dead end. Don't let your players get to the point where they have no idea what they should be doing because everything they have tried has failed
-		- Don't make the decisions for players, make it their story.
-	- [Engaged](https://www.youtube.com/watch?v=ZEDwQ00NPxw)
-	- 
-	- [Engaging the players](https://www.youtube.com/watch?v=_iWeZ-i19dk)
-		- 
 - [How to avoid railroading](https://www.youtube.com/watch?v=KqIZytzzFKU)
 	- [2](https://www.youtube.com/watch?v=fzI_9WHlUJY)
 - Adventure hook
@@ -23,29 +11,37 @@
 	- [Start campaign](https://www.youtube.com/watch?v=Ok73mIvljrQ)
 
 ## Pillar / Slow Burn
-- Exciting combat. My old how to make combat awesome post.
-	- [Run awesome Combat](https://www.youtube.com/watch?v=Ul1YjYDIuFo)
-	- [Make combat awesome](https://www.youtube.com/watch?v=t51cK9a_JEg)
-	- [Fun combat](https://www.youtube.com/watch?v=KFUyg_3-xmk)
-	- [Exciting combats cenes](https://www.youtube.com/watch?v=gxfenhHVLFM)
-	- [Running combat](https://www.youtube.com/watch?v=VKx1QG86wbo)
-	- [Speed up combat](https://www.youtube.com/watch?v=Z2Az_XqeZ24)
-	- [Exciting combat](https://www.youtube.com/watch?v=em7jb-Onq9E)
-	- https://www.youtube.com/watch?v=z2d1gceeAPw
-	- [The 3 Axes of Combat Encounters](https://www.youtube.com/watch?v=yXmM60NlIb4 "The 3 Axes of Combat Encounters")
-	- [3 Great Combat Tools You're Not Using (Yet!)](https://www.youtube.com/watch?v=TEJvtAjeXFk "3 Great Combat Tools You're Not Using (Yet!)")
 
 ## Game Master Advice
-- How to be an improv-heavy GM. How to run heavily improvised adventures.
+- Modular adventures.
+
 - [Avoid over-planning](https://www.youtube.com/watch?v=hKEeTusSOIw)
+- How to build social encounters
+	- [MM](https://www.youtube.com/watch?v=GNoR-CcOtqI&list=PL7atuZxmT9570U87GhK_20NcbxM43vkom&index=4)
+		- Encorporate social events into your games - diplomatic missions, spy, interrogations, investigations. Clear goal of social encounter.
+		- Make sure NPCs are fleshed out, you know their goals/fears/secrets/etc.
+		- Keep a list of key relevant information each npc knows. And what will make them be willing to reveal this information (price, threats, etc).
+		- Raise the stakes. Tense social environment, npcs you thought was dead shows up. Someone disappears at a party and found dead. Finding hidden spy. 
+		- Infiltration, stealth, etc (non social but non combat)
+	- [MM Improv](https://www.youtube.com/watch?v=rKU2e5Xrx1k&list=PL7atuZxmT9570U87GhK_20NcbxM43vkom&index=10)
+		- Build a library of NPCs with names, personality traits, goals, etc. So you can use them when convenient.
 - Open loops to engage players (mystery)
 	- https://www.youtube.com/watch?v=AyaaX0gLv0c
 	- Get players to chase information rather than pushing infodumps on them
 - [10 principles for gms](https://www.youtube.com/watch?v=6tKFv0NolHw)
 	- [Be a good GM](https://www.youtube.com/watch?v=rwx6avbdgeA)
-- Engaging players, helping them get into roleplay
+- Get players to roleplay
+	- [Matt Mercer](https://www.youtube.com/watch?v=srsSEIb-Bw4)
+		- Talk in advance, make sure theyre on board
+		- Have them make character backgrounds and motivations. Helps people get invested in their characters, develop personality traits.
+		- Lead the way.
+			Speak with your players the way you'd like them to RP in turn. Make eye contact, lean in, gesture, point.  
+		- When the player begins to describe the gist of their response, instead of in-character, ask them to respond in character. How would [character name] ask that question to me, [the NPC name]?  As those angry thoughts fill her mind, how would [your character] express that verbally?
+		- Different voice and physicality. Broaden shoulders, curled up. Giant bombastic gestures.  Physically embody your character during RP moments.
+		- Players - support other players, try to elevate quieter players, let them have a spotlight.
 - 10 places to find players for your game.
 - [Using Obsidian/Notion as a GM](https://www.youtube.com/watch?v=8AfbMNAsyr4)
+	- [Sly flourish post](https://slyflourish.com/lazy_dnd_with_notion.html)
 	- [Organized](https://www.youtube.com/watch?v=qFC4KIS07ws)
 	- [Take great notes as a game master](https://www.youtube.com/watch?v=9wNCTu-M0Ko)
 - [Pacing](https://www.youtube.com/watch?v=l-jZpx958HQ)
@@ -127,8 +123,7 @@
 - [Introspective/thinking/talking sceens interesting](https://www.youtube.com/watch?v=Im2AAkRzL8k)
 - [Tips for shy roleplayers](https://www.youtube.com/watch?v=4Nx6sRk3jIc)
 - [Colville Roleplaying](https://www.youtube.com/watch?v=7YCVHnItKuY)
-- [Improvising awesome NPC dialogue](https://www.youtube.com/watch?v=C1SfZ2Fp_BQ)
-	- [Dialogue](https://www.youtube.com/watch?v=dVHp1riaZ-Y)
+
 - [One dimensional roleplayer?](https://www.youtube.com/watch?v=3fhu063UyU4)
 - [Doing Voices](https://www.youtube.com/watch?v=iQssFItReqk) [Memorable NPCs](https://www.youtube.com/watch?v=NwJxM1ABLJM) [Doing accents](https://www.youtube.com/watch?v=7qu3cfePVzQ) [Memorable NPCs 2](https://www.youtube.com/watch?v=HdJsr-r1dZw)
 	- [Developing a voice without accents](https://www.youtube.com/watch?v=J6xI0m7TuEc)
@@ -184,6 +179,7 @@
 ## Storytelling, Adventure Writing
 - [9 Ways To Get Ideas for Books](https://www.youtube.com/watch?v=wf-gQ7k_TNo)
 - [Moral Dilemma](https://www.youtube.com/watch?v=gTZfueMVVzw)
+- [Interesting Twists](https://www.youtube.com/watch?v=cJiY7qvSS-k)
 - What is High Concept, how does it work
 	- [Strong story concept](https://www.youtube.com/watch?v=UUPZ1Xwa8KY)
 - Notes from the Idea book
@@ -318,6 +314,7 @@ https://m.youtube.com/watch?v=3H8pQyyXxHg&t=5s
 - [Writing Like J.K. Rowling: Character Complexity](https://www.youtube.com/watch?v=qctv-WTtTUk)
 - [Introducing new players to DnD](https://www.youtube.com/watch?v=yaRpkhrvLAU)
 - [Play dnd over discord](https://www.youtube.com/watch?v=_Yg-GyrcccI)
+	- [Sly flourish play dnd over discord](https://slyflourish.com/playing_dnd_over_discord.html)
 	- [Make online dnd suck less](https://www.youtube.com/watch?v=O-5M6JXzKzE)
 	- [Why Online D&D Sucks and How to Fix it](https://www.youtube.com/watch?v=SHAhfMKywco)
 	- [2](https://www.youtube.com/watch?v=eaZL6QrwXz0)
