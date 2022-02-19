@@ -13,7 +13,7 @@ A story is made out of a series of **events**. The sequence of all the events is
 
 An **Event** is a meaningful change in the character’s life, the thing that happens during the story that transforms the world from one state into another.
 
-During the story, the main character (**protagonist**) goes through the series of events, each of them _taking him closer to, or farther away from_ his **Goal**.
+During the story, the main character (**protagonist**) goes through a series of events, each of them _taking him closer to, or farther away from_ his **Goal**.
 
 This series of events culminates in a **Climax** — the major, most important event of a story, **the moment when the protagonist achieves his goal** (or, sometimes, fails to achieve it).
 
@@ -27,7 +27,7 @@ A story is divided into 3 Acts.
 
 The **first act** is about the protagonist’s regular life being _disrupted_ by some event. This event is called **Inciting Incident** (I'll refer to it as IInc).
 
-IInc is the main reason the story has happened, the thing that kicks off the series of events that lead to climax.
+IInc is the main reason the story has happened, the thing that kicks off a series of events that lead to climax.
 
 IInc gives the protagonist a _challenge_, creates a **Goal** — the thing the hero will be trying to achieve for the rest of the story. Often, IInc is the result of a _problem_ created by the antagonist.
 
@@ -49,7 +49,7 @@ The hero pursues his goal, and _overcomes the obstacles_ set by the antagonist. 
 
 As the hero moves further, the stakes rise, his commitment to the goal increases, he has to apply more effort and take bigger and bigger risks to move forward.
 
-In the middle of a second act, the protagonist goes through the **Mid Point** (MP) — the **point of no return**. He swims past the middle of the river, and now turning back would be more difficult than reaching the other shore.
+In the middle of the second act, the protagonist goes through the **Mid Point** (MP) — the **point of no return**. He swims past the middle of the river, and now turning back would be more difficult than reaching the other shore.
 
 The stakes continue to rise, until the protagonist has to **risk everything** in his biggest attempt to win. _He engages in the **final battle** against the antagonist, and puts everything on the line._
 
@@ -59,7 +59,7 @@ The **third act** is about the final battle and its outcome.
 
 Defeated, half-dead hero _learns his biggest lesson from his worst failure._
 
-This is usually when the biggest _twist_ happens. Hero _sees the truth_. Comes up with a brilliant creative solution, understands his mistake, realizes who was the murderer all along, finds the ultimate weapon, etc. This is what will enable him to turn his defeat into a victory.
+This is usually when the biggest _twist_ happens. The hero _sees the truth_. Comes up with a brilliant creative solution, understands his mistake, realizes who was the murderer all along, finds the ultimate weapon, etc. This is what will enable him to turn his defeat into a victory.
 
 - Harry holds a basilisk fang
 - Neo sees the Matrix code
@@ -224,4 +224,4 @@ Another useful idea at this point is to just set yourself a goal to write a cert
 I have developed a [story template](https://nulis.io/template/Story?src=writerscoop) based on these ideas — a tool that allows you to organize all of this information, and takes you through the process of writing a story using this method. You can read more about using it to write stories [here](https://nulis.io/blog/post/story-writing-process-xh909iw?src=writerscoop).
 -->
 
-To go deeper into this subject and learn more, I highly recommend the book [Story](https://www.amazon.com/Story-Structure-Substance-Principles-Screenwriting-ebook/dp/B0042FZVOY) by Robert McKee, this incredible [lecture on screenwriting](http://www.audible.com.au/pd/Health-Personal-Development/Screenwriting-for-Hollywood-Audiobook/B00FO19USI) by Michael Hauge, a [series of lectures](https://www.youtube.com/user/WriteAboutDragons) by Brandon Sanderson, and [my course about creating adventures](https://rpgadventures.io/course/adventure-academy)
+To go deeper into this subject and learn more, I highly recommend the book [Story](https://www.amazon.com/Story-Structure-Substance-Principles-Screenwriting-ebook/dp/B0042FZVOY) by Robert McKee, this incredible [lecture on screenwriting](http://www.audible.com.au/pd/Health-Personal-Development/Screenwriting-for-Hollywood-Audiobook/B00FO19USI) by Michael Hauge, a [series of lectures](https://www.youtube.com/user/WriteAboutDragons) by Brandon Sanderson, and [my course about creating adventures](https://rpgadventures.io/course/adventure-academy).
