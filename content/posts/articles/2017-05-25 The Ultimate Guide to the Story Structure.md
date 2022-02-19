@@ -1,5 +1,5 @@
 ---
-description: A summary of everything I have learned during the first 3 years of learning to write fiction
+description: A summary of everything I know about developing a plot and creating a good story structure.
 slug: story-structure
 tags: ["Storytelling", "Adventure Writing"]
 relatedPosts: []
