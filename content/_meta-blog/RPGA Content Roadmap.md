@@ -1,4 +1,7 @@
 ## Next Up
+- Antagonist-driven adventures
+- Modular adventure design (island based theory)
+- Tips for better description
 - [Improve your narration](https://www.youtube.com/watch?v=oA5DSjzvtek)
 - [How to avoid railroading](https://www.youtube.com/watch?v=KqIZytzzFKU)
 	- [2](https://www.youtube.com/watch?v=fzI_9WHlUJY)
@@ -14,8 +17,9 @@
 
 ## Game Master Advice
 - Modular adventures.
-
+- [How to get feedback from your players](http://www.roleplayingtips.com/running-games/highlights-and-hopes-how-to-get-valuable-feedback-from-your-players/)
 - [Avoid over-planning](https://www.youtube.com/watch?v=hKEeTusSOIw)
+- Get in the right mood. Players will mirror it. Stupid dance, power moves. It's a part of being competent. The stupidest trick that makes my games much better.
 - How to build social encounters
 	- [MM](https://www.youtube.com/watch?v=GNoR-CcOtqI&list=PL7atuZxmT9570U87GhK_20NcbxM43vkom&index=4)
 		- Encorporate social events into your games - diplomatic missions, spy, interrogations, investigations. Clear goal of social encounter.
@@ -65,6 +69,7 @@
 	- [3](https://www.youtube.com/watch?v=G_3DUcIAAzc)
 - [Roleplaying mistakes](https://www.youtube.com/watch?v=eYRoKoSxVgE)
 - [Roleplaying is not voice acting.](https://old.reddit.com/r/rpg/comments/ih97hd/roleplaying_is_not_voice_acting/) (let your players just describe how they talk instead of delivering a speech).
+- [8 kinds of fun](https://theangrygm.com/gaming-for-fun-part-1-eight-kinds-of-fun/)
 - [3 triggers to become a great game master](https://www.youtube.com/watch?v=cv1tBf7EJu8)
 - [Avoid boring adventures](https://www.youtube.com/watch?v=tDmGWRokNFo&t=183s)
 - [The only 7 NPCs you need](https://www.youtube.com/watch?v=PDwOlY4ot8s)

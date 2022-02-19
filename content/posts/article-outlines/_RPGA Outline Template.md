@@ -6,12 +6,13 @@
 ## Notes
 - 
 
-## Examples/Metaphors
-- 
 ## Resources
 - 
 
-
+## Examples/Metaphors
+- 
+## Jokes
+- 
 
 ## Questions
 - Who am I writing for?

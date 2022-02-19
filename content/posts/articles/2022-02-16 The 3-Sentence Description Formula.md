@@ -22,6 +22,8 @@ Keep it brief and not overly detailed.
 Add one specific detail to engage your players' imagination and help their minds to build a vivid picture of the setting.
 
 <!--
+Describe a detail of the room that isn't important, but ads flavour and deepens the verisimilitude of the place.
+
 Aim to engage senses other than vision, or make the world feel alive by describing some activity in the scene.
 > - roaring waterfall
 > - > - The birds call above you
@@ -53,7 +55,7 @@ Aim to engage senses other than vision, or make the world feel alive by describi
 -->
 
 ### 3. List actionable things
-Finally, direct your players' attention to the most notable things in the area, everything they can interact with or investigate.
+Finally, direct your players' attention to the most notable things in the area, everything they can interact with or investigate, things that will influence their behavior.
 
 > - The walls are covered in strange runes.
 > - An enormous bear is sleeping in the corner.
@@ -62,6 +64,9 @@ Finally, direct your players' attention to the most notable things in the area, 
 Describe the most important thing last because otherwise the players will immediately focus on that and won't pay attention to the rest of the description.
 
 <!--
+
+ Describe the most important thing in the room. Is there a feature that dominates the centre of the room? Are there orcs? Pick whatever the thing is that will influence player's behaviour.
+
 - Overall mood
 > - The place feels lonely and long-abandoned
 

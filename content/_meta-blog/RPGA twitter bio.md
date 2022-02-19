@@ -25,6 +25,8 @@ I share advice that helps Game Masters get better at storytelling, improvisation
 I also post exciting ideas you can use in your games and free adventures we create: https://rpgadventures.io/writers-room
 ```
 ## ttrpgrising messages
+### Writers room tools
+Writers Room Community
 ```
 Hey guys!
 
@@ -34,6 +36,100 @@ I also post exciting ideas you can use in your games and free adventures we crea
 https://rpgadventures.io/writers-room
 ```
 
+No link (use writers room image)
+```
+Hey guys!
+
+I share advice that helps Game Masters get better at storytelling, improvisation, roleplay, creating and running awesome adventures.
+
+I also run a community where GMs create adventures together.
+
+Check out my best TTRPG projects in my pinned tweet.
+```
+
+```
+Hey, thanks!
+
+I share advice that helps Game Masters get better at storytelling, improvisation, roleplay, creating and running awesome adventures.
+
+I also run a community where GMs help each other to create awesome adventures.
+
+Check out my best TTRPG projects in my pinned tweet.
+```
+
+```
+Hey guys!
+
+I help Game Masters get better at creating and running awesome adventures.
+
+I share advice on storytelling, improvisation, roleplay. I also post exciting ideas to use in your games, and free adventures made by our community.
+
+Take a look at my profile to learn more.
+```
+
+```
+Hey, thanks!
+
+We're a community of GMs who create adventures together (and share them with everyone for free). We're looking for some friendly and creative people to join us!
+
+I also share storytelling/roleplaying/improv tips, and exciting ideas you can use in your games.
+```
+
+```
+Hey, thanks for posting this!
+
+I really love games that are focused on storytelling/improv/roleplay, as opposed to intricate rules and mechanics, and I write posts that help Game Masters to get better at running games like this.
+```
+
+```
+Hey, thanks for the space!
+
+My goal is to help Game Masters get better at running storytelling/improvisation/roleplay-focused games.
+
+I share tips and advice, cool ideas you can use in your games, and also some free adventures me and my friends are creating.
+```
+
+Adventure prompts tool
+```
+Hey guys!
+
+I share advice that helps Game Masters get better at storytelling, improvisation, roleplay, creating and running awesome adventures.
+
+Check out the adventure prompts tool I've created, it will help you to easily invent endless adventure ideas:https://perchance.org/adventure-prompts
+```
+
+Endless adventure idea generator
+```
+Hey guys!
+
+I share advice that helps Game Masters get better at storytelling, improvisation, roleplay, creating and running awesome adventures.
+
+Check out the endless adventure idea generator I've created:
+https://rpgadventures.io/endless-adventure-idea-generator.pdf
+```
+
+Brainstorming template
+```
+Hey guys!
+
+I share advice that helps Game Masters get better at storytelling, improvisation, roleplay, creating and running awesome adventures.
+
+Check out the adventure brainstorming template I've created, it will help you to easily create cool adventures:https://docs.google.com/document/d/1fGKA1EnPn3T5qb_tHty4C07Iw-8InFMGn1WWnFyj6yI/
+```
+
+Mirage
+```
+Hey guys!
+
+I'm working on Mirage - a rules-light game for people who love storytelling, improvisation, and freeform roleplay.
+
+My goal is to get the rules out of your way, so that you can focus on roleplaying and getting better at storytelling and improv.
+
+https://rpgadventures.io/mirage
+```
+
+### Articles
+Endless Adventure Ideas Guide
 ```
 Hey guys!
 
@@ -43,13 +139,25 @@ Check out my guide on inventing an endless amount of exciting adventure ideas:
 https://rpgadventures.io/post/create-endless-adventure-ideas
 ```
 
+### Adventures
 ```
-I'm working on Mirage - a rules-light game for people who love storytelling, improvisation, and freeform roleplay.
+Hey guys!
 
-My goal is to get the rules out of your way, so that you can focus on roleplaying and getting better at storytelling and improv.
+I share advice that helps Game Masters get better at storytelling, improvisation, roleplay, creating and running awesome adventures.
 
-https://rpgadventures.io/mirage
+Check out my free adventure about saving the Dragon from a Princess:
+https://rpgadventures.io/post/damsels-and-dragons
 ```
+
+```
+Hey guys!
+
+I share advice that helps Game Masters get better at storytelling, improvisation, roleplay, creating and running awesome adventures.
+
+Check out Zeppelin Heist - a free adventure I have created:
+https://rpgadventures.io/post/zeppelin-heist
+```
+
 
 --- 
 

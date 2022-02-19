@@ -26,8 +26,19 @@
 
 ## Examples/Metaphors
 - You mentioned that there was broken glass on the floor [sight], but as the PCs move into the room you can add the description of the grass crunching under their boots [sound and touch]. The waterfall was described as roaring [hearing], but you can build on that by mentioning the cool mist it throws up [touch] or the fractured reflections of light dancing across the walls of the cave [sight].
+- Your footsteps echo as you walk through the cave.
 ## Resources
 - [Alexandrian - Evocative Descriptions](https://thealexandrian.net/wordpress/39227/roleplaying-games/random-gm-tips-evocative-descriptions)
 	- 3 out of 5 senses. No taste, sight is a given.  Wind and temperature. Physical sensations.
 - [Alexandrian - Description Formulas](http://thealexandrian.net/wordpress/47328/roleplaying-games/random-gm-tip-description-formulas)
-
+- https://www.reddit.com/r/DMAcademy/comments/98ca22/how_can_i_improve_my_dm_descriptions_without/
+- https://www.reddit.com/r/DMAcademy/comments/pi2tjz/how_do_i_do_better_descriptions/
+- https://www.reddit.com/r/DMAcademy/comments/gs66ow/help_with_scene_description/
+- https://old.reddit.com/r/DMAcademy/comments/qjyjmz/how_can_i_learn_to_make_my_descriptions_of/
+- [Practice describing your surroundings out-loud](https://www.reddit.com/r/DMAcademy/comments/kdb2jq/struggling_with_descriptions_try_this/)
+- Describe NPCs
+	- https://www.reddit.com/r/DMAcademy/comments/omr6oj/how_describe_things_better/
+	- [Player-driven descriptions](https://www.youtube.com/watch?v=ZNLTdryItt0) - ask players to describe.
+- https://www.reddit.com/r/DMAcademy/comments/7ou9an/i_need_help_with_creative_descriptions/
+- [4 sentence descriptions](https://www.reddit.com/r/DMAcademy/comments/p5pl3l/improv_descriptions_in_4_sentences/)
+- [3 sentence descriptions](https://www.reddit.com/r/DMAcademy/comments/r87he5/the_threesentence_sceneroom_description/)
