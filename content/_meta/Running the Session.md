@@ -34,7 +34,6 @@ If we really like the story we have created, and have about 40 minutes of time l
 My job as a session guide is to do my best to make sure that we successfully create a good adventure within a reasonable amount of time. So I will be trying to guide the brainstorming process, keep our conversation on track, and keep us going forward at a good pace.
 
 ### Screencastig
-
 I like to screencast our sessions and upload them to youtube. It's useful for people and helps me grow our community.
 
 But we don't have to do this if anyone doesn't feel comfortable with that. If at the end of the session anyone isn't comfortable with uploading the video, I'll delete it.
