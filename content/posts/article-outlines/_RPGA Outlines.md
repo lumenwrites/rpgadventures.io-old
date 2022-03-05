@@ -1,5 +1,0 @@
-- Simple tip that will make yourd descriptions more interesting (describe only specific and unexpected things)
-	- Predictable things are boring, surprising things are interesting.
-	- You can just give a general description of the place with a mood and a couple of adjectives, and it will be enough for your players to picture it.
-	- Listing everything in the scene and describing it in details is boring.
-	- So focus on what makes it unique and different, describe things that are surprising. cool metaphors, unexpected turns of phrase.

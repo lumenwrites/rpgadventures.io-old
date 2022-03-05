@@ -1,1 +1,0 @@
-Sentient mask/hat. Sorting hat. Like brain slug.

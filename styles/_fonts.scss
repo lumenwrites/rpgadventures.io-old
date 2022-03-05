@@ -36,6 +36,43 @@
     font-display: swap;
 }
 
+// Bookerly - Kindle font. Readable and pretty for papery text.
+// @font-face {
+//     font-family: "Bookerly";
+//     src: url("./fonts/Bookerly/Bookerly.ttf");
+//     font-weight: normal;
+//     font-display: swap;
+// }
+// @font-face {
+//     font-family: "Bookerly";
+//     src: url("./fonts/Bookerly/Bookerly Bold.ttf");
+//     font-weight: bold;
+//     font-display: swap;
+// }
+
+// Poppins - Modern problogger font for scifi adventures
+@font-face {
+    font-family: "Poppins";
+    src: url("./fonts/Poppins/Poppins-Regular.ttf");
+    font-weight: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Poppins";
+    src: url("./fonts/Poppins/Poppins-Bold.ttf");
+    font-weight: bold;
+    font-display: swap;
+}
+
+
+// IM Fell - roleplayingtips.com papery font. Maybe use that for adventure headers instead
+// @font-face {
+//     font-family: "IM Fell";
+//     src: url("./fonts/IM Fell/IM Fell Regular.ttf");
+//     font-weight: normal;
+//     font-display: swap;
+// }
+
 // Bookmania
 @font-face {
     font-family: "Bookmania";

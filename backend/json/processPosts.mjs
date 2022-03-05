@@ -55,6 +55,7 @@ export async function getPosts(postsdir, category) {
       date: frontmatter.date || null,
       score: frontmatter.score || 0,
       wordCount: content.split(' ').length,
+      theme: frontmatter.theme || "default",
     }
     posts.push(post)
     if (tags) allTags = [...allTags, ...tags]

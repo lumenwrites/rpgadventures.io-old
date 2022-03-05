@@ -76,12 +76,16 @@
   background: #ede5cd;
   background-image: url(/img/paper-bg2.jpg);
   font-family: 'Bookmania';
+  // font-family: 'Bookerly';
+  // font-size: 15px;
   color: #140907;
+  color: #311e12;
   h1,
   h2,
   h3,
   h4 {
     font-family: 'Mr Eaves';
+    // font-family: 'IM Fell';
     color: #58190d;
   }
   h3 {
@@ -236,7 +240,22 @@
     color: #58190d;
   }
 }
-
+.theme-scifi {
+  @extend .theme-adventure;
+  border-radius: 0;
+  margin-top: 0;
+  font-family: 'Open Sans';
+  font-family: 'Poppins';
+  color: #222;
+  h1,h2,h3,h4 {
+    font-family: 'Poppins';
+    color: #222;
+  }
+  h3 {
+    border-bottom: 2px solid #6a97c9;
+  }
+  background: white;
+}
 // Image Capturing
 .social-image-footer {
   width: 100%;

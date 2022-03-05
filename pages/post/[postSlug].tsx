@@ -12,10 +12,14 @@ import TwitterFooter from 'components/Posts/ImageCaptureFooter'
 import ImageCaptureWrappers from 'components/Posts/ImageCaptureWrappers'
 
 export default function Post({ post }) {
+  console.log('post.theme', post.theme)
+  let theme = 'theme-adventure'
+  if (post.category === 'articles') theme = 'theme-default'
+  if (post.theme === 'scifi') theme = 'theme-scifi'
   return (
     <Layout>
       <ImageCaptureWrappers post={post}>
-        <div className={`post text ${post.category === 'articles' ? 'theme-default' : 'theme-adventure'}`}>
+        <div className={`post text ${theme}`}>
           {post.headerImage && <img className="post-header-image" src={post.headerImage} />}
           <div className="post-header-text">
             <h1>{post.title}</h1>
