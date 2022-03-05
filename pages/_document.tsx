@@ -8,7 +8,8 @@ export default class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          <script type="text/javascript" src="https://gumroad.com/js/gumroad.js"></script>
+          {/* https://nextjs.org/docs/messages/no-sync-scripts */}
+          {/* <script type="text/javascript" src="https://gumroad.com/js/gumroad.js"></script> */}
         </Head>
         <body>
           <Main />
