@@ -69,6 +69,14 @@
     color: var(--text-subheading);
     font-size: 1em;
   }
+  ul {
+    li {
+      margin-top:5px;
+      ul {
+        margin-top: 0;
+      }
+    }
+  }
   .prev-next {
     position: absolute;
     bottom: 20px;
