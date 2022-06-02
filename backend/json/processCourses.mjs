@@ -1,11 +1,17 @@
 //@ts-nocheck
 import slugify from 'slugify'
 import { join } from 'path'
-import { readFileSync, readdirSync, writeFileSync, lstatSync, existsSync } from 'fs'
+import {
+  readFileSync,
+  readdirSync,
+  writeFileSync,
+  lstatSync,
+  existsSync,
+} from 'fs'
 import { markdownToHtml } from './markdown.mjs'
 import { renderMDX } from './mdx.mjs'
 import matter from 'gray-matter'
-import config from '../../config.json'
+import config from '../../config.json' assert { type: 'json' }
 const contentdir = config.contentdir
 const jsondir = join(process.cwd(), './backend/json/courses')
 
@@ -35,7 +41,10 @@ async function processCourse(courseDirName) {
     }
     // If there's a file called _index.md inside the section folder - take the custom title/slug values from there
     if (existsSync(`${sectionDirPath}/_index.md`)) {
-      const sectionIndexText = readFileSync(`${sectionDirPath}/_index.md`, 'utf8')
+      const sectionIndexText = readFileSync(
+        `${sectionDirPath}/_index.md`,
+        'utf8'
+      )
       const sectionFrontmatter = parseFrontmatter(sectionIndexText)
       section.title = sectionFrontmatter.title
       section.slug = sectionFrontmatter.slug
@@ -46,14 +55,17 @@ async function processCourse(courseDirName) {
       const chapterFilepath = `${sectionDirPath}/${chapterFilename}`
       const chapterText = readFileSync(chapterFilepath, 'utf8')
       const { data: chapterFrontmatter, content } = matter(chapterText)
-      if (process.env.NODE_ENV === 'production' && chapterFrontmatter.draft) continue // skip the draft chapters
+      if (process.env.NODE_ENV === 'production' && chapterFrontmatter.draft)
+        continue // skip the draft chapters
       let chapterTitle = chapterFrontmatter.title || chapterFilename
       chapterTitle = chapterTitle.replace('.md', '')
       // If the file name starts with a number (like 999, used for ordering), remove it
       if (!isNaN(parseInt(chapterTitle.split(' ')[0]))) {
         chapterTitle = chapterTitle.substring(chapterTitle.indexOf(' ') + 1)
       }
-      const chapterSlug = chapterFrontmatter.slug || slugify(chapterTitle, { lower: true, strict: true })
+      const chapterSlug =
+        chapterFrontmatter.slug ||
+        slugify(chapterTitle, { lower: true, strict: true })
       // const html = await markdownToHtml(content)
       let chapter = {
         title: chapterTitle,
@@ -87,8 +99,12 @@ async function processCourse(courseDirName) {
         const nextSection = sections[sectionIndex + 1]
         nextChapter = nextSection.chapters[0]
       }
-      chapter.prev = prevChapter ? { title: prevChapter.title, url: prevChapter.url } : null
-      chapter.next = nextChapter ? { title: nextChapter.title, url: nextChapter.url } : null
+      chapter.prev = prevChapter
+        ? { title: prevChapter.title, url: prevChapter.url }
+        : null
+      chapter.next = nextChapter
+        ? { title: nextChapter.title, url: nextChapter.url }
+        : null
     }
   }
   const toc = sections.map((section) => {
@@ -131,7 +147,7 @@ async function processLanding(courseDir) {
 
 export async function processCourses() {
   const coursesDir = join(contentdir, 'courses')
-  console.log('coursesdir', coursesDir);
+  console.log('coursesdir', coursesDir)
   for (const courseDirName of readdirSync(coursesDir)) {
     const courseDirPath = join(coursesDir, courseDirName)
     if (!lstatSync(courseDirPath).isDirectory()) continue // ignore .DS_Store

@@ -7,7 +7,7 @@ import { renderMDX } from './mdx.mjs'
 import matter from 'gray-matter'
 import slugify from 'slugify'
 
-import config from '../../config.json'
+import config from '../../config.json' assert { type: 'json' }
 
 export async function getPosts(postsdir, category) {
   let posts = []
@@ -21,10 +21,13 @@ export async function getPosts(postsdir, category) {
     let titleFromFilename = postFileName.replace('.md', '')
     // If the file name starts with a number (like 999, used for ordering), remove it
     if (!isNaN(parseInt(titleFromFilename.split(' ')[0]))) {
-      titleFromFilename = titleFromFilename.substring(postFileName.indexOf(' ') + 1)
+      titleFromFilename = titleFromFilename.substring(
+        postFileName.indexOf(' ') + 1
+      )
     }
     const title = frontmatter.title || titleFromFilename
-    const slug = frontmatter.slug || slugify(title, { lower: true, strict: true })
+    const slug =
+      frontmatter.slug || slugify(title, { lower: true, strict: true })
     const url = frontmatter.directLink || `/post/${slug}`
     let tags = []
     if (frontmatter.tags) {
@@ -46,7 +49,11 @@ export async function getPosts(postsdir, category) {
       description: frontmatter.description || '',
       thumbnail: frontmatter.thumbnail || null,
       headerImage: frontmatter.headerImage || null,
-      social: frontmatter.social || frontmatter.thumbnail || `/post/${slug}/social.jpg` || null,
+      social:
+        frontmatter.social ||
+        frontmatter.thumbnail ||
+        `/post/${slug}/social.jpg` ||
+        null,
       comments: frontmatter.comments || null,
       relatedPosts: frontmatter.relatedPosts || null,
       markdown: content, // for search
@@ -55,7 +62,7 @@ export async function getPosts(postsdir, category) {
       date: frontmatter.date || null,
       score: frontmatter.score || 0,
       wordCount: content.split(' ').length,
-      theme: frontmatter.theme || "default",
+      theme: frontmatter.theme || 'default',
     }
     posts.push(post)
     if (tags) allTags = [...allTags, ...tags]
@@ -84,14 +91,19 @@ export async function getPosts(postsdir, category) {
 
 export async function processPosts(category) {
   const postsdir = join(config.contentdir, 'posts', category) // pages, posts, adventures
-  console.log('postsdir', postsdir);
+  console.log('postsdir', postsdir)
   const { posts, allTags } = await getPosts(postsdir, category)
   // posts.map((post) => console.log(post.title, post.draft))
-  writeFileSync(`${process.cwd()}/backend/json/${category}/posts.json`, JSON.stringify(posts))
-  writeFileSync(`${process.cwd()}/backend/json/${category}/allTags.json`, JSON.stringify(allTags))
+  writeFileSync(
+    `${process.cwd()}/backend/json/${category}/posts.json`,
+    JSON.stringify(posts)
+  )
+  writeFileSync(
+    `${process.cwd()}/backend/json/${category}/allTags.json`,
+    JSON.stringify(allTags)
+  )
   console.log(`[processPosts] Success! ${category} converted to json.`)
 }
-
 
 function deduplicateTags(tags) {
   let uniqueTags = []
