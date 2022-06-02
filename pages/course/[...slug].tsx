@@ -65,9 +65,11 @@ function Paywall({ firstChapterUrl }) {
 
 // import { getUser } from 'prisma/api/users/get-user'
 import course from 'backend/json/courses/adventure-academy.json'
+import courses from 'backend/json/courses/courses'
 
 export async function getServerSideProps({ params, req }) {
   const [courseSlug, sectionSlug, chapterSlug] = params.slug
+  const course = courses[courseSlug]
   // console.log('slug', params.slug)
   // const user = await getUser(req)
   const { toc, sections, firstChapterUrl } = course

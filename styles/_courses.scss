@@ -51,11 +51,23 @@
   min-height: 100%;
   // Prev-next
   position: relative;
-  padding-bottom: calc(20px + 46px + 20px); // padding, height of prev-next, margin above prev-next
+  padding-bottom: calc(
+    20px + 46px + 20px
+  ); // padding, height of prev-next, margin above prev-next
   h1,
   h2,
   h3 {
     text-align: left;
+  }
+  // h1 {
+  //   color: #d95650; //#DE544A;
+  // }
+  h2 {
+    color: #d95650; //#DE544A;
+  }
+  h3 {
+    color: var(--text-subheading);
+    font-size: 1em;
   }
   .prev-next {
     position: absolute;
@@ -175,6 +187,7 @@
 }
 
 .course-landing {
+  background: red !important;
   .cta-header {
     background: url('/illustrations/first-person-shooter/landing-header.png');
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -367,6 +380,8 @@
       font-size: 1em;
       font-weight: normal;
       font-weight: lighter;
+      max-width: 60ch;
+      margin: auto;
     }
     position: relative;
     .btn-login {

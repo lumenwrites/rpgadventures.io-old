@@ -151,8 +151,10 @@ export async function processCourses() {
   for (const courseDirName of readdirSync(coursesDir)) {
     const courseDirPath = join(coursesDir, courseDirName)
     if (!lstatSync(courseDirPath).isDirectory()) continue // ignore .DS_Store
+    console.log("Processing course:", courseDirName)
     // console.log('courseDirPath', courseDirPath)
     const { sections, toc } = await processCourse(courseDirName)
+    console.log(sections)
     const { copy, frontmatter } = await processLanding(courseDirPath)
     const firstChapterUrl = `/course/${courseDirName}/${toc[0].slug}/${toc[0].chapters[0].slug}`
     const course = { sections, toc, copy, frontmatter, firstChapterUrl }

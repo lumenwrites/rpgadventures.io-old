@@ -1,7 +1,9 @@
-import academy from './adventure-academy.json'
+import adventureAcademy from './adventure-academy.json'
+import roleplayAcademy from './roleplay-academy.json'
 
 const courses = {
-  "adventure-academy": academy
+  "adventure-academy": adventureAcademy,
+  "roleplay-academy":roleplayAcademy
 }
 
 export default courses

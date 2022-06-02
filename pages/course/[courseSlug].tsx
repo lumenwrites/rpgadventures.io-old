@@ -97,7 +97,7 @@ import courses from 'backend/json/courses/courses'
 
 export async function getServerSideProps({ params, req }) {
   const user = await getUser(req)
-  // console.log('params.courseSlug', params.courseSlug)
   const course = courses[params.courseSlug]
+  console.log('[courseSlug]', params.course)
   return { props: { course, user } }
 }
