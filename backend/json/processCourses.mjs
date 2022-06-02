@@ -53,7 +53,6 @@ async function processCourse(courseDirName) {
     for (const chapterFilename of readdirSync(sectionDirPath)) {
       if (chapterFilename == '_index.md') continue // ignore _index.md which is used for section info
       if (chapterFilename == '.DS_Store') continue // skip .DS_Store
-      console.log(chapterFilename)
       const chapterFilepath = `${sectionDirPath}/${chapterFilename}`
       const chapterText = readFileSync(chapterFilepath, 'utf8')
       const { data: chapterFrontmatter, content } = matter(chapterText)
