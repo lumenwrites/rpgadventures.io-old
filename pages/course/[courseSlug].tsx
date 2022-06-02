@@ -19,6 +19,7 @@ export default function Landing({ course, user }) {
   const { toggleModal } = useModal()
   // console.log('firstChapterUrl', course.firstChapterUrl)
   // if (Cookies.get('token')) window.location.href = firstChapterUrl
+
   return (
     <Layout>
       <div className="landing">
@@ -27,19 +28,28 @@ export default function Landing({ course, user }) {
           <h2>{course.frontmatter.description}</h2>
           <div className="centered">
             {config.price === 0 || user ? (
-              <Link href={course.firstChapterUrl} className="btn btn-cta-landing">
+              <Link
+                href={course.firstChapterUrl}
+                className="btn btn-cta-landing"
+              >
                 Go To Course
                 <FontAwesomeIcon icon={['fas', 'arrow-right']} />
               </Link>
             ) : (
               <>
-                <div className="btn btn-cta-landing" onClick={() => toggleModal(`purchase`)}>
+                <div
+                  className="btn btn-cta-landing"
+                  onClick={() => toggleModal(`purchase`)}
+                >
                   Start Learning Now! (${config.price})
                 </div>
                 <Link href={course.firstChapterUrl} className="btn btn-preview">
                   Free Course Preview
                 </Link>
-                <div className="btn btn-login" onClick={() => toggleModal(`login`)}>
+                <div
+                  className="btn btn-login"
+                  onClick={() => toggleModal(`login`)}
+                >
                   Login
                 </div>
               </>
@@ -53,13 +63,19 @@ export default function Landing({ course, user }) {
         <footer>
           <div className="center-text">
             {config.price === 0 || user ? (
-              <Link href={course.firstChapterUrl} className="btn btn-cta-landing">
+              <Link
+                href={course.firstChapterUrl}
+                className="btn btn-cta-landing"
+              >
                 Go To Course
                 <FontAwesomeIcon icon={['fas', 'arrow-right']} />
               </Link>
             ) : (
               <>
-                <div className="btn btn-cta-landing" onClick={() => toggleModal(`purchase`)}>
+                <div
+                  className="btn btn-cta-landing"
+                  onClick={() => toggleModal(`purchase`)}
+                >
                   Start Learning Now! (${config.price})
                 </div>
                 <Link href={course.firstChapterUrl} className="btn btn-preview">
@@ -77,13 +93,31 @@ export default function Landing({ course, user }) {
         <title>
           {course.frontmatter.title} | {config.title}
         </title>
-        <meta property="og:title" content={`${course.frontmatter.title} | ${config.title}`} key="ogtitle" />
-        <meta property="og:description" content={course.frontmatter.description} key="ogdesc" />
-        <meta name="twitter:description" content={course.frontmatter.description} />
+        <meta
+          property="og:title"
+          content={`${course.frontmatter.title} | ${config.title}`}
+          key="ogtitle"
+        />
+        <meta
+          property="og:description"
+          content={course.frontmatter.description}
+          key="ogdesc"
+        />
+        <meta
+          name="twitter:description"
+          content={course.frontmatter.description}
+        />
         {course.frontmatter.thumbnail && (
           <>
-            <meta property="og:image" content={`${config.domain}${course.frontmatter.thumbnail}`} key="ogimage" />
-            <meta name="twitter:image" content={`${config.domain}${course.frontmatter.thumbnail}`} />
+            <meta
+              property="og:image"
+              content={`${config.domain}${course.frontmatter.thumbnail}`}
+              key="ogimage"
+            />
+            <meta
+              name="twitter:image"
+              content={`${config.domain}${course.frontmatter.thumbnail}`}
+            />
           </>
         )}
       </Head>
