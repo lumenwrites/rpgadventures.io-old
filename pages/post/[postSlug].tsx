@@ -12,7 +12,6 @@ import TwitterFooter from 'components/Posts/ImageCaptureFooter'
 import ImageCaptureWrappers from 'components/Posts/ImageCaptureWrappers'
 
 export default function Post({ post }) {
-  console.log('post.theme', post.theme)
   let theme = 'theme-adventure'
   if (post.category === 'articles') theme = 'theme-default'
   if (post.theme === 'scifi') theme = 'theme-scifi'
