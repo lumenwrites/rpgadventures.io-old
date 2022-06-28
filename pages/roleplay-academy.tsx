@@ -58,7 +58,7 @@ function Hero() {
       <div className="hero-content">
         <h1>Roleplay Academy</h1>
         <div className="subtitle">
-          Improv Workshops for Rolelpayers and Game Masters <br />
+          Improv Workshops for Rolelpayers and Game Masters. <br />
           Become a better Roleplayer, Improviser, Storyteller.
           <br />
           Learn to play (and run) better games!

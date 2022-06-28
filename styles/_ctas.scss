@@ -29,6 +29,9 @@
   border-top-left-radius: 0;
   border-top-right-radius: 0;
   border-top: none;
+  h2 + p {
+    margin-top: 10px;
+  }
   .instructor {
     @extend .card;
     display: flex;
