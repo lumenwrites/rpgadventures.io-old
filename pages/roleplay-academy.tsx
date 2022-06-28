@@ -1,6 +1,13 @@
 import { MDXRemote } from 'next-mdx-remote'
 import MDXComponents from 'components/Elements/MDXComponents'
 import Layout from 'components/Layout/Layout'
+import Head from 'next/head'
+
+const TITLE = 'Roleplay Academy'
+const DESCRIPTION =
+  'Improv workshops for roleplayers and Game Masters. Become a better roleplayer, improviser, storyteller!'
+const THUMBNAIL =
+  'https://rpgadventures.io/page/roleplay-academy/roleplay-academy-social.png'
 
 export default function RoleplayAcademy({ page }) {
   return (
@@ -48,6 +55,16 @@ export default function RoleplayAcademy({ page }) {
           src="/page/roleplay-academy/friendship.jpg"
         />
       </div>
+      <Head>
+        <title>{TITLE}</title>
+        <meta name="description" content={DESCRIPTION} />
+        <meta property="og:title" content={TITLE} key="ogtitle" />
+        <meta property="og:description" content={DESCRIPTION} key="ogdesc" />
+        <meta name="twitter:title" content={TITLE} />
+        <meta name="twitter:description" content={DESCRIPTION} />
+        <meta property="og:image" content={THUMBNAIL} key="ogimage" />
+        <meta name="twitter:image" content={THUMBNAIL} />
+      </Head>
     </Layout>
   )
 }
