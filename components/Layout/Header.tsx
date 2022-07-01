@@ -49,7 +49,7 @@ function DropdownMenu() {
         <Link className="btn item" href={`/writers-room`}>
           Writers&apos; Room
         </Link>
-        <Link className="btn item" href={`/roleplay-academy`}>
+        <Link className="btn item" href={`/roleplayacademy`}>
           Roleplay Academy
         </Link>
         <Link className="btn item" href={`/course/adventure-academy`}>
