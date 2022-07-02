@@ -171,7 +171,7 @@ We are a group of GMs who meet in the discord voice chat, and challenge ourselve
 
 We’re looking for some friendly and creative people to join us!
 
-Join our Discord [here](https://discord.gg/UVNxeQE).
+Join our Discord [here](https://discord.gg/JZmXfWD85D).
 
 See the other adventures we have created [here](https://rpgadventures.io/).
 
