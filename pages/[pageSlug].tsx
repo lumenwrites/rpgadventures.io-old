@@ -44,7 +44,7 @@ export async function getStaticPaths() {
   // all pages except for about, which is manually created because I want my github calendar in it
   return {
     paths: pages
-      .filter((p) => p.slug !== 'about')
+      // .filter((p) => p.slug !== 'about')
       .map((page) => ({
         params: { pageSlug: page.slug },
       })),

@@ -29,6 +29,9 @@ export default function Header({ className }) {
           {/* <a className="btn btn-nav btn-cta" onClick={() => toggleModal(`subscribe`)}>
             Subscribe
           </a> */}
+          <Link href={`/about`} className="btn btn-nav">
+            About
+          </Link>
         </nav>
         <div className="clearfix" />
       </div>
