@@ -69,6 +69,9 @@ function DropdownMenu() {
         <Link className="btn item" href={`/mirage`}>
           Mirage
         </Link>
+        <Link className="btn item" href={`/three-scenes`}>
+          Three Scenes
+        </Link>
       </div>
     </div>
   )
