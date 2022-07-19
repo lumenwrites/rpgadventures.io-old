@@ -1,0 +1,126 @@
+.engine {
+  h1,
+  h2 {
+    text-align: center;
+  }
+  .grid {
+    display: grid;
+    // grid-auto-columns: minmax(0, 1fr);
+    // grid-auto-flow: column;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+    @media (max-width: 500px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  .grid-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .slot {
+    h2 {
+      font-size: 1em;
+      text-align: center;
+      cursor: default;
+    }
+    .card {
+      cursor: default;
+    }
+    img {
+      max-width: 100%;
+    }
+  }
+  .blank {
+    @extend .center-content;
+    width: 100%;
+    background: #fafafa;
+    font-size: 64px;
+    color: var(--text-dim);
+    cursor: default;
+    &:after {
+      padding-top: 100%; /* 16:9 ratio */
+      display: block;
+      content: '';
+    }
+  }
+  .clickable {
+    cursor: pointer;
+  }
+  .card {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: left;
+    // cursor: pointer;
+    box-shadow: 0 0 2px 0px rgb(0 0 0 / 40%);
+    .image-wrapper:after {
+      padding-top: 100%; /* 16:9 ratio */
+      display: block;
+      content: '';
+    }
+    .image {
+      width: 100%;
+      padding-bottom: 50%;
+      background-size: cover;
+      background-position: center;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      img {
+        object-fit: cover;
+        max-width: 100%;
+      }
+    }
+  }
+  .text-prompt {
+    padding: 10px;
+    font-size: 0.8em;
+    .name {
+      font-weight: bold;
+      text-align: center;
+      cursor: pointer;
+      font-family: "RobotoSlab";
+      font-size:1.2em;
+    }
+  }
+  .move {
+    @extend .card;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    .name {
+      font-weight: bold;
+      font-family: "RobotoSlab";
+      font-size:1.2em;
+    }
+    .description {
+    }
+    .icon {
+      // width: 100%;
+      // height: 100%;
+      // padding: 40px;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      background: #fafafa;
+      background: #efefef;
+      background-image: linear-gradient(45deg,#d31f4d,#fab41e);
+      svg {
+        margin-right: 5px;
+        font-size: 100px;
+        height: 100%;
+        color: #828B9B;
+        color: white;
+      }
+    }
+
+  }
+}

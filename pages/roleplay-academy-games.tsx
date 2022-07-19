@@ -1,7 +1,7 @@
 import Layout from 'components/Layout/Layout'
 
 // const REDIRECT_URL = "https://docs.google.com/document/d/1Quqj7Lnbp5BfDhMZaNRK-TJ0kjhG0Md0OkazKrJumqY/"
-const REDIRECT_URL = 'https://docs.google.com/document/d/1_Je2ymB5p3lNwdgiBNhxVNK3fFgWvtPuqmeWv1V1YCU'
+const REDIRECT_URL = 'https://docs.google.com/document/d/1UG14osmo9AVW-56YtjBeBqQKF3Zhy0rQki7a812BicA/'
 
 export default function RoleplayAcademyGames() {
   // if (typeof window !== "undefined") {
@@ -11,7 +11,7 @@ export default function RoleplayAcademyGames() {
   return (
     <Layout>
       <article className="post text">
-        <a href={REDIRECT_URL}>Brainstorming Template</a>
+        <a href={REDIRECT_URL}>Roleplay Academy Games</a>
       </article>
     </Layout>
   )
