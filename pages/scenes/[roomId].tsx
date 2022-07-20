@@ -88,18 +88,18 @@ export default function Engine() {
         <div className="engine">
           <Tabs tabTitles={['How to Play', 'Play']}>
             <Rules />
-            <div className="tab-contents">
+            <div className="tab-contents game">
               {/* <h2>Key Story Elements</h2> */}
               <h2>Your Cards</h2>
               <Cards />
               {/* <hr/> */}
               {/* <h2>Scenes</h2> */}
-              <br/>
+              <br />
               <Playmat />
-  
             </div>
           </Tabs>
         </div>
+        <br/>
       </EngineContext.Provider>
     </Layout>
   )

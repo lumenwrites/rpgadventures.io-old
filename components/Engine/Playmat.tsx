@@ -2,7 +2,7 @@ import { useRouter } from 'next/router'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { useState, useEffect, createContext, useContext } from 'react'
 import axios from 'axios'
-import { useEngineContext } from 'pages/engine/[roomId]'
+import { useEngineContext } from 'pages/scenes/[roomId]'
 
 
 export default function Playmat() {

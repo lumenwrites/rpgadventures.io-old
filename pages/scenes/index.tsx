@@ -8,7 +8,7 @@ export async function getServerSideProps({ params }) {
   return {
     redirect: {
       permanent: false,
-      destination: `/engine/room-${Math.floor(Math.random() * 10000)}`,
+      destination: `/scenes/room-${Math.floor(Math.random() * 10000)}`,
     },
     props:{},
   }
