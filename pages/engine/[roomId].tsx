@@ -90,9 +90,13 @@ export default function Engine() {
             <Rules />
             <div className="tab-contents">
               {/* <h2>Key Story Elements</h2> */}
-              <Playmat />
               <h2>Your Cards</h2>
               <Cards />
+              {/* <hr/> */}
+              {/* <h2>Scenes</h2> */}
+              <br/>
+              <Playmat />
+  
             </div>
           </Tabs>
         </div>
