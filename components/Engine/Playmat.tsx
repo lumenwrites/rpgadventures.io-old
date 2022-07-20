@@ -1,14 +1,18 @@
 import { useRouter } from 'next/router'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { useState, useEffect, createContext, useContext } from 'react'
+import { useState, useEffect, createContext, useContext, useRef } from 'react'
 import axios from 'axios'
 import { useEngineContext } from 'pages/scenes/[roomId]'
 
 
 export default function Playmat() {
   const { scenes } = useEngineContext()
+  const playmatRef = useRef(null)
+  // 19 is for <br/> at the end
+  const playmatHeight = window.innerHeight - playmatRef.current?.getBoundingClientRect().top - 30
+  console.log(playmatRef.current?.getBoundingClientRect().top);
   return (
-    <div className="playmat">
+    <div ref={playmatRef} className="playmat" style={{maxHeight: `${playmatHeight}px`}}>
       {scenes.map((scene) => (
         <Scene key={scene.title} scene={scene} />
       ))}
