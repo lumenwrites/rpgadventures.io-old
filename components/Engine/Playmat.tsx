@@ -4,18 +4,25 @@ import { useState, useEffect, createContext, useContext, useRef } from 'react'
 import axios from 'axios'
 import { useEngineContext } from 'pages/scenes/[roomId]'
 
-
 export default function Playmat() {
   const { scenes } = useEngineContext()
   const playmatRef = useRef(null)
   // 19 is for <br/> at the end
   let playmatHeight = 410
   if (typeof window !== 'undefined' && playmatRef.current) {
-    playmatHeight = window.innerHeight - playmatRef.current.getBoundingClientRect().top - 30
+    playmatHeight =
+      window.innerHeight - playmatRef.current.getBoundingClientRect().top - 30
   }
-
+  useEffect(() => {
+    playmatHeight =
+      window.innerHeight - playmatRef.current.getBoundingClientRect().top - 30
+  }, [])
   return (
-    <div ref={playmatRef} className="playmat" style={{maxHeight: `${playmatHeight}px`}}>
+    <div
+      ref={playmatRef}
+      className="playmat"
+      style={{ maxHeight: `${playmatHeight}px` }}
+    >
       {scenes.map((scene) => (
         <Scene key={scene.title} scene={scene} />
       ))}
