@@ -9,8 +9,11 @@ export default function Playmat() {
   const { scenes } = useEngineContext()
   const playmatRef = useRef(null)
   // 19 is for <br/> at the end
-  const playmatHeight = window.innerHeight - playmatRef.current?.getBoundingClientRect().top - 30
-  console.log(playmatRef.current?.getBoundingClientRect().top);
+  let playmatHeight = 410
+  if (typeof window !== 'undefined' && playmatRef.current) {
+    playmatHeight = window.innerHeight - playmatRef.current.getBoundingClientRect().top - 30
+  }
+
   return (
     <div ref={playmatRef} className="playmat" style={{maxHeight: `${playmatHeight}px`}}>
       {scenes.map((scene) => (
