@@ -7,16 +7,19 @@ import { useEngineContext } from 'pages/scenes/[roomId]'
 export default function Playmat() {
   const { scenes } = useEngineContext()
   const playmatRef = useRef(null)
-  // 19 is for <br/> at the end
-  let playmatHeight = 410
-  if (typeof window !== 'undefined' && playmatRef.current) {
-    playmatHeight =
-      window.innerHeight - playmatRef.current.getBoundingClientRect().top - 30
-  }
+  const [playmatHeight, setPlaymatHeight] = useState(410)
   useEffect(() => {
-    playmatHeight =
+    // 19 is for <br/> at the end
+    setPlaymatHeight(
       window.innerHeight - playmatRef.current.getBoundingClientRect().top - 30
-  }, [])
+    )
+    console.log('top', playmatRef.current.getBoundingClientRect().top);
+  }, [playmatRef])
+  console.log('pl', playmatHeight);
+  console.log('win', window.innerHeight);
+  // let plh = 410
+  // plh = window.innerHeight - playmatRef?.current?.getBoundingClientRect().top - 30
+  // console.log('plh', plh);
   return (
     <div
       ref={playmatRef}
