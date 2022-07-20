@@ -28,7 +28,7 @@
   }
   .playmat {
     max-height: 410px;
-    overflow-y: auto;
+    overflow-y: overlay;
     // padding: 5px;
     padding-bottom: 10px;
     display: flex;

@@ -13,13 +13,7 @@ export default function Playmat() {
     setPlaymatHeight(
       window.innerHeight - playmatRef.current.getBoundingClientRect().top - 30
     )
-    console.log('top', playmatRef.current.getBoundingClientRect().top);
   }, [playmatRef])
-  console.log('pl', playmatHeight);
-  console.log('win', window.innerHeight);
-  // let plh = 410
-  // plh = window.innerHeight - playmatRef?.current?.getBoundingClientRect().top - 30
-  // console.log('plh', plh);
   return (
     <div
       ref={playmatRef}
