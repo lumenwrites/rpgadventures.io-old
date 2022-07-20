@@ -1,38 +1,26 @@
 [
   {
-    "name": "Setting",
+    "name": "Location",
     "image": "",
-    "icon": "globe-americas",
-    "tip": "Where does the story take place? <br/> What’s interesting or unusual about it? <br/> Interesting and important locations?"
+    "icon": "image",
+    "tip": "Where does this scene take place? <br/>  What makes this place interesting?"
   },
   {
-    "name": "Antagonist",
+    "name": "Characters",
     "image": "",
-    "icon": "ghost",
-    "tip": "Who is the main antagonist? <br/> What do they want, why? <br/> What is their evil plan?"
+    "icon": "users",
+    "tip": "Who are the characters in the scene? <br/> What is the relationship between them?"
   },
   {
     "name": "Goal",
     "image": "",
     "icon": "bullseye",
-    "tip": "What problem will the heroes need to solve, <br/> what goal will they strive to achieve? <br/> What Evil Plan must they prevent?"
+    "tip": "What do the characters want? <br/> What are they actively trying to accomplish?"
   },
   {
-    "name": "Exciting Hook",
-    "image": "",
-    "icon": "dungeon",
-    "tip": "How do the heroes encounter the problem? <br/> An exciting scene that draws the heroes into action."
-  },
-  {
-    "name": "Surprising Midpoint",
-    "image": "",
-    "icon": "bomb",
-    "tip": "Important milestone halfway through the story. <br/> Unexpected complication, twist, or reveal that <br/> raises stakes and threat level."
-  },
-  {
-    "name": "Climax",
+    "name": "Conflict",
     "image": "",
     "icon": "bolt",
-    "tip": "Final, most important and dangerous <br/> challenge that resolves the main conflict. <br/> Epic scene at a cool location."
+    "tip": "Why is it difficult to get what they want? <br/> What obstacles stand in their way?"
   }
 ]

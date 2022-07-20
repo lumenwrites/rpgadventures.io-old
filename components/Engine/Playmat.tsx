@@ -4,27 +4,42 @@ import { useState, useEffect, createContext, useContext } from 'react'
 import axios from 'axios'
 import { useEngineContext } from 'pages/engine/[roomId]'
 
-export default function Playmat() {
-  const { slots } = useEngineContext()
 
+export default function Playmat() {
+  const { scenes } = useEngineContext()
   return (
-    <div className="playmat grid grid-3">
-      {slots.map((slot) => (
-        <Slot slot={slot} key={slot.name} />
+    <div className="playmat">
+      {scenes.map((scene) => (
+        <Scene key={scene.title} scene={scene} />
       ))}
     </div>
   )
 }
 
-function Slot({ slot }) {
+function Scene({ scene }) {
+  return (
+    <div className="scene">
+      <h2 data-place="bottom" data-multiline={true} data-tip={scene.tooltip}>
+        {scene.title}
+      </h2>
+      <div className="grid">
+        {scene.slots.map((slot) => (
+          <Slot slot={slot} scene={scene} key={slot.name} />
+        ))}
+      </div>
+    </div>
+  )
+}
+
+function Slot({ slot, scene }) {
   const router = useRouter()
   async function drop(e) {
     e.preventDefault()
     var url = e.dataTransfer.getData('URL')
     const { data } = await axios.post('/api/engine/place-card', {
-      name: slot.name,
+      name: `${scene.title} - ${slot.name}`,
       image: url,
-      roomId: router.query.roomId.toString()
+      roomId: router.query.roomId.toString(),
     })
     // Push all slots
     // const updatedSlots = slots.map((s) => {
@@ -40,7 +55,11 @@ function Slot({ slot }) {
       <h2 data-place="bottom" data-multiline={true} data-tip={slot.tip}>
         {slot.name}
       </h2>
-      <div className="card" onDrop={drop} onDragOver={(e) => e.preventDefault()}>
+      <div
+        className="card"
+        onDrop={drop}
+        onDragOver={(e) => e.preventDefault()}
+      >
         {slot.image ? (
           <div className="image-wrapper">
             <div className="image">

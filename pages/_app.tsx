@@ -11,8 +11,10 @@ import PlausibleProvider from 'next-plausible'
 import LoginModal from 'components/Users/LoginModal'
 import SubscribeModal from 'components/CTAs/SubscribeModal'
 import DefaultHead from 'components/Layout/DefaultHead'
-import { useEffect } from 'react'
-import Router from 'next/router'
+import { useEffect, useState } from 'react'
+import Router, { useRouter } from 'next/router'
+
+import ReactTooltip from 'react-tooltip'
 
 function App({ Component, pageProps }) {
   useEffect(() => {
@@ -26,6 +28,15 @@ function App({ Component, pageProps }) {
     document.querySelector('html').dataset.theme = 'dark1'
   }, [])
 
+  // Need this for the react-tooltip: https://stackoverflow.com/questions/64079321/react-tooltip-and-next-js-ssr-issue
+  const [isMounted, setIsMounted] = useState(false)
+  const router = useRouter()
+  useEffect(() => {
+    setIsMounted(true)
+  })
+  useEffect(() => {
+    ReactTooltip.rebuild()
+  }, [router])
   return (
     <PlausibleProvider
       domain={process.env.NEXT_PUBLIC_PLAUSIBLE_ANALYTICS_DOMAIN}
@@ -36,6 +47,7 @@ function App({ Component, pageProps }) {
         <Component {...pageProps} />
         <LoginModal />
         <SubscribeModal />
+        {isMounted && <ReactTooltip effect="solid" />}
       </CombinedContextsProvider>
     </PlausibleProvider>
   )

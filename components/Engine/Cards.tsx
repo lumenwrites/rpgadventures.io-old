@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react'
 
 export default function Cards() {
   const [cards, setCards] = useState([])
-  useEffect(() => setCards(shuffle(images).slice(0, 3)), [])
+  useEffect(() => setCards(shuffle(images).slice(0, 4)), [])
   function randomizeImage(idx) {
     setCards((prev) => {
       let updatedCards = prev.map((card, i) => {
@@ -16,7 +16,7 @@ export default function Cards() {
     })
   }
   return (
-    <div className="cards grid grid-3">
+    <div className="cards grid grid-4">
       {cards.map((url, idx) => (
         <div className="card" key={url} onClick={() => randomizeImage(idx)}>
           <div>
@@ -26,7 +26,7 @@ export default function Cards() {
               </div>
             </div>
           </div>
-          <textarea placeholder="Enter your idea inspired by the image, then drag the card onto the slot..." />
+          {/* <textarea placeholder="Enter your idea inspired by the image, then drag the card onto the slot..." /> */}
         </div>
       ))}
     </div>

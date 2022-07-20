@@ -50,6 +50,9 @@ import {
   faCamera,
   faSearch,
   faClock,
+  faUsers,
+  faBolt,
+  faBullseye,
 } from "@fortawesome/free-solid-svg-icons"
 
 library.add(
@@ -88,5 +91,9 @@ library.add(
   faGlobeAmericas,
   faCamera,
   faSearch,
-  faClock
+  faClock,
+  faUsers,
+  faBolt,
+  faImage,
+  faBullseye
 )

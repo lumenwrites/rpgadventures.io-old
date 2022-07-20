@@ -9,10 +9,30 @@ import Cards from 'components/Engine/Cards'
 
 import Pusher from 'pusher-js'
 import SLOTS from 'components/Engine/slots.json'
+const SCENES = [
+  {
+    title: 'Scene 1: Exciting Hook',
+    tooltip:
+      'This scene introduces the problem the heroes must solve by the end of the story, <br/> and draws them into action.',
+    slots: SLOTS,
+  },
+  {
+    title: 'Scene 2: Dramatic Crisis',
+    tooltip:
+      'Unexpected complication or a setback in the middle of the story, <br/> escalating the conflict and raising the stakes.',
+    slots: SLOTS,
+  },
+  {
+    title: 'Scene 3: Awesome Climax',
+    tooltip:
+      'Final, most important and dangerous challenge, <br/> the biggest obstacle overcoming which resolves the main conflict.',
+    slots: SLOTS,
+  },
+]
 
 const EngineContext = createContext({
-  slots: [],
-  setSlots: function () {} as any,
+  scenes: [],
+  setScenes: function () {} as any,
 })
 
 export function useEngineContext() {
@@ -20,7 +40,7 @@ export function useEngineContext() {
 }
 
 export default function Engine() {
-  const [slots, setSlots] = useState(SLOTS)
+  const [scenes, setScenes] = useState(SCENES)
   const router = useRouter()
 
   useEffect(() => {
@@ -36,14 +56,19 @@ export default function Engine() {
     // console.log('Received event', data)
     let channel = pusher.subscribe(router.query.roomId.toString())
     channel.bind('place-card', function (data) {
-      setSlots((prev) => {
-        let updatedSlots = prev.map((slot) => {
-          if (slot.name === data.name) {
-            return { ...slot, image: data.image }
+      setScenes((prev) => {
+        let updatedScenes = prev.map((scene) => {
+          return {
+            ...scene,
+            slots: scene.slots.map((slot) => {
+              if (data.name === `${scene.title} - ${slot.name}`) {
+                return { ...slot, image: data.image }
+              }
+              return slot
+            }),
           }
-          return slot
         })
-        return updatedSlots
+        return updatedScenes
       })
     })
 
@@ -59,12 +84,12 @@ export default function Engine() {
 
   return (
     <Layout>
-      <EngineContext.Provider value={{ slots, setSlots }}>
+      <EngineContext.Provider value={{ scenes, setScenes }}>
         <div className="engine">
           <Tabs tabTitles={['How to Play', 'Play']}>
             <Rules />
-            <div className="post playmat">
-              <h2>Key Story Elements</h2>
+            <div className="tab-contents">
+              {/* <h2>Key Story Elements</h2> */}
               <Playmat />
               <h2>Your Cards</h2>
               <Cards />
