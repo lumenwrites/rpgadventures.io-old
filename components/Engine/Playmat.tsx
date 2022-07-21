@@ -1,3 +1,4 @@
+import { css } from '@emotion/react'
 import { useRouter } from 'next/router'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { useState, useEffect, createContext, useContext, useRef } from 'react'
@@ -34,55 +35,63 @@ function Scene({ scene }) {
         {scene.title}
       </h2>
       <div className="grid">
-        {scene.slots.map((slot) => (
-          <Slot slot={slot} scene={scene} key={slot.name} />
+        {scene.stacks.map((stack, stackIdx) => (
+          <Stack stack={stack} scene={scene} key={stack.title} />
         ))}
       </div>
     </div>
   )
 }
 
-function Slot({ slot, scene }) {
+function Stack({ stack, scene }) {
   const router = useRouter()
-  async function drop(e) {
+  async function dropCard(e) {
     e.preventDefault()
     var url = e.dataTransfer.getData('URL')
     const { data } = await axios.post('/api/engine/place-card', {
-      name: `${scene.title} - ${slot.name}`,
-      image: url,
       roomId: router.query.roomId.toString(),
+      sceneTitle: scene.title,
+      stackTitle: stack.title,
+      card: {
+        id: (Math.random() + 1).toString(36).substring(7),
+        imageUrl: url,
+      },
     })
-    // Push all slots
-    // const updatedSlots = slots.map((s) => {
-    //   if (s.name === slot.name) {
-    //     return { ...s, image: url }
-    //   }
-    //   return s
-    // })
-    // const { data } = await axios.post('/api/engine/place-card', updatedSlots)
+  }
+  async function deleteCard(cardId) {
+    const { data } = await axios.post('/api/engine/delete-card', {
+      roomId: router.query.roomId.toString(),
+      sceneTitle: scene.title,
+      stackTitle: stack.title,
+      cardId,
+    })
   }
   return (
-    <div className="slot">
-      <h2 data-place="bottom" data-multiline={true} data-tip={slot.tip}>
-        {slot.name}
+    <div
+      className="stack"
+      onDrop={dropCard}
+      onDragOver={(e) => e.preventDefault()}
+    >
+      <h2 data-place="bottom" data-multiline={true} data-tip={stack.tooltip}>
+        {stack.title}
       </h2>
-      <div
-        className="card"
-        onDrop={drop}
-        onDragOver={(e) => e.preventDefault()}
-      >
-        {slot.image ? (
+      {stack.cards.map((card) => (
+        <div className="card placed-card" key={card.id}>
           <div className="image-wrapper">
             <div className="image">
-              <img src={slot.image} />
+              <img src={card.imageUrl} />
             </div>
           </div>
-        ) : (
-          <div className="blank">
-            <FontAwesomeIcon icon={['fas', slot.icon]} />
+          <div className="delete" onClick={() => deleteCard(card.id)}>
+            <FontAwesomeIcon icon={['fas', 'trash-alt']} />
           </div>
-        )}
-      </div>
+        </div>
+      ))}
+      {stack.cards.length === 0 && (
+        <div className="slot blank card">
+          <FontAwesomeIcon icon={['fas', stack.icon]} />
+        </div>
+      )}
     </div>
   )
 }

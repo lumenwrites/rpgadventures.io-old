@@ -7,13 +7,12 @@ import MDXComponents from 'components/Elements/MDXComponents'
 import config from 'config.json'
 
 export default function Page({ post }) {
-  // console.log('post.frontmatter.description', post.frontmatter.description)
+  console.log('[pageSlug]', post.title)
   // console.log('post.frontmatter.thumbnail', `${config.domain}${post.frontmatter.thumbnail}`)
   return (
     <Layout>
       <div className="post text">
         <MDXRemote {...post.body} components={MDXComponents} />
-        {/* <div dangerouslySetInnerHTML={{ __html: post.body }} /> */}
         <Head>
           <title>{post.title}</title>
           <meta property="og:title" content={`${post.title}`} key="ogtitle" />
@@ -41,13 +40,23 @@ export async function getStaticProps({ params }) {
 
 export async function getStaticPaths() {
   // console.log('getStaticPaths', posts)
-  // all pages except for about, which is manually created because I want my github calendar in it
   return {
-    paths: pages
-      // .filter((p) => p.slug !== 'about')
-      .map((page) => ({
-        params: { pageSlug: page.slug },
-      })),
+    paths: pages.map((page) => ({
+      params: { pageSlug: page.slug },
+    })),
     fallback: false,
   }
 }
+
+// export async function getStaticPaths() {
+//   // console.log('getStaticPaths', posts)
+//   // all pages except for about, which is manually created because I want my github calendar in it
+//   return {
+//     paths: pages
+//       // .filter((p) => p.slug !== 'about')
+//       .map((page) => ({
+//         params: { pageSlug: page.slug },
+//       })),
+//     fallback: false,
+//   }
+// }

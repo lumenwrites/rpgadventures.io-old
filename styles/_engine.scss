@@ -62,7 +62,9 @@
   .grid-3 {
     grid-template-columns: repeat(3, 1fr);
   }
-  .slot {
+  .stack {
+    perspective: 500px;
+    perspective-origin: 10px, 10px;
     h2 {
       font-size: 1em;
       text-align: center;
@@ -117,6 +119,38 @@
       img {
         object-fit: cover;
         max-width: 100%;
+      }
+    }
+  }
+  .placed-card {
+    margin-top: -50%;
+    margin-bottom: 10px;
+    box-shadow: 0px -0px 2px 1px rgb(0 0 0 / 25%);
+    // transform: rotateX(-7.5deg);
+    &:first-of-type {
+      margin-top: 0;
+      transform: none;
+    }
+    position: relative;
+    .delete {
+      display: none;
+      background: rgba(0,0,0,0.8);
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      cursor: pointer;
+      svg {
+        color: white;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+      }
+    }
+    &:hover {
+      .delete {
+        display: block;
       }
     }
   }

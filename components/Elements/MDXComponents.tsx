@@ -7,6 +7,7 @@ import Cookies from 'js-cookie'
 import { useModal } from 'context/ModalContext'
 
 import DownloadsModal from 'components/Layout/DownloadsModal'
+import Video from './MDXComponents/Video'
 
 function CourseCTA() {
   return (
@@ -94,6 +95,7 @@ const components = {
   CharacterBox,
   Collapsible,
   CourseCTA,
+  Video
 }
 
 export default components

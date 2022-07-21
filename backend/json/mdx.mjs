@@ -1,5 +1,5 @@
 //@ts-nocheck
-import { serialize } from 'next-mdx-remote/serialize.js'
+import { serialize } from 'next-mdx-remote/serialize'
 import matter from 'gray-matter' // Parse front-matter from a string or file
 // Plugins
 import rehypeSlug from 'rehype-slug' // adds id's to headers so you could link to them
@@ -10,6 +10,7 @@ import imageSize from 'rehype-img-size'
 
 export async function renderMDX(text, doLinkHeadings=false) {
   const { content, data } = matter(text)
+
   let remarkPlugins = []
   let rehypePlugins = [
     rehypeSlug,
@@ -22,7 +23,8 @@ export async function renderMDX(text, doLinkHeadings=false) {
     const autolinkPlugin = [rehypeAutolinkHeadings, { properties: { className: ['header-link'] } }]
     rehypePlugins.push(autolinkPlugin)
   }
-  const serialized = await serialize(content, {
+  let processedContent = content.replace(/<!--[\s\S]*?-->/g, "") // remove html comments
+  const serialized = await serialize(processedContent, {
     mdxOptions: { remarkPlugins, rehypePlugins },
     scope: data,
   })

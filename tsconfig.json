@@ -18,7 +18,9 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "incremental": true
+    "incremental": true,
+    // https://github.com/emotion-js/emotion/issues/2467#issuecomment-1088259201
+    "jsxImportSource": "@emotion/react"
   },
   "include": [
     "next-env.d.ts",

@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Location",
+    "tooltip": "Where does this scene take place? <br/>  What makes this place interesting?",
+    "icon": "image",
+    "cards": []
+  },
+  {
+    "title": "Characters",
+    "tooltip": "Who are the characters in the scene? <br/> What is the relationship between them?",
+    "icon": "users",
+    "cards": []
+  },
+  {
+    "title": "Goal",
+    "tooltip": "What do the characters want? <br/> What are they actively trying to accomplish?",
+    "icon": "bullseye",
+    "cards": []
+  },
+  {
+    "title": "Conflict",
+    "tooltip": "Why is it difficult to get what they want? <br/> What obstacles stand in their way?",
+    "icon": "bolt",
+    "cards": []
+  }
+]

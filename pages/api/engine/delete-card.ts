@@ -10,9 +10,8 @@ const pusher = new Pusher({
 });
 
 export default async function handler(req, res) {
-  const { roomId, sceneTitle, stackTitle, card } = req.body;
-  // console.log('Broadcast data', data)
-  await pusher.trigger(roomId, 'place-card', { sceneTitle, stackTitle, card })
+  const { roomId, sceneTitle, stackTitle, cardId } = req.body;
+  await pusher.trigger(roomId, 'delete-card', { sceneTitle, stackTitle, cardId })
   // , () => {
   //   console.log('Broadcasted data')
   //   res.status(200).end('sent event successfully');

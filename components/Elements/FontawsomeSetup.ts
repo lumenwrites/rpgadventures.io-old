@@ -95,5 +95,6 @@ library.add(
   faUsers,
   faBolt,
   faImage,
-  faBullseye
+  faBullseye,
+  faTrashAlt
 )
