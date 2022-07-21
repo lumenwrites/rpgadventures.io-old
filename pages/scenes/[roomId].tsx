@@ -109,9 +109,9 @@ export default function Engine() {
               {/* <h2>Key Story Elements</h2> */}
               <h2>Your Cards</h2>
               <Cards />
-              {/* <hr/> */}
+              <hr/>
               {/* <h2>Scenes</h2> */}
-              <br />
+              {/* <br /> */}
               <Playmat />
             </div>
           </Tabs>
