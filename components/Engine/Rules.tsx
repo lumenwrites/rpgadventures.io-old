@@ -25,7 +25,7 @@ export default function Rules() {
         scene and slot titles to see their description.
       </p>
       <p>
-        To play through the scene, we will first set up its key elemnets -
+        To play through the scene, we will first set up its key elements -
         Location, Characters, Goal, and Conflict. Pick a card you think is the
         best suited for the next element, place it onto the slot, and pitch an
         idea for that element inspired by that image.
