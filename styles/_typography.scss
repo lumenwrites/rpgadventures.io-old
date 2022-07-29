@@ -39,6 +39,10 @@
     max-width: 100%;
     max-height: 500px; // for tall narrow images
     margin: auto;
+    &.small {
+      max-width: 400px;
+      max-height: 400px;
+    }
   }
 }
 h1,
