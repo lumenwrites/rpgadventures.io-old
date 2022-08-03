@@ -39,7 +39,7 @@ export default function RoleplayAcademy({ page }) {
           Our workshops take place in Discord video chat, every Saturday, at 6PM
           GMT. The workshops cost $10 per 2 hour lesson. If you would like to
           participate, come{' '}
-          <a href="https://discord.gg/mx8UYkBaVR">join our Discord server</a>,
+          <a href="https://discord.gg/JZmXfWD85D">join our Discord server</a>,
           and then make a payment here:
         </p>
         <a
