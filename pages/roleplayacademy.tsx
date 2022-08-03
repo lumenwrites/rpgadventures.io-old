@@ -43,12 +43,12 @@ export default function RoleplayAcademy({ page }) {
           and then make a payment here:
         </p>
         <a
-          href="https://buy.stripe.com/7sI8Ac4mxeX2gNyaEE"
+          href="https://buy.stripe.com/9AQbMo4mx028apa8wx"
           target="_blank"
           rel="noopener noreferrer"
           className="join-btn"
         >
-          Sign Up ($20)
+          Sign Up ($10)
         </a>
         <img
           className="friendship-image"
