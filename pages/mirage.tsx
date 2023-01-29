@@ -18,7 +18,7 @@ export default function Mirage({ pages }) {
         <div className="post text">
           <MDXRemote {...tabMdx('mirage-2-character')} components={MDXComponents} />
           <MDXRemote {...tabMdx('mirage-3-abilities')} components={MDXComponents} />
-          <MDXRemote {...tabMdx('mirage-31-character-optional')} components={MDXComponents} />
+          {/* <MDXRemote {...tabMdx('mirage-31-character-optional')} components={MDXComponents} /> */}
         </div>
         <div className="post text">
           <MDXRemote {...tabMdx('mirage-4-dice')} components={MDXComponents} />
