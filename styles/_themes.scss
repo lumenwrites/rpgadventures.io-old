@@ -1,0 +1,71 @@
+:root {
+  // 5 / 7
+  --card-width: 225px; // calc(25% - var(--size-2)); // no idea why size 2 even though there are gaps and paddings
+  --card-height: 315px;
+  --card-width: 200px; // calc(25% - var(--size-2)); // no idea why size 2 even though there are gaps and paddings
+  --card-height: 280px;
+  // Square cards
+  --card-width: 200px;
+  --card-height: 200px;
+  --container-narrow-max-width: 750px;
+
+  --font-pirmary: 'Inter', ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+    'Noto Color Emoji';
+  --font-secondary: 'RobotoSlab', ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+    'Noto Color Emoji';
+  --text: #3c4257; // #582323; //#3c4257;
+  --text-dim: #697386; // for form labels, sidebar links in dark mode
+
+  // Colors
+  --primary: #ff6600;
+  --gradient-primary: linear-gradient(
+    45deg,
+    #8343e2,
+    #bd50e4
+  ); // linear-gradient(45deg, #d31f4d, #fab41e);
+  --accent: #ffd500;
+  --main-bg: #faf4e9; // used in base and in sidebar //var(--slate-50); // #faf4e9; //#F8ECDB; // #faf4e9 #f5e4cd
+  --border: #e3e8ee;
+  // --panel-bg: #e0e6ef;
+  --quote-bg: #fcf2ef;
+  --quote-bg: #fbf2ee;
+  --quote-border-color: #ff6600;
+
+  --surface-5: #364258; // highlight hover
+  --surface-4: #2e394d; // header
+  --surface-3: #273145; // paywall or panel on top of post
+  --surface-2: #21293b; // post or modal
+  --surface-1: #1c2232; // background
+  --surface-0: #161c28; // input
+
+  // --secondary: #6c757d;
+  --success: #198754;
+  // --info: #0dcaf0;
+  // --warning: #ffc107;
+  --danger: #df1b41; // #dc3545;
+
+  // For the course layout and header
+  --container-fullwidth-max-width: 1440px;
+
+
+  --scrollbar-handle: rgba(110, 110, 110, 0.2);
+}
+
+// https://dev.to/ananyaneogi/create-a-dark-light-mode-switch-with-css-variables-34l8
+// data-theme is set on html element inside _app.tsx
+[data-theme='dark'] {
+  --main-bg: #202631;
+  --main-bg: var(--surface-1);
+
+  --text: white;
+  --text-dim: #798096;
+  --border: #66739953;
+  --quote-bg: #465e82;
+  --quote-border-color: #6995dd;
+
+  --scrollbar-handle: #73798b23; //rgba(110, 110, 110, 0.2);
+}

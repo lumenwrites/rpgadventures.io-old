@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter/Inter-Regular.ttf');
+  // For the "Ensure text remains visible during webfont load" Google PageInsights Suggestion
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter/Inter-Light.ttf');
+  font-weight: 100;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter/Inter-Bold.ttf');
+  font-weight: bold;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'RobotoSlab';
+  src: url('../fonts/RobotoSlab/RobotoSlab-Regular.ttf');
+  // For the "Ensure text remains visible during webfont load" Google PageInsights Suggestion
+  font-weight: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'RobotoSlab';
+  src: url('../fonts/RobotoSlab/RobotoSlab-Light.ttf');
+  font-weight: 100;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'RobotoSlab';
+  src: url('../fonts/RobotoSlab/RobotoSlab-Medium.ttf');
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'RobotoSlab';
+  src: url('../fonts/RobotoSlab/RobotoSlab-Bold.ttf');
+  font-weight: bold;
+  font-display: swap;
+}

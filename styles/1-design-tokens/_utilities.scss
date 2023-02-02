@@ -1,0 +1,177 @@
+.clearfix {
+  &::after {
+    display: block;
+    clear: both;
+    content: '';
+  }
+}
+
+// Backgrounds
+.bg-primary {
+  background: var(--primary);
+}
+.bg-secondary {
+  background: var(--secondary);
+}
+.bg-success {
+  background: var(--success);
+}
+.bg-danger {
+  background: var(--danger);
+}
+.bg-warning {
+  background: var(--warning);
+}
+.bg-info {
+  background: var(--info);
+}
+.bg-gradient {
+  background: var(--gradient);
+}
+
+// Text colors
+.text-primary {
+  color: var(--primary);
+}
+.text-secondary {
+  color: var(--secondary);
+}
+.text-success {
+  color: var(--success);
+}
+.text-danger {
+  color: var(--danger);
+}
+.text-warning {
+  color: var(--warning);
+}
+.text-info {
+  color: var(--info);
+}
+.text-light {
+  color: var(--text-light);
+}
+.text-dark {
+  color: var(--text-dark);
+}
+.text-body {
+  color: var(--text-body);
+}
+.text-muted {
+  color: var(--text-muted);
+}
+
+// Borders
+.border-primary {
+  border: 1px solid var(--primary);
+}
+.border-secondary {
+  border: 1px solid var(--secondary);
+}
+.border-success {
+  border: 1px solid var(--success);
+}
+.border-danger {
+  border: 1px solid var(--danger);
+}
+.border-warning {
+  border: 1px solid var(--warning);
+}
+.border-info {
+  border: 1px solid var(--info);
+}
+
+// Text
+.underline {
+  text-decoration: underline;
+}
+.text-center {
+  text-align: center;
+}
+.pointer {
+  cursor: pointer;
+}
+
+// Layout
+.hidden {
+  display: none;
+}
+.w-full {
+  width: 100%;
+}
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+.mt-1 {
+  margin-top: var(--size-1);
+}
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hstack {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-self: stretch;
+}
+
+.vstack {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  align-self: stretch;
+}
+
+.center-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fill-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.stretched-link {
+  &::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    content: '';
+  }
+}
+
+.ratio {
+  position: relative;
+  width: 100%;
+
+  &::before {
+    display: block;
+    padding-top: 56.25%; /* 16:9 ratio */
+    content: '';
+  }
+
+  > * {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.strike {
+  text-decoration: line-through;
+}

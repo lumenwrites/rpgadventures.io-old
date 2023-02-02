@@ -5,21 +5,21 @@ import { useModal } from 'context/ModalContext'
 import Link from 'components/Elements/Link'
 import { ToggleSidebarButton } from 'components/Courses/Sidebar'
 
-export default function Header({ className }) {
+export default function Header({ className='' }) {
   const { toggleModal } = useModal()
   return (
-    <header className={className}>
+    <header className={`${className} header`}>
       <div className="wrapper">
         <ToggleSidebarButton />
         <Link href="/" className="logo">
           <div className="logo-image">
-            <Image src="/logo.png" width={32} height={32} />
+            <Image src="/logo.png" width={32} height={32} alt="logo" />
           </div>
           {/* <span className="logo-bold">rpg</span> */}
           adventures
         </Link>
         <nav>
-          <Link href={`/`} className="btn btn-nav">
+          <Link href={`/browse`} className="btn btn-nav">
             Adventures
           </Link>
           <Link href={`/articles`} className="btn btn-nav">
@@ -66,8 +66,8 @@ function DropdownMenu() {
         >
           Adventure Prompts
         </a>
-        <Link className="btn item" href={`/three-scenes`}>
-          Three Scenes
+        <Link className="btn item" href={`/files/Unscripted.pdf`}>
+          Unscripted
         </Link>
         <Link className="btn item" href={`/mirage`}>
           Mirage

@@ -1,0 +1,304 @@
+:root {
+  --text-headings: #3c4257; // #1A1F35; // h1,h2,etc. text dark
+  // --text-subheading: #4e576a;
+}
+
+[data-theme='dark'] {
+  --text-headings: white;
+  --text-placeholder: #444d6d; // for inputs
+
+  // --text-link: #478dc0;
+}
+
+.prose {
+  color: var(--text);
+  // max-width: 65ch;
+  font-size: 1em;
+  line-height: 1.25;
+
+  h1 {
+    color: var(--text-headings);
+    font-family: var(--font-secondary);
+    font-weight: 800;
+    font-size: 2.25em;
+    margin-top: 1em;
+  }
+  h2 {
+    color: var(--text-headings);
+    color: #d95650;
+    text-align: center;
+    font-family: var(--font-secondary);
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-top: 1em;
+    // margin-bottom: 0.25em;
+    line-height: 1.3333333;
+  }
+
+  h3 {
+    color: var(--text-headings);
+    font-family: var(--font-secondary);
+    font-weight: 600;
+    font-size: 1.25em; // 20px
+    margin-top: 1em;
+    // margin-bottom: 0.6em;
+    line-height: 1.6;
+    text-align: center;
+  }
+
+  h4 {
+    color: var(--text-headings);
+    font-family: var(--font-secondary);
+    font-weight: bold;
+    margin-top: 1.5em;
+    line-height: 1.5;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    a {
+      text-decoration: none;
+    }
+  }
+  p {
+    font-size: 1em;
+    line-height: 1.75;
+    margin-top: 1.25em;
+    line-height: 1.25;
+    margin-top: 1em;
+    // margin-bottom: 1.25em;
+    // margin-bottom: 1em;
+  }
+  *:first-child {
+    margin-top: 0;
+  }
+  // Use direct descendant so that it doesn't bleed into MDX components like download button
+  a {
+    font-weight: bold;
+    text-decoration: underline;
+    &:hover {
+      // color: #0a58ca;
+    }
+  }
+  .not-prose a {
+    text-decoration: none;
+  }
+
+  // :where(a):not(:where([class~='not-prose'] *)) {
+  //   color: var(--text-links);
+  //   text-decoration: underline;
+  // }
+  // Remove text-decoration from button
+  .Button {
+    text-decoration: none; // in case it's <a>
+  }
+
+  strong {
+    color: var(--text-bold);
+    font-weight: 600;
+  }
+
+  hr {
+    border-color: var(--border);
+    border-top-width: 1px;
+    margin-top: 1em;
+  }
+
+  blockquote {
+    color: var(--text);
+    border-left-width: 4px;
+    border-left-color: var(--quote-border-color);
+    margin-top: 1em;
+    background: var(--quote-bg);
+    padding: var(--size-4);
+    > *:first-child {
+      margin-top: 0;
+    }
+  }
+
+  li {
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+  }
+
+  ul {
+    margin-top: 0.5em;
+    padding-left: 1em;
+  }
+  ol {
+    margin-top: 0.5em;
+    padding-left: 1.5em;
+  }
+  ul > li p {
+    margin-top: 0.75em;
+    margin-bottom: 0.75em;
+  }
+
+  ul > li > *:first-child {
+    margin-top: 1.25em;
+  }
+
+  ul > li > *:last-child {
+    margin-bottom: 1.25em;
+  }
+
+  ul ul,
+  ul ol,
+  ol ul,
+  ol ol {
+    margin-top: 0.75em;
+    margin-bottom: 0.75em;
+  }
+
+  hr + img {
+    margin-top: 0;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    & + * {
+      margin-top: 0;
+    }
+  }
+
+  .small {
+    // for tall vertical images
+    max-height: 400px;
+    max-width: 285px;
+    margin: auto;
+    border-radius: var(--radius-lg);
+    margin-top: 1rem;
+  }
+
+  // Code
+  code {
+    color: #111827;
+    font-weight: 600;
+    font-size: 0.875em;
+  }
+
+  pre {
+    color: var(--text-pre-code);
+    background-color: var(--text-pre-bg);
+    overflow-x: auto;
+    font-weight: 400;
+    font-size: 0.875em;
+    line-height: 1.7142857;
+
+    border-radius: var(--radius-lg);
+    padding: var(--size-2) var(--size-4);
+  }
+  .rehype-code-title + pre {
+    border-radius: 0 0 var(--radius-lg) var(--radius-lg);
+  }
+  pre code {
+    font-family: 'Hack';
+    background-color: transparent;
+    border-width: 0;
+    border-radius: 0;
+    padding: 0;
+    font-weight: inherit;
+    color: inherit;
+    font-size: inherit;
+    font-family: inherit;
+    line-height: inherit;
+  }
+
+  .rehype-code-title {
+    @extend .text-sm;
+    color: var(--text-pre-code);
+    color: var(--slate-400);
+    // background-color: #262d3b; // var(--slate-700);
+    background: var(--surface-3);
+    padding: var(--size-3) var(--size-4);
+    border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+    font-family: 'Hack';
+    // font-weight: bold;
+  }
+
+  .language-gdscript {
+    color: #ccced3; // regular text color
+    background: var(--surface-1); // #202531;
+    font-family: 'Hack';
+    // line number 80ccced3
+    .highlight-line {
+      background: #3fb9504d;
+    }
+    .token {
+      // https://github.com/PrismJS/prism/blob/master/components/prism-gdscript.js
+      // https://www.reddit.com/r/godot/comments/ppdgs7/is_there_any_way_i_could_find_the_list_of_colors/
+      &.comment {
+        color: #80ccced3;
+      }
+      &.string {
+        color: #ffeca1;
+      }
+      &.class-name {
+        color: #42ffc2;
+      } // ??
+      &.keyword {
+        color: #ff7085;
+      }
+      &.function {
+        color: #57b3ff;
+      }
+      &.variable {
+        color: #bce0ff;
+      }
+      &.number {
+        color: #a1ffe0;
+      }
+      // &.constant { color: }
+      &.boolean {
+        color: #ff7085;
+      }
+      // &.operator { color: }
+      // &.punctuation { color: }
+    }
+  }
+
+  // Tables
+  table {
+    width: 100%;
+    table-layout: auto;
+    text-align: left;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-size: 0.875em;
+    line-height: 1.7142857;
+  }
+
+  thead {
+    border-bottom-width: 1px;
+    border-bottom-color: var(--text-th-borders);
+  }
+
+  thead th {
+    color: var(--text-headings);
+    font-weight: 600;
+    vertical-align: bottom;
+    padding-right: 0.5714286em;
+    padding-bottom: 0.5714286em;
+    padding-left: 0.5714286em;
+  }
+
+  tbody tr {
+    border-bottom-width: 1px;
+    border-bottom-color: var(--text-td-borders);
+  }
+
+  tbody tr:last-child {
+    border-bottom-width: 0;
+  }
+
+  tbody td {
+    vertical-align: baseline;
+    padding-top: 0.5714286em;
+    padding-right: 0.5714286em;
+    padding-bottom: 0.5714286em;
+    padding-left: 0.5714286em;
+  }
+}

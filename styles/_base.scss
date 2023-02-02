@@ -1,0 +1,46 @@
+html {
+  overflow-x: hidden;
+  overflow-y: overlay;
+  // color-scheme: light dark;
+}
+
+html,
+body {
+  color: var(--text);
+  background: var(--main-bg);
+  font-family: var(--font-pirmary);
+  font-size: var(--font-scale-0);
+  font-weight: normal;
+  height: 100%;
+}
+
+#__next {
+  height: 100%;
+}
+
+// For custom scrollbar library
+// https://github.com/KingSora/OverlayScrollbars
+.os-scrollbar-handle {
+  background: var(--scrollbar-handle) !important;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  cursor: -webkit-grabbing;
+}
+
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-corner {
+  background-color: var(--scrollbar-track);
+}
+
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-handle);
+  border: 2px solid transparent;
+  border-radius: 4px;
+  background-clip: content-box;
+}

@@ -1,3 +1,16 @@
+// Design tokens
+@import './1-design-tokens/_colors.scss';
+@import './1-design-tokens/_sizes.scss';
+@import './1-design-tokens/_utilities.scss';
+
+// Generic
+@import './2-generic/_normalize.scss';
+@import './2-generic/_load-fonts.scss';
+
+@import './_themes.scss';
+@import './_base.scss'; // html, body, scrollbars, etc.
+@import './_typography.scss';
+
 // https://dev.to/ananyaneogi/create-a-dark-light-mode-switch-with-css-variables-34l8
 :root {
   // Typography
