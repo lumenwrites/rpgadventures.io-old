@@ -9,7 +9,7 @@ export default function HomePage({ posts }) {
     <Layout subnav={<StorylabsHero />} wide>
       <div css={styles}>
         <GridContainer columns={3}>
-          <Card imageSrc="/img-small/friendship.jpg" href="/writers-room">
+          <Card imageSrc="/img-small/writing-desk.jpg" href="/writers-room">
             <h2>Adventure Writers&apos; Room</h2>
             <p>Join our brainstorming sessions to make awesome adventures with other friendly and creative people.</p>
             {/* <h2>Storytellers Community</h2>
@@ -18,39 +18,34 @@ export default function HomePage({ posts }) {
               people.
             </p> */}
           </Card>
-          <Card
-            imageSrc="/img/blueprint.png"
-            href="https://docs.google.com/document/d/1fGKA1EnPn3T5qb_tHty4C07Iw-8InFMGn1WWnFyj6yI/"
-          >
-            <h2>Adventure Blueprint</h2>
-            <p>A step-by-step system that guides you from an idea to a complete adventure.</p>
+          {/* /img-small/improvisers.jpg */}
+          <Card imageSrc="/img-small/friendship.jpg" href="/roleplay-academy-games">
+            <h2>Roleplay Academy</h2>
+            <p>Join our improv and acting workshops to become a better Roleplayer, Improviser, Storyteller.</p>
           </Card>
           <Card imageSrc="/img/hermione.jpg" href="/browse">
             <h2>Adventure Library</h2>
-            <p>An archive of awesome premade adventures ready to use in your games.</p>
+            <p>An archive of awesome adventures ready to use in your games. Come play these games with us!</p>
           </Card>
+          <Card imageSrc="/img/blueprint.png" href="/template">
+            <h2>Adventure Blueprint</h2>
+            <p>A step-by-step system that guides you from an idea to a complete adventure.</p>
+          </Card>
+
           <Card imageSrc="/img/book2.jpg" href="/course/adventure-academy">
             <h2>Adventure Avademy Course</h2>
             <p>Learn everything you need to know to create awesome adventures.</p>
           </Card>
-          {/* <Card
-            imageSrc="/img-small/improvisers.jpg"
-            href="https://docs.google.com/document/d/1XYxLYW2ubrIyEaVajWtlNUI2qvehuXk-Bh1BglejC70/"
-          >
-            <h2>Roleplay Academy</h2>
-            <p>
-              Improv and acting workshops for Roleplayers and Game Masters. Become a better Roleplayer, Improviser,
-              Storyteller.
-            </p>
-          </Card> */}
+
           <Card imageSrc="/img-small/valley.jpg" href="/mirage">
             <h2>Mirage</h2>
             <p>A rules-lite, storytelling-focused system for playtesting adventures.</p>
           </Card>
-          <Card imageSrc="/img-small/writing-desk.jpg" href="https://perchance.org/adventure-prompts">
+
+          {/* <Card imageSrc="/img-small/writing-desk.jpg" href="https://perchance.org/adventure-prompts">
             <h2>Adventure Prompts App</h2>
             <p>Generate endless ideas for your adventures.</p>
-          </Card>
+          </Card> */}
         </GridContainer>
       </div>
       <br />
