@@ -1,7 +1,8 @@
 import Layout from 'components/Layout/Layout'
 
 // const REDIRECT_URL = "https://docs.google.com/document/d/1Quqj7Lnbp5BfDhMZaNRK-TJ0kjhG0Md0OkazKrJumqY/"
-const REDIRECT_URL = 'https://docs.google.com/document/d/1UG14osmo9AVW-56YtjBeBqQKF3Zhy0rQki7a812BicA/'
+// const REDIRECT_URL = 'https://docs.google.com/document/d/1UG14osmo9AVW-56YtjBeBqQKF3Zhy0rQki7a812BicA/'
+const REDIRECT_URL = 'https://docs.google.com/document/d/1HoOyyLkt8fNNGUh578H9kgaKiqd2ldsYQk_oWfESuNY/'
 
 export default function RoleplayAcademyGames() {
   // if (typeof window !== "undefined") {
