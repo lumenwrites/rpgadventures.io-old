@@ -51,7 +51,7 @@ function tabMdx(slug) {
 
 import pages from 'backend/json/pages/posts.json'
 
-export async function getStaticProps({ params }) {
+export async function getServerSideProps({ params }) {
   return {
     redirect: {
       permanent: false,
