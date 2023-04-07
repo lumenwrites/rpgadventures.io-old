@@ -4,6 +4,8 @@ import Tabs from 'components/Elements/Tabs'
 import Layout from 'components/Layout/Layout'
 import Head from 'next/head'
 
+const REDIRECT_URL = 'https://rpgadventures.io/mirage.pdf'
+
 const TITLE = 'Mirage'
 const DESCRIPTION = 'Mirage is a game for people who love storytelling, improvisation, and freeform roleplay.'
 const THUMBNAIL = 'https://rpgadventures.io/img/storytellers.jpg'
@@ -50,5 +52,12 @@ function tabMdx(slug) {
 import pages from 'backend/json/pages/posts.json'
 
 export async function getStaticProps({ params }) {
+  return {
+    redirect: {
+      permanent: false,
+      destination: REDIRECT_URL,
+    },
+    props: { props: { pages } },
+  }
   return { props: { pages } }
 }
