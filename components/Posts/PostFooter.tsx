@@ -2,7 +2,7 @@ import { useRouter } from 'next/router'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Link from 'components/Elements/Link'
 
-export default function PostFooter({ post, isPostCard }) {
+export default function PostFooter({ post, isPostCard = false }) {
   const router = useRouter()
   const showFooter = post.tags.length || post.comments
   if (!showFooter) return null
