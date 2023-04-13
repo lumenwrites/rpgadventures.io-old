@@ -2,7 +2,7 @@ import { useRouter } from 'next/router'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Link from 'components/Elements/Link'
 
-export default function PostFooter({ post }) {
+export default function PostFooter({ post, isPostCard }) {
   const router = useRouter()
   const showFooter = post.tags.length || post.comments
   if (!showFooter) return null
@@ -16,7 +16,7 @@ export default function PostFooter({ post }) {
   } 
 
   return (
-    <div className="post-footer">
+    <div className={`post-footer ${isPostCard ? "is-post-card" : ""}`}>
       <div className="tags">
         {post.tags.map((tag) => (
           <button
@@ -35,7 +35,7 @@ export default function PostFooter({ post }) {
               ) : (
                 <FontAwesomeIcon icon={['fas', 'comment-alt']} />
               )}
-              Comments
+              {!isPostCard ? "Comments" : ""}
             </a>
           )}
         </div>

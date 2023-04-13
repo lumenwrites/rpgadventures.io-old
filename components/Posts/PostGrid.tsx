@@ -24,7 +24,6 @@ export default function PostGrid ({ posts }) {
 function PostCard({ post }) {
   // Don't show comments in the post card footer
   const { comments, ...postWithoutComments } = post
-  
   return (
     <div className={`post-card-box ${post.tags.length == 0 ? 'no-tags' : ''}`}>
       <Link className="thumbnail" href={post.url}>
@@ -37,7 +36,7 @@ function PostCard({ post }) {
         </Link>
         <div className="summary">{post.description}</div>
       </div>
-      {post.tags.length && <PostFooter post={postWithoutComments} />}
+      {post.tags.length && <PostFooter post={post} isPostCard />}
       {/* Footer */}
       {/* {post.tags.length ? (
         <div className="post-footer">

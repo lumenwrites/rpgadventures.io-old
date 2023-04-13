@@ -28,7 +28,11 @@
   color: #384260;
   background: var(--post-footer-bg);
   border-top: 1px solid var(--border-dim);
-
+  &.is-post-card {
+    .tags .tag svg {
+      margin-right: 0;
+    }
+  }
   .tags {
     width: 100%;
     white-space: nowrap;
