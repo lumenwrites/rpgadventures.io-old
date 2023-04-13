@@ -9,6 +9,7 @@ import slugify from 'slugify'
 
 import config from '../../config.json' assert { type: 'json' }
 
+const isProd = process.env.NODE_ENV === 'production' || true
 export async function getPosts(postsdir, category) {
   let posts = []
   let allTags = []
@@ -16,7 +17,7 @@ export async function getPosts(postsdir, category) {
     // console.log('Processing Post', postFileName)
     const postText = readFileSync(join(postsdir, postFileName), 'utf8')
     const { data: frontmatter, content } = matter(postText)
-    if (process.env.NODE_ENV === 'production' && frontmatter.draft) continue // skip drafts
+    if (isProd && frontmatter.draft) continue // skip drafts
     if (!postFileName.includes('.md')) continue // skip .DS_Store
     let titleFromFilename = postFileName.replace('.md', '')
     // If the file name starts with a number (like 999, used for ordering), remove it
