@@ -19,7 +19,7 @@ export default function HomePage({ posts }) {
             </p> */}
           </Card>
           {/* /img-small/improvisers.jpg */}
-          <Card imageSrc="/img-small/friendship.jpg" href="/roleplay-academy-games">
+          <Card imageSrc="/img-small/friendship.jpg" href="/roleplay-academy.pdf">
             <h2>Roleplay Academy</h2>
             <p>Join our improv and acting workshops to become a better Roleplayer, Improviser, Storyteller.</p>
           </Card>
