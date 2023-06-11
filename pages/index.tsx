@@ -33,7 +33,7 @@ export default function HomePage({ posts }) {
           </Card>
 
           <Card imageSrc="/img/book2.jpg" href="/course/adventure-academy">
-            <h2>Adventure Avademy Course</h2>
+            <h2>Adventure Academy Course</h2>
             <p>Learn everything you need to know to create awesome adventures.</p>
           </Card>
 
