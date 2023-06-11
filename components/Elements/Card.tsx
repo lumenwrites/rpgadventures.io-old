@@ -3,13 +3,17 @@ import { css } from '@emotion/react'
 import Image from 'next/image'
 import Link from 'components/Elements/Link'
 
-export default function Card({ imageSrc, href, children }) {
+export default function Card({ imageSrc = null, href, children }) {
   return (
     <div css={styles}>
-      <Link href={href} className="thumbnail-wrapper" newWindow>
-        <Image src={imageSrc} loading="lazy" alt="Post thumbnail" layout="fill" width={160} height={90} />
+      {imageSrc && (
+        <Link href={href} className="thumbnail-wrapper" newWindow>
+          <Image src={imageSrc} loading="lazy" alt="Post thumbnail" layout="fill" width={160} height={90} />
+        </Link>
+      )}
+      <Link href={href} className="description" newWindow>
+        {children}
       </Link>
-      <div className="description">{children}</div>
     </div>
   )
 }

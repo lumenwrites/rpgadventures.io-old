@@ -41,12 +41,28 @@ export default function HomePage({ posts }) {
             <h2>Mirage</h2>
             <p>A rules-lite, storytelling-focused system for playtesting adventures.</p>
           </Card>
-
-          {/* <Card imageSrc="/img-small/writing-desk.jpg" href="https://perchance.org/adventure-prompts">
+          <Card imageSrc="/page/landing/lightbulb1.png" href="/prompts">
             <h2>Adventure Prompts App</h2>
             <p>Generate endless ideas for your adventures.</p>
-          </Card> */}
-          {/* Unscripted, Magic School Mysteries */}
+          </Card>
+          <Card imageSrc="/page/landing/robot1.png" href="https://adventurealchemy.io/">
+            <h2>Adventure Alchemy</h2>
+            <p>AI-based tool for creating adventures.</p>
+          </Card>
+          <Card imageSrc="/page/landing/camera1.png"  href="/unscripted.pdf">
+            <h2>Unscripted</h2>
+            <p>A game where you improvise fun movies from scratch, with no preparation.</p>
+          </Card>
+          <Card imageSrc="/page/landing/adventuring-academy2.jpg" href="/magic-school-mysteries.pdf">
+            <h2>Magic School Mysteries</h2>
+            <p>
+              A game where you play as teen wizards studying at a magic school and solving mysteries in the style of
+              Harry Potter, Scooby Doo, and Gravity Falls. Improvise a mystery from scratch, with no preparation.
+            </p>
+          </Card>
+
+  
+          {/* Adventure Alchemy, Unscripted, Magic School Mysteries */}
         </GridContainer>
       </div>
       <br />
