@@ -46,6 +46,7 @@ export default function HomePage({ posts }) {
             <h2>Adventure Prompts App</h2>
             <p>Generate endless ideas for your adventures.</p>
           </Card> */}
+          {/* Unscripted, Magic School Mysteries */}
         </GridContainer>
       </div>
       <br />
