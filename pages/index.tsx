@@ -94,7 +94,7 @@ export default function HomePage({ posts }) {
 
           <Card
             imageSrc="/page/landing/portal.png"
-            href="/multiverse-of-mystery.pdf"
+            href="https://rpgadventures.gumroad.com/l/multiverse-of-mystery"
           >
             <h2>Multiverse of Mystery</h2>
             <p>
