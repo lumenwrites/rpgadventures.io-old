@@ -9,17 +9,12 @@ export default function HomePage({ posts }) {
     <Layout subnav={<StorylabsHero />} wide>
       <div css={styles}>
         <GridContainer columns={3}>
-          <Card imageSrc="/img-small/writing-desk.jpg" href="/writers-room">
-            <h2>Adventure Writers&apos; Room</h2>
+          <Card imageSrc="/img/hermione.jpg" href="/browse">
+            <h2>Adventure Library</h2>
             <p>
-              Join our brainstorming sessions to make awesome adventures with
-              other friendly and creative people.
+              An archive of awesome adventures ready to use in your games. Come
+              play these games with us!
             </p>
-            {/* <h2>Storytellers Community</h2>
-            <p>
-              Join our workshops and brainstorming sessions to create adventures with other friendly and creative
-              people.
-            </p> */}
           </Card>
           {/* /img-small/improvisers.jpg */}
           <Card
@@ -32,12 +27,17 @@ export default function HomePage({ posts }) {
               Roleplayer, Improviser, Storyteller.
             </p>
           </Card>
-          <Card imageSrc="/img/hermione.jpg" href="/browse">
-            <h2>Adventure Library</h2>
+          <Card imageSrc="/img-small/writing-desk.jpg" href="/writers-room">
+            <h2>Adventure Writers&apos; Room</h2>
             <p>
-              An archive of awesome adventures ready to use in your games. Come
-              play these games with us!
+              Join our brainstorming sessions to make awesome adventures with
+              other friendly and creative people.
             </p>
+            {/* <h2>Storytellers Community</h2>
+            <p>
+              Join our workshops and brainstorming sessions to create adventures with other friendly and creative
+              people.
+            </p> */}
           </Card>
           <Card imageSrc="/img/blueprint.png" href="/template">
             <h2>Adventure Blueprint</h2>
@@ -53,7 +53,18 @@ export default function HomePage({ posts }) {
               Learn everything you need to know to create awesome adventures.
             </p>
           </Card>
-
+          <Card
+            imageSrc="/page/landing/portal.png"
+            href="https://rpgadventures.gumroad.com/l/multiverse-of-mystery"
+          >
+            <h2>Multiverse of Mystery</h2>
+            <p>
+              Lighthearted, storytelling-focused, solo roleplaying game where
+              you explore the multiverse, invent weird ideas, improvise
+              mysteries, and go on wacky adventures in the style of “Rick and
+              Morty” and “Gravity Falls”.
+            </p>
+          </Card>
           <Card imageSrc="/img-small/valley.jpg" href="/mirage">
             <h2>Mirage</h2>
             <p>
@@ -92,18 +103,6 @@ export default function HomePage({ posts }) {
             </p>
           </Card>
 
-          <Card
-            imageSrc="/page/landing/portal.png"
-            href="https://rpgadventures.gumroad.com/l/multiverse-of-mystery"
-          >
-            <h2>Multiverse of Mystery</h2>
-            <p>
-              Lighthearted, storytelling-focused, solo roleplaying game where
-              you explore the multiverse, invent weird ideas, improvise
-              mysteries, and go on wacky adventures in the style of “Rick and
-              Morty” and “Gravity Falls”.
-            </p>
-          </Card>
           {/* Adventure Alchemy, Unscripted, Magic School Mysteries */}
         </GridContainer>
       </div>
